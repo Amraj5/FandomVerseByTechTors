@@ -1,0 +1,117 @@
+[
+  {
+    "id": "poll-001",
+    "category": "anime",
+    "question": "Which Fall 2026 release are you seated for on day one?",
+    "totalVotes": 14230,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "The Apothecary Diaries Season 3",
+        "votes": 6820
+      },
+      {
+        "id": "opt-2",
+        "label": "Chainsaw Man: Reze Arc Movie",
+        "votes": 5110
+      },
+      {
+        "id": "opt-3",
+        "label": "Black Clover Return Arc",
+        "votes": 2300
+      }
+    ]
+  },
+  {
+    "id": "poll-002",
+    "category": "gaming",
+    "question": "Which game is taking Game of the Year?",
+    "totalVotes": 28910,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "GTA VI",
+        "votes": 18400
+      },
+      {
+        "id": "opt-2",
+        "label": "Marvel Rivals",
+        "votes": 6210
+      },
+      {
+        "id": "opt-3",
+        "label": "Monster Hunter Wilds",
+        "votes": 4300
+      }
+    ]
+  },
+  {
+    "id": "poll-003",
+    "category": "movies",
+    "question": "Which superhero release is your most anticipated for the 2026/2027 slate?",
+    "totalVotes": 34120,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Avengers: Doomsday",
+        "votes": 17850
+      },
+      {
+        "id": "opt-2",
+        "label": "Spider-Man: Beyond the Spider-Verse",
+        "votes": 11200
+      },
+      {
+        "id": "opt-3",
+        "label": "DC's The Batman Part II",
+        "votes": 5070
+      }
+    ]
+  },
+  {
+    "id": "poll-004",
+    "category": "kpop",
+    "question": "Which concert experience are you clearing your savings account for?",
+    "totalVotes": 21890,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "BlackPink 10th Anniversary Tour",
+        "votes": 10420
+      },
+      {
+        "id": "opt-2",
+        "label": "LE SSERAFIM Dome Tour",
+        "votes": 7150
+      },
+      {
+        "id": "opt-3",
+        "label": "BTS 2026 World Tour",
+        "votes": 4320
+      }
+    ]
+  },
+  {
+    "id": "poll-005",
+    "category": "manga",
+    "question": "Which new-gen Shonen Jump manga deserves an immediate high-budget anime treatment?",
+    "totalVotes": 18940,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Kagurabachi",
+        "votes": 11300
+      },
+      {
+        "id": "opt-2",
+        "label": "Sakamoto Days",
+        "votes": 5210
+      },
+      {
+        "id": "opt-3",
+        "label": "Akane-banashi",
+        "votes": 2430
+      }
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "tr-01",
+    "title": "Solo Leveling",
+    "category": "anime",
+    "categoryLabel": "anime",
+    "color": "#E5A988"
+  },
+  {
+    "id": "tr-02",
+    "title": "Honkai: Star Rail",
+    "category": "gaming",
+    "categoryLabel": "gaming",
+    "color": "#4B92E5"
+  },
+  {
+    "id": "tr-03",
+    "title": "Avengers: Endgame",
+    "category": "movies",
+    "categoryLabel": "movies",
+    "color": "#F3B23A"
+  },
+  {
+    "id": "tr-04",
+    "title": "Stranger Things S4",
+    "category": "tvshows",
+    "categoryLabel": "tv shows",
+    "color": "#E54B62"
+  },
+  {
+    "id": "tr-05",
+    "title": "NewJeans - Get Up",
+    "category": "kpop",
+    "categoryLabel": "K-pop",
+    "color": "#C85BD6"
+  },
+  {
+    "id": "tr-06",
+    "title": "Spider-Man: Beyond",
+    "category": "comics",
+    "categoryLabel": "comics",
+    "color": "#EA7349"
+  },
+  {
+    "id": "tr-07",
+    "title": "Chainsaw Man",
+    "category": "manga",
+    "categoryLabel": "manga",
+    "color": "#8C929E"
+  },
+  {
+    "id": "tr-08",
+    "title": "Invincible S3",
+    "category": "tvshows",
+    "categoryLabel": "tv shows",
+    "color": "#E54B62"
+  },
+  {
+    "id": "tr-09",
+    "title": "Attack on Titan",
+    "category": "anime",
+    "categoryLabel": "anime",
+    "color": "#E5A988"
+  },
+  {
+    "id": "tr-10",
+    "title": "Marvel Rivals",
+    "category": "gaming",
+    "categoryLabel": "gaming",
+    "color": "#4B92E5"
+  },
+  {
+    "id": "tr-11",
+    "title": "Jujutsu Kaisen",
+    "category": "manga",
+    "categoryLabel": "manga",
+    "color": "#8C929E"
+  },
+  {
+    "id": "tr-12",
+    "title": "Dune: Part Two",
+    "category": "movies",
+    "categoryLabel": "movies",
+    "color": "#F3B23A"
+  },
+  {
+    "id": "tr-13",
+    "title": "Stray Kids - ATE",
+    "category": "kpop",
+    "categoryLabel": "K-pop",
+    "color": "#C85BD6"
+  },
+  {
+    "id": "tr-14",
+    "title": "Gargoyle of Gotham",
+    "category": "comics",
+    "categoryLabel": "comics",
+    "color": "#EA7349"
+  }
+]

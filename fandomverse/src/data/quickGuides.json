@@ -1,0 +1,68 @@
+[
+  {
+    "id": "guide-001",
+    "category": "tvshows",
+    "title": "Everything to Remember Before Invincible S3 Drops",
+    "readTime": "3 min read",
+    "tags": [
+      "Invincible",
+      "Prime Video",
+      "Lore"
+    ],
+    "summary": "Quick refresher on Viltrumite politics, Mark's updated suit, and where the Guardians left off.",
+    "ctaUrl": "/wiki/invincible-s3-prep"
+  },
+  {
+    "id": "guide-002",
+    "category": "comics",
+    "title": "DC's Absolute Universe Explained for Casuals",
+    "readTime": "5 min read",
+    "tags": [
+      "DC Comics",
+      "Absolute Batman",
+      "Beginner Guide"
+    ],
+    "summary": "How the new Absolute line differs from Prime Earth and where you should start reading.",
+    "ctaUrl": "/wiki/dc-absolute-universe-explained"
+  },
+  {
+    "id": "guide-003",
+    "category": "gaming",
+    "title": "GTA VI Vice City Map Breakdown: Key Locations & Secrets",
+    "readTime": "4 min read",
+    "tags": [
+      "GTA VI",
+      "Rockstar Games",
+      "Lore",
+      "Map Analysis"
+    ],
+    "summary": "Everything spotted in the latest gameplay deep-dive, including surrounding key districts, water mechanics, and dynamic event hubs.",
+    "ctaUrl": "/wiki/gta-vi-map-breakdown"
+  },
+  {
+    "id": "guide-004",
+    "category": "anime",
+    "title": "Demon Slayer: Infinity Castle Arc Movie Trilogy Prep Guide",
+    "readTime": "6 min read",
+    "tags": [
+      "Demon Slayer",
+      "Ufotable",
+      "Anime Movies"
+    ],
+    "summary": "Key Hashira matchups, Blood Demon Arts, and narrative milestones to remember before entering the theatrical trilogy.",
+    "ctaUrl": "/wiki/infinity-castle-prep-guide"
+  },
+  {
+    "id": "guide-005",
+    "category": "manga",
+    "title": "Chainsaw Man Part 2: Devil Contracts & Lore Refresher",
+    "readTime": "5 min read",
+    "tags": [
+      "Chainsaw Man",
+      "Fujimoto",
+      "Manga Lore"
+    ],
+    "summary": "A concise breakdown of Asa Mitaka, the War Devil, and how the current arc setups connect back to the original public safety saga.",
+    "ctaUrl": "/wiki/chainsaw-man-part-2-lore"
+  }
+]

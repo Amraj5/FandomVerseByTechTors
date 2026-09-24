@@ -1,0 +1,126 @@
+[
+  {
+    "id": "cat-anime",
+    "slug": "anime",
+    "title": "Anime Hub",
+    "description": "Your destination for seasonal simulcast guides, studio updates, theatrical film announcements, and deep dives into the world's biggest anime series.",
+    "heroImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+    "featuredShows": [
+      "jujutsu-kaisen",
+      "demon-slayer",
+      "chainsaw-man"
+    ],
+    "trendingTopics": [
+      "Fall 2026 Simulcasts",
+      "Movie Trilogies",
+      "MAPPA Studios",
+      "Power Systems Explained"
+    ]
+  },
+  {
+    "id": "cat-gaming",
+    "slug": "gaming",
+    "title": "Gaming & Esports Hub",
+    "description": "Breaking news, map breakdowns, patch notes, esports meta analyses, and gameplay previews for upcoming blockbuster titles.",
+    "heroImage": "https://i.pinimg.com/736x/18/07/6d/18076d5bd8d412e6a65d9e7df7020d3a.jpg",
+    "featuredShows": [
+      "gta-vi",
+      "marvel-rivals",
+      "valorant"
+    ],
+    "trendingTopics": [
+      "GTA VI Vice City Map",
+      "VCT Esports Meta",
+      "Game of the Year Contenders",
+      "Xbox Mythic Trophies"
+    ]
+  },
+  {
+    "id": "cat-movies",
+    "slug": "movies",
+    "title": "Cinema & Movies Hub",
+    "description": "Theatrical release slates, box office tracking, behind-the-scenes production updates, and deep cinematic analysis.",
+    "heroImage": "https://i.pinimg.com/1200x/de/0b/27/de0b2709017d4b54d9ca32192fc80560.jpg",
+    "featuredShows": [
+      "spider-man-beyond-spider-verse",
+      "avengers-doomsday"
+    ],
+    "trendingTopics": [
+      "Marvel Studios Slate",
+      "IMAX Screenings",
+      "Soundtrack Vinyl Drops",
+      "Post-Production Leaks"
+    ]
+  },
+  {
+    "id": "cat-tvshows",
+    "slug": "tvshows",
+    "title": "TV & Streaming Hub",
+    "description": "Retrospectives, episode breakdowns, season renewal updates, and character arc analyses across major streaming platforms.",
+    "heroImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+    "featuredShows": [
+      "bojack-horseman",
+      "invincible",
+      "blade-runner-2099"
+    ],
+    "trendingTopics": [
+      "Binge vs Weekly Drops",
+      "Cancelled Too Soon",
+      "Character Arc Edits",
+      "Prime Video Originals"
+    ]
+  },
+  {
+    "id": "cat-kpop",
+    "slug": "kpop",
+    "title": "K-Pop & Music Central",
+    "description": "Comeback schedules, world tour route announcements, concept photo reveals, and official merchandise drops.",
+    "heroImage": "https://i.pinimg.com/736x/ca/2b/3e/ca2b3e0e30e3e92d91436f269ba8a67d.jpg",
+    "featuredShows": [
+      "blackpink",
+      "le-sserafim",
+      "newjeans"
+    ],
+    "trendingTopics": [
+      "Dome Tours",
+      "Light Stick Releases",
+      "10th Anniversary Comebacks",
+      "Photocard Sets"
+    ]
+  },
+  {
+    "id": "cat-comics",
+    "slug": "comics",
+    "title": "Comics & Graphic Novels Hub",
+    "description": "Variant cover solicitations, crossover event recaps, writer spotlights, and universe reboot guides for comic enthusiasts.",
+    "heroImage": "https://i.pinimg.com/1200x/04/c3/d2/04c3d2cdd1c528fd39a70180b991eada.jpg",
+    "featuredShows": [
+      "absolute-batman",
+      "x-men-from-the-ashes"
+    ],
+    "trendingTopics": [
+      "DC Absolute Universe",
+      "Marvel X-Men Crossovers",
+      "Collector Hardcovers",
+      "Key First Appearances"
+    ]
+  },
+  {
+    "id": "cat-manga",
+    "slug": "manga",
+    "title": "Manga Central",
+    "description": "Weekly Shonen Jump leaks, physical volume collection showcases, author updates, and deep-dive lore breakdowns.",
+    "heroImage": "https://i.pinimg.com/1200x/75/eb/e9/75ebe92b4ee7d45e3be0e4fee175cd72.jpg",
+    "featuredShows": [
+      "chainsaw-man",
+      "kagurabachi",
+      "berserk"
+    ],
+    "trendingTopics": [
+      "Shonen Jump Leaks",
+      "Indefinite Hiatuses",
+      "Physical Hauls",
+      "Anime Adaptations"
+    ]
+  }
+]

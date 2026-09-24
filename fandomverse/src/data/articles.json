@@ -1,0 +1,95 @@
+[
+  {
+    "id": "art-bojack-retrospective",
+    "slug": "bojack-horseman-retrospective",
+    "category": "tvshows",
+    "topicHubId": "hub-bojack-horseman",
+    "title": "10 Years Later: Why BoJack Horseman Remains Unmatched",
+    "subtitle": "How a satirical cartoon about a washed-up sitcom horse became the definitive modern character study on trauma and responsibility.",
+    "author": {
+      "name": "BIWB Editorial",
+      "avatar": "/assets/avatars/editor.jpg"
+    },
+    "publishedDate": "2026-08-14",
+    "readTime": "8 min read",
+    "heroImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+    "tags": [
+      "BoJack Horseman",
+      "Retrospective",
+      "Adult Animation",
+      "Netflix"
+    ],
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "When BoJack Horseman first debuted, critics initially dismissed it as another cynical adult animated comedy relying on Hollywood puns and talking animals. However, as the series progressed through the mid-2010s, it transformed into one of the most structurally ambitious and emotionally devastating shows in television history."
+      },
+      {
+        "type": "heading",
+        "content": "Subverting the Sitcom Formula"
+      },
+      {
+        "type": "paragraph",
+        "content": "Unlike traditional episodic television where character actions reset by the next episode, BoJack enforced real consequences. Trauma lingered, relationships eroded permanently, and self-destructive behavior was never sanitized for laugh tracks."
+      },
+      {
+        "type": "image",
+        "url": "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
+        "caption": "The View from Halfway Down remains one of animation's most haunting episodes."
+      },
+      {
+        "type": "quote",
+        "quoteText": "You can't keep doing shitty things, and then feel bad about yourself like that makes it okay. You need to be better.",
+        "author": "Todd Chavez"
+      },
+      {
+        "type": "heading",
+        "content": "Legacy & Cultural Impact"
+      },
+      {
+        "type": "paragraph",
+        "content": "A decade after its premiere, the series continues to drive online discourse, TikTok visual essays, and screenwriting analyses regarding how to write flawed, irredeemable characters without glorifying their toxic traits."
+      }
+    ]
+  },
+  {
+    "id": "art-kagurabachi-milestone",
+    "slug": "kagurabachi-new-arc-recap",
+    "category": "manga",
+    "topicHubId": "hub-kagurabachi",
+    "title": "Kagurabachi Hits Major Milestone with New Arc & Anime Rumors",
+    "subtitle": "Takeru Hokazono's revenge saga surpasses sales records while major animation studios circle the IP.",
+    "author": {
+      "name": "BIWB Editorial",
+      "avatar": "/assets/avatars/editor.jpg"
+    },
+    "publishedDate": "2026-09-02",
+    "readTime": "5 min read",
+    "heroImage": "https://i.pinimg.com/1200x/75/eb/e9/75ebe92b4ee7d45e3be0e4fee175cd72.jpg",
+    "tags": [
+      "Kagurabachi",
+      "Shonen Jump",
+      "Manga",
+      "Anime Adaptations"
+    ],
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "What started as an internet meme prior to its debut has solidified itself as one of Weekly Shonen Jump's powerhouse flagship series. Chihiro's quest to reclaim his father's enchanted blades has captured international readership with cinematic paneling and brutal swordplay."
+      },
+      {
+        "type": "image",
+        "url": "https://i.pinimg.com/736x/60/9a/32/609a32ebc9e9a996d745464cf378dfb9.jpg",
+        "caption": "Chihiro Rokuhira wielding Enten in Chapter 48."
+      },
+      {
+        "type": "heading",
+        "content": "Studio Leaks & What's Next"
+      },
+      {
+        "type": "paragraph",
+        "content": "Industry insiders suggest an official anime production announcement is slated for the upcoming Jump Festa showcase, with high-budget fight choreography being prioritized."
+      }
+    ]
+  }
+]
