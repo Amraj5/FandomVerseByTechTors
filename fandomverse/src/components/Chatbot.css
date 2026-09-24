@@ -1,0 +1,508 @@
+/* ==========================================================================
+   FandomVerse Chatbot — flat "glass panel" widget
+   44px launcher pinned bottom-right, compact 300px panel that slides up
+   above it.
+
+   TOKEN MAPPING
+   The design spec this follows is written against a token set the project
+   does not define yet, so the spec's names are mapped onto the Vite theme
+   variables in src/index.css:
+
+     spec --surface            -> var(--bg)
+     spec --surface-elevated   -> var(--code-bg)
+     spec --text-primary       -> var(--text-h)
+     spec --positive           -> #4ade80 (the green already used here)
+
+   When index.css gains the spec's real tokens, only this mapping changes.
+   Fallbacks are kept so the widget still renders if a variable is missing.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Wrapper — anchors everything to the screen.
+   `position: fixed` pulls it out of the page flow and pins it to the
+   bottom-right corner, so it floats above the page while you scroll.
+   -------------------------------------------------------------------------- */
+.chatbot-wrapper {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 60; /* spec: above page content, below true modals */
+
+  /* #root is centered on the page — undo that inside the widget */
+  text-align: left;
+  font-family: var(--sans, system-ui, "Segoe UI", Roboto, sans-serif);
+}
+
+/* --------------------------------------------------------------------------
+   2. Launcher — 44px, radius 12, flat --text-primary fill
+   The fill is --text-h and the icon is --bg, so the pair inverts itself:
+   near-black on white in light mode, near-white on dark in dark mode.
+   -------------------------------------------------------------------------- */
+.chatbot-toggle {
+  position: relative; /* so the pulse ring below can sit on top of it */
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  font-size: 20px;
+  line-height: 1;
+  color: var(--bg, #fff);
+  background: var(--text-h, #08060d);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.chatbot-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
+}
+
+.chatbot-toggle:active {
+  transform: translateY(0) scale(0.96);
+}
+
+.chatbot-toggle:focus-visible {
+  outline: 2px solid var(--accent, #aa3bff);
+  outline-offset: 3px;
+}
+
+/* Soft ring that pulses outward — only while the panel is closed, to catch
+   the eye without being annoying once you've opened it. Not part of the
+   spec; drop this block and the keyframes to go fully static. */
+.chatbot-toggle::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  border: 2px solid var(--accent, #aa3bff);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.chatbot-wrapper:not(.is-open) .chatbot-toggle::after {
+  animation: chatbot-pulse 2.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes chatbot-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.65;
+  }
+  70%,
+  100% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. The panel — 300px (360 on desktop), radius 12, surface-elevated
+   It is always in the DOM (so it can animate both ways), but hidden with
+   `visibility: hidden` when closed — that also keeps its buttons out of
+   the keyboard tab order. `.is-open` on the wrapper reveals it.
+   Height is driven by content; the message list caps itself at 240px.
+   -------------------------------------------------------------------------- */
+.chatbot-panel {
+  position: absolute;
+  right: 0;
+  bottom: 60px; /* clears the 44px launcher + a 16px gap */
+  width: 300px;
+  max-height: calc(100vh - 100px);
+  max-height: calc(100dvh - 100px); /* dvh accounts for mobile browser bars */
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  border-radius: 12px;
+  border: 1px solid var(--border, #e5e4e7);
+  background: var(--code-bg, #f4f3ec);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+  color: var(--text, #6b6375);
+  font-size: 14px;
+  line-height: 1.45;
+
+  /* closed state — slides down and fades out */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(16px) scale(0.96);
+  transform-origin: bottom right;
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease,
+    visibility 0.22s ease;
+}
+
+.chatbot-wrapper.is-open .chatbot-panel {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+/* --------------------------------------------------------------------------
+   4. Header — 44px row, status dot, title, close button
+   Flat rather than branded: the spec gives the header no fill of its own,
+   so it sits directly on the panel surface behind a hairline divider.
+   -------------------------------------------------------------------------- */
+.chatbot-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  height: 44px;
+  padding: 0 10px 0 12px;
+
+  border-bottom: 1px solid var(--border, #e5e4e7);
+}
+
+.chatbot-header h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: var(--text-h, #08060d);
+}
+
+.chatbot-header-text {
+  flex: 1; /* pushes the close button to the far right */
+  min-width: 0;
+}
+
+/* Green "we're online" dot */
+.bot-status-dot {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #4ade80; /* spec --positive */
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.25);
+}
+
+.chatbot-close {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--text, #6b6375);
+  background: transparent;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+}
+
+.chatbot-close:hover {
+  color: var(--text-h, #08060d);
+  background: var(--accent-bg, rgba(170, 59, 255, 0.1));
+}
+
+.chatbot-close:focus-visible {
+  outline: 2px solid var(--accent, #aa3bff);
+  outline-offset: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   5. Message list — caps at 240px and scrolls, 8px stack gap
+   -------------------------------------------------------------------------- */
+.chatbot-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+  max-height: 240px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 12px;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--border, #e5e4e7) transparent;
+}
+
+.chatbot-messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatbot-messages::-webkit-scrollbar-thumb {
+  background: var(--border, #e5e4e7);
+  border-radius: 3px;
+}
+
+/* Chat bubbles: bot on the left, user on the right */
+.chat-bubble {
+  max-width: 85%;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  animation: chatbot-bubble-in 0.22s ease;
+}
+
+.chat-bubble p {
+  margin: 0;
+}
+
+.chat-bubble.bot {
+  align-self: flex-start;
+  color: var(--text-h, #08060d);
+  background: var(--bg, #fff);
+  border: 1px solid var(--border, #e5e4e7);
+  border-bottom-left-radius: 4px; /* classic "tail" corner */
+}
+
+/* user = --text-primary fill, so the label inverts against it */
+.chat-bubble.user {
+  align-self: flex-end;
+  color: var(--bg, #fff);
+  background: var(--text-h, #08060d);
+  border-bottom-right-radius: 4px;
+}
+
+@keyframes chatbot-bubble-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Clickable Recommendation Link in Bot Bubble */
+.chatbot-recommendation-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--accent, #aa3bff);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.chatbot-recommendation-link:hover {
+  text-decoration: underline;
+}
+
+/* The three bouncing dots shown while the bot "types" */
+.typing-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px;
+}
+
+.typing-dots span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text, #6b6375);
+  animation: chatbot-typing 1.2s infinite ease-in-out;
+}
+
+.typing-dots span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.typing-dots span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes chatbot-typing {
+  0%,
+  60%,
+  100% {
+    opacity: 0.35;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. Quick replies — chip row, 8/10 padding
+   -------------------------------------------------------------------------- */
+.chatbot-quick-replies {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+  padding: 8px 10px;
+  overflow-x: auto;
+  border-top: 1px solid var(--border, #e5e4e7);
+  scrollbar-width: none; /* Hide scrollbar for Chrome/Firefox */
+}
+
+.chatbot-quick-replies::-webkit-scrollbar {
+  display: none;
+}
+
+.quick-reply-btn {
+  white-space: nowrap;
+  background: var(--bg, #fff);
+  color: var(--text-h, #08060d);
+  border: 1px solid var(--border, #e5e4e7);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-family: inherit;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease,
+    background 0.15s ease;
+}
+
+.quick-reply-btn:hover {
+  border-color: var(--accent, #aa3bff);
+  color: var(--accent, #aa3bff);
+  background: var(--accent-bg, rgba(170, 59, 255, 0.1));
+}
+
+.quick-reply-btn:focus-visible {
+  outline: 2px solid var(--accent, #aa3bff);
+  outline-offset: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   7. Composer — 34px input + sm send button
+   -------------------------------------------------------------------------- */
+.chatbot-input-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding: 8px 10px;
+  border-top: 1px solid var(--border, #e5e4e7);
+}
+
+.chatbot-input-form input {
+  flex: 1;
+  min-width: 0; /* lets the input shrink instead of overflowing */
+  height: 34px;
+  padding: 0 12px;
+  box-sizing: border-box;
+
+  border: 1px solid var(--border, #e5e4e7);
+  border-radius: 10px;
+  background: var(--bg, #fff);
+  color: var(--text-h, #08060d);
+
+  font: inherit;
+  font-size: 13px;
+  outline: none;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.chatbot-input-form input::placeholder {
+  color: var(--text, #6b6375);
+  opacity: 0.8;
+}
+
+.chatbot-input-form input:focus {
+  border-color: var(--accent, #aa3bff);
+  box-shadow: 0 0 0 3px var(--accent-bg, rgba(170, 59, 255, 0.15));
+}
+
+.chatbot-input-form button {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--bg, #fff);
+  background: var(--text-h, #08060d);
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.chatbot-input-form button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.chatbot-input-form button:focus-visible {
+  outline: 2px solid var(--accent, #aa3bff);
+  outline-offset: 2px;
+}
+
+.chatbot-input-form button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* --------------------------------------------------------------------------
+   8. Icon sizing
+   The inline SVGs carry a viewBox but no width/height, so without an explicit
+   size they stretch to fill whatever container they sit in. Pin them.
+   -------------------------------------------------------------------------- */
+.chatbot-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.chatbot-close svg {
+  width: 14px;
+  height: 14px;
+}
+
+.chatbot-input-form button svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* --------------------------------------------------------------------------
+   9. Desktop — the spec allows the panel up to 360px
+   -------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+  .chatbot-panel {
+    width: 360px;
+  }
+}
+
+/* Very narrow phones — full-width sheet so the 300px panel never overflows */
+@media (max-width: 360px) {
+  .chatbot-panel {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: 72px;
+    width: auto;
+    transform-origin: bottom center;
+  }
+}
+
+/* Respect the OS "reduce motion" setting.
+   Covers every animated element in the widget — the launcher, the panel,
+   the pulse ring, the bubbles and the typing dots. */
+@media (prefers-reduced-motion: reduce) {
+  .chatbot-toggle,
+  .chatbot-panel,
+  .chatbot-toggle::after,
+  .chat-bubble,
+  .typing-dots span {
+    animation: none !important;
+    transition: none !important;
+  }
+}
