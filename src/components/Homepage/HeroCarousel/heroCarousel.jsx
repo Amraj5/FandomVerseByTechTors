@@ -1,5 +1,5 @@
 import './heroCarousel.css'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import TrendData from './data/trending.json'
 import HeroData from './data/carousel.json'
 import { FaStar } from "react-icons/fa";
@@ -7,6 +7,21 @@ import { IoChevronUp, IoChevronDown } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
 
 function HeroCarousel() {
+  const trendListRef = useRef(null);
+
+const scrollTrending = (direction) => {
+  const el = trendListRef.current;
+
+  if (!el) return;
+
+  console.log("scrollWidth:", el.scrollWidth);
+  console.log("clientWidth:", el.clientWidth);
+  console.log("scrollLeft before:", el.scrollLeft);
+
+  el.scrollLeft += direction === "left" ? -320 : 320;
+
+  console.log("scrollLeft after:", el.scrollLeft);
+};
     const [currentIndex, setCurrentIndex] = useState(0)
     const currentSlide = HeroData[currentIndex];
 
@@ -42,9 +57,9 @@ useEffect(() => {
     () => Math.random() - 0.5
   );
 
-  return shuffled.slice(0, 4);
+  return shuffled;
 });
-
+  
     return(
 
         <>
@@ -96,50 +111,67 @@ useEffect(() => {
                         </div>
                
               {/* Trends Card Section */}
+<div className="hero-trends">
+  <div className="trends-header">
+    <h2>Trending</h2>
 
-        <div className="hero-trends">
-                    <div className="trends-header">
-                        <h2>Trending</h2>
-                        <button>
-                            View All
-                        </button>
-                        </div>
+    <button>
+      View All
+    </button>
+  </div>
 
+  <div className="trend-carousel">
 
-            <div className="trend-list">
+    <button
+      className="trend-arrow trend-arrow-left"
+      onClick={() => scrollTrending("left")}
+      aria-label="Previous trending items"
+    >
+      ←
+    </button>
 
-  {trendingItems.map((item) => (
-    <div className="trend-card" key={item.id}>
+    <div className="trend-list" ref={trendListRef}>
+      {trendingItems.map((item) => (
+        <div className="trend-card" key={item.id}>
 
-      <img
-        src={item.image}
-        alt={item.title}
-        className="trend-image"
-      />
+          <img
+            src={item.image}
+            alt={item.title}
+            className="trend-image"
+          />
 
-      <div className="trend-info">
+          <div className="trend-info">
 
-        <span
-          className="trend-label"
-          style={{ color: item.color }}
-        >
-          <GoDotFill />
-          {item.categoryLabel}
-        </span>
+            <span
+              className="trend-label"
+              style={{ color: item.color }}
+            >
+              <GoDotFill />
+              {item.categoryLabel}
+            </span>
 
-        <h3>{item.title}</h3>
+            <h3>{item.title}</h3>
 
-        <p>
-          <FaStar />
-          {item.rating}
-        </p>
+            <p>
+              <FaStar />
+              {item.rating}
+            </p>
 
-      </div>
+          </div>
 
+        </div>
+      ))}
     </div>
-  ))}
 
-</div>
+    <button
+      className="trend-arrow trend-arrow-right"
+      onClick={() => scrollTrending("right")}
+      aria-label="Next trending items"
+    >
+      →
+    </button>
+
+  </div>
 </div>
 
 
