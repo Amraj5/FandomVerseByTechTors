@@ -32,7 +32,7 @@ const dataDir = join(here, "..", "src", "data");
 // Wikimedia blocks unidentified clients, so send a real User-Agent
 const UA = "FandomVerse-data-check/1.0 (student project; contact: site owner)";
 const TIMEOUT_MS = 20000;
-const GAP_MS = 350; // breather between requests to the same host
+const GAP_MS = 600; // breather between requests to the same host
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const load = (file) => JSON.parse(readFileSync(join(dataDir, file), "utf8"));
@@ -83,16 +83,54 @@ async function withRetry(fn, attempts = 3) {
 }
 
 // --- collect everything worth checking ------------------------------------
+// Each data file declares which fields hold remote images, so adding a module
+// means adding one row here rather than another bespoke loop.
+const IMAGE_FILES = [
+  { file: "characters.json", label: (e) => `character "${e.name}"`, field: "image", arrays: [], allowMissing: true, missingNote: "no licensed image — UI should render a monogram fallback" },
+  { file: "events.json", label: (e) => `event "${e.title}"`, field: "image", arrays: [], allowMissing: true, missingNote: "no image" },
+  { file: "topicHubs.json", label: (e) => `hub "${e.title}"`, field: "bannerImage", arrays: ["gallery"] },
+  { file: "categoryPages.json", label: (e) => `category "${e.title}"`, field: "heroImage", arrays: [] },
+  { file: "quickGuideDetails.json", label: (e) => `guide "${e.title}"`, field: "heroImage", arrays: [] },
+  { file: "merchandise.json", label: (e) => `merch "${e.title}"`, field: "imageUrl", arrays: [] },
+  { file: "carousel.json", label: (e) => `card "${e.title}"`, field: null, arrays: ["imageUrl"] },
+  { file: "articles.json", label: (e) => `article "${e.title}"`, field: "heroImage", arrays: [], sections: true },
+];
+
 const jobs = [];
 
-for (const c of load("characters.json")) {
-  if (c.image) jobs.push({ kind: "image", label: `character "${c.name}"`, url: c.image, credit: c.imageCredit });
-  else jobs.push({ kind: "pending", label: `character "${c.name}"`, note: "no licensed image — UI should render a monogram fallback" });
-}
+for (const spec of IMAGE_FILES) {
+  for (const entry of load(spec.file)) {
+    const name = spec.label(entry);
+    const credit = entry.imageCredit;
 
-for (const e of load("events.json")) {
-  if (e.image) jobs.push({ kind: "image", label: `event "${e.title}"`, url: e.image, credit: e.imageCredit });
-  else jobs.push({ kind: "pending", label: `event "${e.title}"`, note: "no image" });
+    if (spec.field) {
+      const url = entry[spec.field];
+      if (url) jobs.push({ kind: "image", label: `${name} .${spec.field}`, url, credit });
+      else if (spec.allowMissing) jobs.push({ kind: "pending", label: name, note: spec.missingNote });
+    }
+
+    // Array-valued image fields (carousel imageUrl[], hub gallery[])
+    for (const arrField of spec.arrays) {
+      const arr = entry[arrField];
+      if (!Array.isArray(arr) || arr.length === 0) continue;
+      arr.forEach((url, i) => {
+        if (typeof url === "string" && /^https?:/.test(url)) {
+          jobs.push({
+            kind: "image",
+            label: `${name} .${arrField}[${i}]`,
+            url,
+            // gallery entries inherit the entry's credit
+            credit: arrField === "gallery" ? entry.imageCredit : credit,
+          });
+        }
+      });
+    }
+
+    // Inline images inside an article body
+    for (const s of spec.sections ? (entry.sections ?? []) : []) {
+      if (s.type === "image" && s.url) jobs.push({ kind: "image", label: `${name} section image`, url: s.url, credit: s.credit ?? credit });
+    }
+  }
 }
 
 for (const v of load("videos.json")) {

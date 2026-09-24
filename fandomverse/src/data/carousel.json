@@ -8,9 +8,9 @@
     "ctaText": "Read Article",
     "ctaUrl": "/articles/xbox-mythic-achievements",
     "imageUrl": [
-      "https://i.pinimg.com/236x/7c/df/ea/7cdfea4a243bc810dbdf1f3ef150428d.jpg",
-      "https://i.pinimg.com/236x/7c/df/ea/7cdfea4a243bc810dbdf1f3ef150428d.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/Xbox_logo_%282013%29.svg"
+    ],
+    "imageCredit": "Microsoft, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-002",
@@ -21,9 +21,9 @@
     "ctaText": "Read Coverage",
     "ctaUrl": "/articles/marvel-rivals-moderation-controversy",
     "imageUrl": [
-      "https://i.pinimg.com/1200x/55/33/0a/55330abe188d55a205002bd9889367b2.jpg",
-      "https://i.pinimg.com/736x/58/c9/15/58c91537b258aa3e89040ae2b4f6aff1.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/4/4f/Logo_Marvel_Rivals.svg"
+    ],
+    "imageCredit": "NetEase / Marvel, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-003",
@@ -34,9 +34,9 @@
     "ctaText": "Watch Trailer",
     "ctaUrl": "https://www.youtube.com/embed/example_ds",
     "imageUrl": [
-      "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
-      "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/f/fc/Demon_Slayer_logo.svg"
+    ],
+    "imageCredit": "Koyoharu Gotouge / Shueisha, Aniplex, ufotable, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-004",
@@ -47,11 +47,9 @@
     "ctaText": "Read Retrospective",
     "ctaUrl": "/articles/bojack-horseman-retrospective",
     "imageUrl": [
-      "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
-      "https://i.pinimg.com/736x/29/2c/29/292c2971d596d39c9774b19cddd0bc5e.jpg",
-      "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
-      "https://i.pinimg.com/1200x/51/54/76/5154760c80878e4e2ae4f20c9a981086.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/c/cc/BoJack_Horseman_Logo.svg"
+    ],
+    "imageCredit": "Netflix, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-005",
@@ -62,9 +60,9 @@
     "ctaText": "Read Analysis",
     "ctaUrl": "/articles/vct-2026-meta-analysis",
     "imageUrl": [
-      "https://i.pinimg.com/1200x/8d/54/f5/8d54f5cec7f6dd96cbc1dd88e1df5033.jpg",
-      "https://i.pinimg.com/1200x/aa/f0/d9/aaf0d98e293730571aeb589a68eca76a.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg"
+    ],
+    "imageCredit": "Riot Games, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-006",
@@ -75,11 +73,9 @@
     "ctaText": "Watch Teaser",
     "ctaUrl": "https://www.youtube.com/embed/example_csm",
     "imageUrl": [
-      "https://i.pinimg.com/736x/06/8f/a0/068fa09f4763b3848ae87aa3893f79ca.jpg",
-      "https://i.pinimg.com/736x/38/59/44/3859440c27cd6d23309060e7b12a58d4.jpg",
-      "https://i.pinimg.com/736x/67/4d/52/674d52d3db06d0245657f2bf4165dfb8.jpg",
-      "https://i.pinimg.com/1200x/91/6e/dd/916edd7d8a19d60dff77e630341ad709.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Chainsaw_Man_Japanese_logo_with_red_outline.png"
+    ],
+    "imageCredit": "Tatsuki Fujimoto / Shueisha, MAPPA, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-008",
@@ -90,10 +86,9 @@
     "ctaText": "Read Update",
     "ctaUrl": "/articles/beyond-spider-verse-update",
     "imageUrl": [
-      "https://i.pinimg.com/1200x/de/0b/27/de0b2709017d4b54d9ca32192fc80560.jpg",
-      "https://i.pinimg.com/1200x/f9/dc/ef/f9dcef57febb39eb2659c93c973b1e62.jpg",
-      "https://i.pinimg.com/736x/51/60/8e/51608e0c16212b8df8d6bb30674f4efa.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Spider-Man_video_game_series_logo.png"
+    ],
+    "imageCredit": "Insomniac Games / Sony, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-009",
@@ -104,9 +99,9 @@
     "ctaText": "View Concept Photos",
     "ctaUrl": "/articles/le-sserafim-dome-tour",
     "imageUrl": [
-      "https://i.pinimg.com/736x/ca/2b/3e/ca2b3e0e30e3e92d91436f269ba8a67d.jpg",
-      "https://i.pinimg.com/736x/0a/14/56/0a1456a79a39920bfd62fa846d57f7d3.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/6/69/LE_SSERAFIM_logo_%28White%29.svg"
+    ],
+    "imageCredit": "Source Music, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-010",
@@ -117,9 +112,9 @@
     "ctaText": "Explore Gallery Details",
     "ctaUrl": "/articles/berserk-exhibition-recap",
     "imageUrl": [
-      "https://i.pinimg.com/1200x/33/90/11/339011a007b812f84b67e3321ba761a2.jpg",
-      "https://i.pinimg.com/736x/54/12/90/5412903abfde76110034a78129e31a19.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/f/f1/Berserk_anime_logo.png"
+    ],
+    "imageCredit": "Kentaro Miura / Hakusensha, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-013",
@@ -130,10 +125,9 @@
     "ctaText": "Read Analysis",
     "ctaUrl": "/articles/gta-vi-gameplay-breakdown",
     "imageUrl": [
-      "https://i.pinimg.com/736x/18/07/6d/18076d5bd8d412e6a65d9e7df7020d3a.jpg",
-      "https://i.pinimg.com/736x/b9/a9/72/b9a972e7cb25581da141ed7d89edb958.jpg",
-      "https://i.pinimg.com/736x/a0/07/9b/a0079befbfcf76ff8a1fffbd00e903db.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/d/d6/Grand_Theft_Auto_VI_logo_%28with_gradient%29.svg"
+    ],
+    "imageCredit": "Rockstar Games, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-014",
@@ -144,10 +138,9 @@
     "ctaText": "View Schedule",
     "ctaUrl": "/articles/fall-2026-anime-lineup",
     "imageUrl": [
-      "https://i.pinimg.com/736x/f0/df/e2/f0dfe2b648a58f4537fa2eba61f6af14.jpg",
-      "https://i.pinimg.com/736x/f3/02/21/f3022148dd7e16b76781c641dc07b693.jpg",
-      "https://i.pinimg.com/736x/5e/a9/01/5ea901e99a1b737006100b9f0b928aa0.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Mimi_as_Maomao_standing%2C_front_view_20240316a.jpg/1280px-Mimi_as_Maomao_standing%2C_front_view_20240316a.jpg"
+    ],
+    "imageCredit": "Solomon203, CC BY-SA 4.0, via Wikimedia Commons"
   },
   {
     "id": "card-015",
@@ -158,11 +151,9 @@
     "ctaText": "Read Preview",
     "ctaUrl": "/articles/blade-runner-2099-preview",
     "imageUrl": [
-      "https://i.pinimg.com/736x/4b/bd/bb/4bbdbbdb586b062474a8c49ee8d9701a.jpg",
-      "https://i.pinimg.com/1200x/bc/af/4e/bcaf4e64472cd35e9916607d82b81235.jpg",
-      "https://i.pinimg.com/736x/45/31/16/45311610e9ec8176afc4ff77327b7d47.jpg",
-      "https://i.pinimg.com/1200x/90/ab/13/90ab13022c74093cd3c24ad0dddcf980.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/1/1c/Blade_runner_logo_red.jpg"
+    ],
+    "imageCredit": "Warner Bros., Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-016",
@@ -173,9 +164,9 @@
     "ctaText": "Read Production News",
     "ctaUrl": "/articles/avengers-doomsday-updates",
     "imageUrl": [
-      "https://i.pinimg.com/736x/bd/f5/77/bdf577408280fd172a5a013c6e737aa5.jpg",
-      "https://i.pinimg.com/736x/7f/39/77/7f39777e7d7ce23e5e4f408c49c4de4e.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"
+    ],
+    "imageCredit": "Marvel Studios / Disney, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-017",
@@ -186,10 +177,9 @@
     "ctaText": "View Tour Dates",
     "ctaUrl": "/articles/blackpink-10th-anniversary-tour",
     "imageUrl": [
-      "https://i.pinimg.com/736x/ab/df/63/abdf63b14bfa00f7cad65872868f3d63.jpg",
-      "https://i.pinimg.com/736x/a6/cb/b3/a6cbb3678358a8901ce18d01d59239ea.jpg",
-      "https://i.pinimg.com/1200x/66/60/3b/66603b36c4c54619ae3b78fe9629b0f7.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/BLACKPINK_LOGO.png"
+    ],
+    "imageCredit": "YG Entertainment, Public domain, via Wikimedia Commons"
   },
   {
     "id": "card-018",
@@ -200,11 +190,9 @@
     "ctaText": "Explore Solicitations",
     "ctaUrl": "/articles/x-men-crossover-announcement",
     "imageUrl": [
-      "https://i.pinimg.com/1200x/04/c3/d2/04c3d2cdd1c528fd39a70180b991eada.jpg",
-      "https://i.pinimg.com/1200x/a8/c5/30/a8c530dc4e294be81a2b2fb1b6f1a238.jpg",
-      "https://i.pinimg.com/736x/b4/86/85/b486856f0238037771120f3c183b671f.jpg",
-      "https://i.pinimg.com/1200x/05/a7/96/05a79687f71443ba4eba03a5a3a16b2d.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/f/fc/X-Men-logo-comics.png"
+    ],
+    "imageCredit": "Marvel Comics, CC0, via Wikimedia Commons"
   },
   {
     "id": "card-019",
@@ -215,9 +203,8 @@
     "ctaText": "Read Breakdown",
     "ctaUrl": "/articles/kagurabachi-new-arc-recap",
     "imageUrl": [
-      "https://i.pinimg.com/1200x/75/eb/e9/75ebe92b4ee7d45e3be0e4fee175cd72.jpg",
-      "https://i.pinimg.com/736x/60/9a/32/609a32ebc9e9a996d745464cf378dfb9.jpg",
-      "https://i.pinimg.com/736x/ef/ad/99/efad99ae1fd51323cabb989b708ededc.jpg"
-    ]
+      "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kagurabachi_Logo.svg"
+    ],
+    "imageCredit": "Takeru Hokazono / Shueisha, CC0, via Wikimedia Commons"
   }
 ]

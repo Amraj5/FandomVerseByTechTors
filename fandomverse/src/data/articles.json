@@ -12,7 +12,7 @@
     },
     "publishedDate": "2026-08-14",
     "readTime": "8 min read",
-    "heroImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/c/cc/BoJack_Horseman_Logo.svg",
     "tags": [
       "BoJack Horseman",
       "Retrospective",
@@ -34,8 +34,9 @@
       },
       {
         "type": "image",
-        "url": "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
-        "caption": "The View from Halfway Down remains one of animation's most haunting episodes."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/BoJack_Horseman_Logo.svg",
+        "caption": "The View from Halfway Down remains one of animation's most haunting episodes.",
+        "credit": "Netflix, Public domain, via Wikimedia Commons"
       },
       {
         "type": "quote",
@@ -50,7 +51,8 @@
         "type": "paragraph",
         "content": "A decade after its premiere, the series continues to drive online discourse, TikTok visual essays, and screenwriting analyses regarding how to write flawed, irredeemable characters without glorifying their toxic traits."
       }
-    ]
+    ],
+    "imageCredit": "Netflix, Public domain, via Wikimedia Commons"
   },
   {
     "id": "art-kagurabachi-milestone",
@@ -65,7 +67,7 @@
     },
     "publishedDate": "2026-09-02",
     "readTime": "5 min read",
-    "heroImage": "https://i.pinimg.com/1200x/75/eb/e9/75ebe92b4ee7d45e3be0e4fee175cd72.jpg",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kagurabachi_Logo.svg",
     "tags": [
       "Kagurabachi",
       "Shonen Jump",
@@ -79,8 +81,9 @@
       },
       {
         "type": "image",
-        "url": "https://i.pinimg.com/736x/60/9a/32/609a32ebc9e9a996d745464cf378dfb9.jpg",
-        "caption": "Chihiro Rokuhira wielding Enten in Chapter 48."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kagurabachi_Logo.svg",
+        "caption": "Chihiro Rokuhira wielding Enten in Chapter 48.",
+        "credit": "Takeru Hokazono / Shueisha, CC0, via Wikimedia Commons"
       },
       {
         "type": "heading",
@@ -90,6 +93,7 @@
         "type": "paragraph",
         "content": "Industry insiders suggest an official anime production announcement is slated for the upcoming Jump Festa showcase, with high-budget fight choreography being prioritized."
       }
-    ]
+    ],
+    "imageCredit": "Takeru Hokazono / Shueisha, CC0, via Wikimedia Commons"
   }
 ]

@@ -5,7 +5,7 @@
     "category": "anime",
     "title": "The Jujutsu Kaisen Universe",
     "subtitle": "Complete guide to the Jujutsu Kaisen universe - characters, timeline, watch order, explanations, and everything you need to know.",
-    "bannerImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+    "bannerImage": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jujutsu_Kaisen_logo_in_Japan.png",
     "overview": "Jujutsu Kaisen is a dark fantasy anime series created by Gege Akutami. The story follows Yuji Itadori, a high school student who becomes the vessel of the powerful cursed spirit Sukuna. The series explores themes of death, morality, and the nature of curses.",
     "quickStats": {
       "episodes": "47 (ongoing)",
@@ -91,10 +91,7 @@
       }
     ],
     "gallery": [
-      "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
-      "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg",
-      "https://i.pinimg.com/736x/06/8f/a0/068fa09f4763b3848ae87aa3893f79ca.jpg",
-      "https://i.pinimg.com/736x/38/59/44/3859440c27cd6d23309060e7b12a58d4.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jujutsu_Kaisen_logo_in_Japan.png"
     ],
     "explanations": [
       "Why does Gojo cover his eyes?",
@@ -105,7 +102,8 @@
       "art-jjk-s2-review",
       "art-jjk-opening-details",
       "art-shibuya-incident-explained"
-    ]
+    ],
+    "imageCredit": "Gege Akutami / Shueisha, Public domain, via Wikimedia Commons"
   },
   {
     "id": "hub-bojack-horseman",
@@ -113,7 +111,7 @@
     "category": "tvshows",
     "title": "BoJack Horseman",
     "subtitle": "Hollywoo Retrospectives, Character Guides, and Cultural Impact",
-    "bannerImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+    "bannerImage": "https://upload.wikimedia.org/wikipedia/commons/c/cc/BoJack_Horseman_Logo.svg",
     "overview": "Created by Raphael Bob-Waksberg, BoJack Horseman stands as one of television's most groundbreaking explorations of mental health, celebrity culture, and existential dread.",
     "quickStats": {
       "seasons": 6,
@@ -122,13 +120,12 @@
       "creator": "Raphael Bob-Waksberg"
     },
     "gallery": [
-      "https://i.pinimg.com/736x/29/2c/29/292c2971d596d39c9774b19cddd0bc5e.jpg",
-      "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
-      "https://i.pinimg.com/1200x/51/54/76/5154760c80878e4e2ae4f20c9a981086.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/c/cc/BoJack_Horseman_Logo.svg"
     ],
     "relatedArticles": [
       "art-bojack-retrospective"
-    ]
+    ],
+    "imageCredit": "Netflix, Public domain, via Wikimedia Commons"
   },
   {
     "id": "hub-demon-slayer",
@@ -136,7 +133,7 @@
     "category": "anime",
     "title": "Demon Slayer: Kimetsu no Yaiba",
     "subtitle": "Breathing Styles, Upper Ranks, and Theatrical Release Guides",
-    "bannerImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+    "bannerImage": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Demon_Slayer_logo.svg",
     "overview": "Follow Tanjiro Kamado through the Demon Slayer Corps as Ufotable adapts Koyoharu Gotouge's record-breaking manga series into high-octane animation.",
     "quickStats": {
       "seasons": 4,
@@ -145,10 +142,14 @@
       "latestArc": "Infinity Castle Film Trilogy"
     },
     "gallery": [
-      "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/f/fc/Demon_Slayer_logo.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cosplay_of_Tanjiro_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056126228%29.jpg/1280px-Cosplay_of_Tanjiro_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056126228%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cosplay_of_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853055646196%29.jpg/1280px-Cosplay_of_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853055646196%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cosplay_of_Zenitsu_Agatsuma%2C_Tanjiro_Kamado_and_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056017945%29.jpg/1280px-Cosplay_of_Zenitsu_Agatsuma%2C_Tanjiro_Kamado_and_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056017945%29.jpg"
     ],
     "relatedArticles": [
       "art-demon-slayer-infinity-castle"
-    ]
+    ],
+    "imageCredit": "Koyoharu Gotouge / Shueisha, Aniplex, ufotable, Public domain, via Wikimedia Commons"
   }
 ]

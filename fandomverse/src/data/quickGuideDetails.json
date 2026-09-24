@@ -8,7 +8,7 @@
     "subtitle": "A quick refresher on Viltrumite politics, Mark's upgraded suit, and where the Guardians left off.",
     "readTime": "3 min read",
     "lastUpdated": "2026-08-20",
-    "heroImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Invincible_comic_series_logo.png",
     "tags": [
       "Invincible",
       "Prime Video",
@@ -28,7 +28,8 @@
         "heading": "Guardians of the Globe Status",
         "content": "With Rex Splode recovering from critical injuries, Cecil's manipulation of the team reaching an all-time high, and Eve struggling with her power limits, the Guardians are at their weakest."
       }
-    ]
+    ],
+    "imageCredit": "Image Comics / Robert Kirkman, Public domain, via Wikimedia Commons"
   },
   {
     "id": "guide-detail-002",
@@ -39,7 +40,7 @@
     "subtitle": "How the Absolute line differs from Prime Earth, key character redesigns, and where to start.",
     "readTime": "5 min read",
     "lastUpdated": "2026-09-01",
-    "heroImage": "https://i.pinimg.com/1200x/04/c3/d2/04c3d2cdd1c528fd39a70180b991eada.jpg",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg",
     "tags": [
       "DC Comics",
       "Absolute Batman",
@@ -58,7 +59,8 @@
         "heading": "Reading Order Recommendation",
         "content": "Start directly with Absolute Power #4 for the universe's birth, followed by Absolute Batman #1, Absolute Superman #1, and Absolute Wonder Woman #1."
       }
-    ]
+    ],
+    "imageCredit": "DC Comics, Public domain, via Wikimedia Commons"
   },
   {
     "id": "guide-detail-003",
@@ -69,7 +71,7 @@
     "subtitle": "Analyzing Leonida's districts, water engine physics, and key POIs from recent trailers.",
     "readTime": "4 min read",
     "lastUpdated": "2026-09-15",
-    "heroImage": "https://i.pinimg.com/736x/18/07/6d/18076d5bd8d412e6a65d9e7df7020d3a.jpg",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Grand_Theft_Auto_VI_logo_%28with_gradient%29.svg",
     "tags": [
       "GTA VI",
       "Rockstar Games",
@@ -85,7 +87,8 @@
         "heading": "The Grassrivers & Keys",
         "content": "Beyond the city lie expansive wetlands based on the Everglades, featuring dynamic boat physics, wildlife interactions, and isolated rural settlements."
       }
-    ]
+    ],
+    "imageCredit": "Rockstar Games, Public domain, via Wikimedia Commons"
   },
   {
     "id": "guide-detail-004",
@@ -96,7 +99,7 @@
     "subtitle": "Key Hashira matchups, Blood Demon Arts, and narrative milestones for the theatrical trilogy.",
     "readTime": "6 min read",
     "lastUpdated": "2026-08-30",
-    "heroImage": "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Demon_Slayer_logo.svg",
     "tags": [
       "Demon Slayer",
       "Ufotable",
@@ -111,7 +114,8 @@
         "heading": "Essential Upper Rank Showdowns",
         "content": "Prepare for crucial clashes: Shinobu & Kanao vs. Upper Rank 2 (Doma), Zenitsu vs. Kaigaku, and Tanjiro & Giyu vs. Upper Rank 3 (Akaza)."
       }
-    ]
+    ],
+    "imageCredit": "Koyoharu Gotouge / Shueisha, Aniplex, ufotable, Public domain, via Wikimedia Commons"
   },
   {
     "id": "guide-detail-005",
@@ -122,7 +126,7 @@
     "subtitle": "Asa Mitaka, Yoru the War Devil, and the Academy Saga's major factions.",
     "readTime": "5 min read",
     "lastUpdated": "2026-09-10",
-    "heroImage": "https://i.pinimg.com/736x/06/8f/a0/068fa09f4763b3848ae87aa3893f79ca.jpg",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Chainsaw_Man_Japanese_logo_with_red_outline.png",
     "tags": [
       "Chainsaw Man",
       "Fujimoto",
@@ -137,7 +141,8 @@
         "heading": "The Chainsaw Man Church",
         "content": "Fami (the Famine Devil) has manipulated public perception, creating a worldwide cult around Chainsaw Man to trigger widespread fear and empower the Horsemen."
       }
-    ]
+    ],
+    "imageCredit": "Tatsuki Fujimoto / Shueisha, MAPPA, Public domain, via Wikimedia Commons"
   },
   {
     "id": "guide-detail-006",
@@ -148,7 +153,7 @@
     "subtitle": "Understanding negative emotions, innate techniques, binding vows, and domain mechanics.",
     "readTime": "5 min read",
     "lastUpdated": "2026-09-18",
-    "heroImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jujutsu_Kaisen_logo_in_Japan.png",
     "tags": [
       "Jujutsu Kaisen",
       "Power System",
@@ -164,6 +169,7 @@
         "heading": "Domain Expansion Mechanics",
         "content": "By constructing a barrier with cursed energy and manifesting their innate domain, sorcerers gain a guaranteed-hit factor for their techniques within that space."
       }
-    ]
+    ],
+    "imageCredit": "Gege Akutami / Shueisha, Public domain, via Wikimedia Commons"
   }
 ]

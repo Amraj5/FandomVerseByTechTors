@@ -8,8 +8,9 @@
     "rating": "4.9",
     "inStock": true,
     "summary": "Limited run 1/7 scale figures featuring Tanjiro and Akaza with reactive LED base display accents.",
-    "imageUrl": "https://m.media-amazon.com/images/I/51iT7MjwyHL._AC_SY300_SX300_QL70_FMwebp_.jpg",
-    "shopUrl": "/store/demon-slayer-scale-figures"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Demon_Slayer_logo.svg",
+    "shopUrl": "/store/demon-slayer-scale-figures",
+    "imageCredit": "Koyoharu Gotouge / Shueisha, Aniplex, ufotable, Public domain, via Wikimedia Commons"
   },
   {
     "id": "merch-003",
@@ -20,8 +21,9 @@
     "rating": "5.0",
     "inStock": true,
     "summary": "Official light stick with Bluetooth stage synchronization, customizable silicone grips, and exclusive photocard sets.",
-    "imageUrl": "https://m.media-amazon.com/images/I/31Xt36mvARL._AC_UL450_SY450_QL70_.jpg",
-    "shopUrl": "/store/blackpink-ver3-lightstick"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/BLACKPINK_LOGO.png",
+    "shopUrl": "/store/blackpink-ver3-lightstick",
+    "imageCredit": "YG Entertainment, Public domain, via Wikimedia Commons"
   },
   {
     "id": "merch-004",
@@ -32,8 +34,9 @@
     "rating": "4.7",
     "inStock": false,
     "summary": "Hardcover compilation collecting the introductory arc with foil-stamped artwork and author signed bookplates.",
-    "imageUrl": "https://m.media-amazon.com/images/I/419k4iMVPGL._SY445_SX342_FMwebp_.jpg",
-    "shopUrl": "/store/absolute-batman-slipcase"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg",
+    "shopUrl": "/store/absolute-batman-slipcase",
+    "imageCredit": "DC Comics, Public domain, via Wikimedia Commons"
   },
   {
     "id": "merch-005",
@@ -44,8 +47,9 @@
     "rating": "4.9",
     "inStock": true,
     "summary": "Water-resistant 900x400mm gaming desk pad with stitched anti-fray edges and high-contrast panel print.",
-    "imageUrl": "https://i.etsystatic.com/37142032/r/il/3d792b/8135603479/il_794xN.8135603479_5gnm.jpg",
-    "shopUrl": "/store/kagurabachi-desk-mat"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kagurabachi_Logo.svg",
+    "shopUrl": "/store/kagurabachi-desk-mat",
+    "imageCredit": "Takeru Hokazono / Shueisha, CC0, via Wikimedia Commons"
   },
   {
     "id": "merch-006",
@@ -56,8 +60,9 @@
     "rating": "4.9",
     "inStock": true,
     "summary": "Official 440GSM cotton fleece tournament hoodie featuring embroidered Shanghai venue branding and custom sleeve typography.",
-    "imageUrl": "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products_live%2Ff1586de98e19a701586a36a0e3356590b26e0b36-2560x2560.png%3FaccountingTag%3Dconsumer_products&w=828&q=75",
-    "shopUrl": "/store/vct-shanghai-frag-or-die-hoodie"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg",
+    "shopUrl": "/store/vct-shanghai-frag-or-die-hoodie",
+    "imageCredit": "Riot Games, Public domain, via Wikimedia Commons"
   },
   {
     "id": "merch-007",
@@ -68,8 +73,9 @@
     "rating": "4.8",
     "inStock": true,
     "summary": "High-detail posed figure inspired by the game's King in Black skin line, bundled with exclusive comic art variant cards.",
-    "imageUrl": "https://cdn11.bigcommerce.com/s-hlbgbzrg7y/images/stencil/640w/products/3422/33490/Black_Panther__54703.1781825833.jpg?c=1",
-    "shopUrl": "/store/marvel-rivals-black-panther-figure"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Logo_Marvel_Rivals.svg",
+    "shopUrl": "/store/marvel-rivals-black-panther-figure",
+    "imageCredit": "NetEase / Marvel, Public domain, via Wikimedia Commons"
   },
   {
     "id": "merch-009",
@@ -80,8 +86,9 @@
     "rating": "5.0",
     "inStock": true,
     "summary": "Official Line Friends pop-up collab featuring miniature clear CD jewel cases with interchangeable member photocard inserts.",
-    "imageUrl": "https://linefriendssquare.us/cdn/shop/files/NJ_24_CD__HI_8800251560603_1200x1200_001.jpg?v=1753079681&width=1200",
-    "shopUrl": "/store/newjeans-cd-keyring-set"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/NewJeans_Logo_1.svg",
+    "shopUrl": "/store/newjeans-cd-keyring-set",
+    "imageCredit": "ADOR, Public domain, via Wikimedia Commons"
   },
   {
     "id": "merch-010",
@@ -92,8 +99,9 @@
     "rating": "4.9",
     "inStock": true,
     "summary": "Double LP picture disc pressing featuring original orchestral score compositions and film concept art gatefold sleeve.",
-    "imageUrl": "https://i.ebayimg.com/images/g/w88AAOSwzhBm-U~c/s-l1600.webp",
-    "shopUrl": "/store/beyond-spider-verse-ost-vinyl"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Spider-Man_video_game_series_logo.png",
+    "shopUrl": "/store/beyond-spider-verse-ost-vinyl",
+    "imageCredit": "Insomniac Games / Sony, Public domain, via Wikimedia Commons"
   },
   {
     "id": "merch-011",
@@ -104,8 +112,9 @@
     "rating": "4.6",
     "inStock": false,
     "summary": "Solid stainless steel choker necklace featuring the iconic neck-ring pull-pin motif from the Reze Arc theatrical film.",
-    "imageUrl": "https://i.etsystatic.com/67892777/r/il/4cb5d4/8594461435/il_794xN.8594461435_ghml.jpg",
-    "shopUrl": "/store/csm-reze-pull-cord-necklace"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Chainsaw_Man_Japanese_logo_with_red_outline.png",
+    "shopUrl": "/store/csm-reze-pull-cord-necklace",
+    "imageCredit": "Tatsuki Fujimoto / Shueisha, MAPPA, Public domain, via Wikimedia Commons"
   },
   {
     "id": "merch-012",
@@ -116,7 +125,8 @@
     "rating": "4.8",
     "inStock": true,
     "summary": "Hand-numbered 18x24 screenprint on heavy cardstock finished with metallic red foil embellishments.",
-    "imageUrl": "https://mondoshop.com/cdn/shop/files/Ian.Bertram_Absolute.Batman.No.1.Reprolarge.jpg?v=1752011838&width=570",
-    "shopUrl": "/store/absolute-batman-foil-poster"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg",
+    "shopUrl": "/store/absolute-batman-foil-poster",
+    "imageCredit": "DC Comics, Public domain, via Wikimedia Commons"
   }
 ]
