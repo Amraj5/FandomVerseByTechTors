@@ -1,0 +1,29 @@
+.card{
+    color: #16161F;
+    border-radius: 8px;
+    padding: 16px;
+    height: 280px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+}
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba(0, 242, 254, 0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 8px;
+    color: white;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;          /* Golden ratio height for a 320px wide card */
+  object-fit: cover;      /* Crops image perfectly without distorting it */
+  display: block;
+}
