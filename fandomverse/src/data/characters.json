@@ -1,0 +1,134 @@
+[
+  {
+    "id": "char-anime-001",
+    "slug": "tanjiro-kamado",
+    "name": "Tanjiro Kamado",
+    "series": "Demon Slayer: Kimetsu no Yaiba",
+    "franchise": "Demon Slayer",
+    "categoryId": "anime",
+    "role": "Demon Slayer Corps — protagonist",
+    "firstAppearance": "Manga Chapter 1 / Anime Episode 1",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cosplay_of_Tanjiro_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056126228%29.jpg/1280px-Cosplay_of_Tanjiro_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056126228%29.jpg",
+    "imageAlt": "Cosplay of Tanjiro Kamado at FanimeCon 2023",
+    "imageCredit": "LX-Designs, CC BY-SA 2.0, via Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Tanjiro_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_(53056126228).jpg",
+    "imageIsStandIn": true,
+    "bio": "The eldest son of a charcoal-burning family, Tanjiro comes home to find his family slaughtered and his sister Nezuko turned into a demon. He joins the Demon Slayer Corps to find a cure for her and to track down Muzan Kibutsuji, the demon responsible. He fights with Water Breathing before awakening the Hinokami Kagura passed down through his family.",
+    "traits": [
+      "Exceptional sense of smell",
+      "Unwavering empathy, even toward demons",
+      "Relentless endurance under injury",
+      "Hinokami Kagura and Water Breathing"
+    ]
+  },
+  {
+    "id": "char-anime-002",
+    "slug": "nezuko-kamado",
+    "name": "Nezuko Kamado",
+    "series": "Demon Slayer: Kimetsu no Yaiba",
+    "franchise": "Demon Slayer",
+    "categoryId": "anime",
+    "role": "Demon — Tanjiro's sister",
+    "firstAppearance": "Manga Chapter 1 / Anime Episode 1",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cosplay_of_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853055646196%29.jpg/1280px-Cosplay_of_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853055646196%29.jpg",
+    "imageAlt": "Cosplay of Nezuko Kamado at FanimeCon 2023",
+    "imageCredit": "LX-Designs, CC BY-SA 2.0, via Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_(53055646196).jpg",
+    "imageIsStandIn": true,
+    "bio": "Turned into a demon during Muzan's attack on her family, Nezuko defies the usual rule that demons prey on humans. She refuses human blood, sleeps to recover her strength instead of feeding, and travels with Tanjiro in a reinforced box. Her Blood Demon Art, Exploding Blood, burns only what she chooses to burn.",
+    "traits": [
+      "Retains human attachment and refuses human blood",
+      "Blood Demon Art: Exploding Blood",
+      "Bamboo muzzle and box for travel",
+      "Protective of Tanjiro above all else"
+    ]
+  },
+  {
+    "id": "char-anime-003",
+    "slug": "zenitsu-agatsuma",
+    "name": "Zenitsu Agatsuma",
+    "series": "Demon Slayer: Kimetsu no Yaiba",
+    "franchise": "Demon Slayer",
+    "categoryId": "anime",
+    "role": "Demon Slayer Corps — Thunder Breathing",
+    "firstAppearance": "Manga Chapter 6 / Anime Episode 4",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cosplay_of_Zenitsu_Agatsuma%2C_Tanjiro_Kamado_and_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056017945%29.jpg/1280px-Cosplay_of_Zenitsu_Agatsuma%2C_Tanjiro_Kamado_and_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056017945%29.jpg",
+    "imageAlt": "Cosplay group of Zenitsu Agatsuma, Tanjiro Kamado and Nezuko Kamado at FanimeCon 2023",
+    "imageCredit": "LX-Designs, CC BY-SA 2.0, via Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Zenitsu_Agatsuma,_Tanjiro_Kamado_and_Nezuko_Kamado_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_(53056017945).jpg",
+    "imageIsStandIn": true,
+    "bio": "A recruit who survived training by terror rather than talent, Zenitsu is loud, anxious and convinced he is about to die. He mastered only the first form of Thunder Breathing, then perfected it to a degree none of his teachers managed. When fear overwhelms him he passes out — and fights at full strength while asleep.",
+    "traits": [
+      "Thunder Breathing, first form to a master's level",
+      "Fights at full power while unconscious",
+      "Extraordinary hearing that reads a heartbeat",
+      "Cowardice played for comedy, courage played straight"
+    ]
+  },
+  {
+    "id": "char-anime-004",
+    "slug": "denji",
+    "name": "Denji",
+    "series": "Chainsaw Man",
+    "franchise": "Chainsaw Man",
+    "categoryId": "anime",
+    "role": "Public Safety Devil Hunter — Chainsaw Man",
+    "firstAppearance": "Manga Chapter 1 / Anime Episode 1",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cosplayer_of_Chainsaw_Man_at_ACGHK_2022_-_D2T1701.jpg/1280px-Cosplayer_of_Chainsaw_Man_at_ACGHK_2022_-_D2T1701.jpg",
+    "imageAlt": "Cosplayer of Chainsaw Man at ACGHK 2022",
+    "imageCredit": "Jason Kwok, CC BY-SA 4.0, via Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cosplayer_of_Chainsaw_Man_at_ACGHK_2022_-_D2T1701.jpg",
+    "imageIsStandIn": true,
+    "bio": "Raised in crushing debt and left to hunt devils for the yakuza, Denji is killed and resurrected when his dog Pochita — secretly the Chainsaw Devil — merges with him. He becomes Chainsaw Man, a hybrid who can erupt chainsaws from his arms and head. His goals are deliberately small and human: food, shelter, and someone to care about.",
+    "traits": [
+      "Chainsaw Devil hybrid",
+      "Driven by ordinary wants rather than ideals",
+      "Total loyalty to Pochita",
+      "Survives on blunt resilience and instinct"
+    ]
+  },
+  {
+    "id": "char-anime-005",
+    "slug": "satoru-gojo",
+    "name": "Satoru Gojo",
+    "series": "Jujutsu Kaisen",
+    "franchise": "Jujutsu Kaisen",
+    "categoryId": "anime",
+    "role": "Special Grade Sorcerer — Instructor, Tokyo Jujutsu High",
+    "firstAppearance": "Manga Chapter 1 / Anime Episode 1",
+    "image": null,
+    "imageAlt": null,
+    "imageCredit": null,
+    "imageSourceUrl": null,
+    "imageIsStandIn": false,
+    "bio": "The first sorcerer in four centuries to inherit both the Limitless technique and the Six Eyes, Gojo is the strongest jujutsu sorcerer alive and the reason the balance of the cursed world holds. He teaches first-years at Tokyo Jujutsu High, aiming to raise a generation strong enough to change jujutsu society from the inside rather than merely protect it.",
+    "traits": [
+      "Limitless and the Six Eyes",
+      "Domain Expansion: Infinite Void",
+      "Reverse Cursed Technique",
+      "Playful arrogance over genuine isolation"
+    ]
+  },
+  {
+    "id": "char-anime-006",
+    "slug": "yuji-itadori",
+    "name": "Yuji Itadori",
+    "series": "Jujutsu Kaisen",
+    "franchise": "Jujutsu Kaisen",
+    "categoryId": "anime",
+    "role": "Jujutsu Sorcerer — vessel of Ryomen Sukuna",
+    "firstAppearance": "Manga Chapter 1 / Anime Episode 1",
+    "image": null,
+    "imageAlt": null,
+    "imageCredit": null,
+    "imageSourceUrl": null,
+    "imageIsStandIn": false,
+    "bio": "A high school student with absurd physical strength who swallows a cursed finger to save his friends, becoming the vessel of Sukuna, the King of Curses. Sentenced to death but given a reprieve, he joins Tokyo Jujutsu High to collect Sukuna's remaining fingers before the execution is carried out. He insists on giving people a proper death.",
+    "traits": [
+      "Vessel of Ryomen Sukuna",
+      "Divergent Fist",
+      "Improbable raw physical strength",
+      "Self-sacrificing to the point of recklessness"
+    ]
+  }
+]

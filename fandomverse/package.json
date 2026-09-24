@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "test:chatbot": "node scripts/test-chatbot-routing.mjs",
+    "verify:data": "node scripts/verify-data-urls.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "event-anime-001",
+    "title": "Anime Expo 2027",
+    "categoryId": "anime",
+    "category": "Anime",
+    "type": "convention",
+    "status": "upcoming",
+    "startDate": "2027-07-02",
+    "endDate": "2027-07-05",
+    "dateConfirmed": false,
+    "dateNote": "Projected from Anime Expo's usual early-July window. Confirm against the official site before publishing.",
+    "location": {
+      "venue": "Los Angeles Convention Center",
+      "city": "Los Angeles",
+      "country": "USA"
+    },
+    "description": "North America's largest anime convention, and the venue where most of the year's major licensing and premiere announcements land. Expect studio panels, English dub premieres, and the industry's biggest exhibition hall.",
+    "image": null,
+    "imageAlt": null,
+    "imageCredit": null,
+    "imageSourceUrl": null,
+    "url": "https://www.anime-expo.org/"
+  },
+  {
+    "id": "event-anime-002",
+    "title": "FanimeCon 2027",
+    "categoryId": "anime",
+    "category": "Anime",
+    "type": "convention",
+    "status": "upcoming",
+    "startDate": "2027-05-28",
+    "endDate": "2027-05-31",
+    "dateConfirmed": false,
+    "dateNote": "Projected from FanimeCon's usual late-May Memorial Day weekend slot. Confirm against the official site.",
+    "location": {
+      "venue": "San Jose McEnery Convention Center",
+      "city": "San Jose",
+      "country": "USA"
+    },
+    "description": "A fan-run convention with an unusually strong cosplay and masquerade culture, plus a 24-hour gaming hall. Smaller and more community-driven than the industry-facing expos.",
+    "image": null,
+    "imageAlt": null,
+    "imageCredit": null,
+    "imageSourceUrl": null,
+    "url": "https://www.fanime.com/"
+  },
+  {
+    "id": "event-anime-003",
+    "title": "Anime Milwaukee 2027",
+    "categoryId": "anime",
+    "category": "Anime",
+    "type": "convention",
+    "status": "upcoming",
+    "startDate": "2027-02-26",
+    "endDate": "2027-02-28",
+    "dateConfirmed": false,
+    "dateNote": "Projected from Anime Milwaukee's usual late-February window. Confirm against the official site.",
+    "location": {
+      "venue": "Baird Center",
+      "city": "Milwaukee",
+      "country": "USA"
+    },
+    "description": "A midwest winter convention covering anime, gaming and cosplay, with a well-established artist alley and a programme that leans heavily on community panels over industry announcements.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Anime_Milwaukee_030826.jpg/1280px-Anime_Milwaukee_030826.jpg",
+    "imageAlt": "Attendees at Anime Milwaukee",
+    "imageCredit": "LaShawnda Jones, CC BY-SA 4.0, via Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Anime_Milwaukee_030826.jpg",
+    "url": "https://animemilwaukee.com/"
+  },
+  {
+    "id": "event-anime-004",
+    "title": "FandomVerse Watch Party: Demon Slayer — Infinity Castle",
+    "categoryId": "anime",
+    "category": "Anime",
+    "type": "watchParty",
+    "status": "past",
+    "startDate": "2026-08-15",
+    "endDate": "2026-08-15",
+    "dateConfirmed": true,
+    "dateNote": null,
+    "location": {
+      "venue": "FandomVerse community screening (online)",
+      "city": "Online",
+      "country": "Global"
+    },
+    "description": "A community rewatch of the first Infinity Castle film ahead of the trilogy's next instalment, with a live text thread running alongside it. Recorded discussion notes are linked from the Anime hub.",
+    "image": null,
+    "imageAlt": null,
+    "imageCredit": null,
+    "imageSourceUrl": null,
+    "url": "/events/infinity-castle-watch-party"
+  },
+  {
+    "id": "event-anime-005",
+    "title": "FandomVerse Autumn Meetup",
+    "categoryId": "anime",
+    "category": "Anime",
+    "type": "meetup",
+    "status": "upcoming",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "dateConfirmed": true,
+    "dateNote": null,
+    "location": {
+      "venue": "FandomVerse community meetup",
+      "city": "Online",
+      "country": "Global"
+    },
+    "description": "An informal community meetup for readers and contributors: seasonal picks, a manga swap thread, and an open floor for anyone who wants to write for the site. The photo shown is from a general convention, not this meetup.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Universal_Cosplay_Convention_2016.jpg/1280px-Universal_Cosplay_Convention_2016.jpg",
+    "imageAlt": "Cosplay convention floor (stand-in image, not this event)",
+    "imageCredit": "Chongkian, CC BY-SA 4.0, via Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Universal_Cosplay_Convention_2016.jpg",
+    "imageIsStandIn": true,
+    "url": "/events/autumn-meetup"
+  }
+]
