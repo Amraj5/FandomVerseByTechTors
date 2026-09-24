@@ -4,6 +4,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Card from './components/card'
+import MerchCard from './components/MerchCard'
+import MerchPage from './pages/MerchPage'
+import { Routes, Route } from 'react-router-dom'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,7 +18,11 @@ function App() {
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
+        <Routes>
+          <Route path="/store/:id" element={<MerchPage />} />
+        </Routes>
         <Card/>
+          <MerchCard/>
         <div>
           <h1>Get started</h1>
           <p>

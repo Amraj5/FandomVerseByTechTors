@@ -1,0 +1,1022 @@
+{
+  "carousel": [
+    {
+      "id": "card-001",
+      "category": "gaming",
+      "badge": "featured · gaming news",
+      "title": "Xbox Reveals 'Mythic' Achievements with 15-Second Unlock Sound",
+      "summary": "Microsoft introduces its long-awaited tier of Mythic Achievements to rival PlayStation Platinum Trophies, complete with an extravagant new unlock fanfare.",
+      "ctaText": "Read Article",
+      "ctaUrl": "/articles/xbox-mythic-achievements",
+      "imageUrl": [
+        "https://i.pinimg.com/236x/7c/df/ea/7cdfea4a243bc810dbdf1f3ef150428d.jpg",
+        "https://i.pinimg.com/236x/7c/df/ea/7cdfea4a243bc810dbdf1f3ef150428d.jpg"
+      ]
+    },
+    {
+      "id": "card-002",
+      "category": "gaming",
+      "badge": "featured · controversy",
+      "title": "Marvel Rivals Sparks Backlash Over In-Game Moderation & Report System",
+      "summary": "NetEase faces intense player backlash following recent reporting tool adjustments and ongoing community debates around player moderation and character cosmetics.",
+      "ctaText": "Read Coverage",
+      "ctaUrl": "/articles/marvel-rivals-moderation-controversy",
+      "imageUrl": [
+        "https://i.pinimg.com/1200x/55/33/0a/55330abe188d55a205002bd9889367b2.jpg",
+        "https://i.pinimg.com/736x/58/c9/15/58c91537b258aa3e89040ae2b4f6aff1.jpg"
+      ]
+    },
+    {
+      "id": "card-003",
+      "category": "anime",
+      "badge": "featured · anime trailer",
+      "title": "Demon Slayer: Swordsmith Village Arc Official Showcase",
+      "summary": "Tanjiro and his allies navigate perilous encounters with Upper Rank demons on their quest to forge new blades.",
+      "ctaText": "Watch Trailer",
+      "ctaUrl": "https://www.youtube.com/embed/example_ds",
+      "imageUrl": [
+        "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+        "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg"
+      ]
+    },
+    {
+      "id": "card-004",
+      "category": "tvshows",
+      "badge": "featured · retrospective",
+      "title": "10 Years Later: Why BoJack Horseman Remains Unmatched",
+      "summary": "A deep-dive retrospective analyzing how a satirical animated comedy became one of TV's most profound character studies.",
+      "ctaText": "Read Retrospective",
+      "ctaUrl": "/articles/bojack-horseman-retrospective",
+      "imageUrl": [
+        "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+        "https://i.pinimg.com/736x/29/2c/29/292c2971d596d39c9774b19cddd0bc5e.jpg",
+        "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
+        "https://i.pinimg.com/1200x/51/54/76/5154760c80878e4e2ae4f20c9a981086.jpg"
+      ]
+    },
+    {
+      "id": "card-005",
+      "category": "gaming",
+      "badge": "featured · esports breakdown",
+      "title": "Valorant Champions Tour 2026: Tactical Meta Shifts & Roster Shuffles",
+      "summary": "Analyzing the dramatic Sentinel utility rebalances and surprise roster changes ahead of the upcoming international stage finals.",
+      "ctaText": "Read Analysis",
+      "ctaUrl": "/articles/vct-2026-meta-analysis",
+      "imageUrl": [
+        "https://i.pinimg.com/1200x/8d/54/f5/8d54f5cec7f6dd96cbc1dd88e1df5033.jpg",
+        "https://i.pinimg.com/1200x/aa/f0/d9/aaf0d98e293730571aeb589a68eca76a.jpg"
+      ]
+    },
+    {
+      "id": "card-006",
+      "category": "anime",
+      "badge": "featured · movie release",
+      "title": "Chainsaw Man: Reze Arc Movie Sets Global Theatrical Dates",
+      "summary": "MAPPA confirms IMAX rollout details and releases an extended teaser featuring Denji and Reze's explosive bomb-devil encounter.",
+      "ctaText": "Watch Teaser",
+      "ctaUrl": "https://www.youtube.com/embed/example_csm",
+      "imageUrl": [
+        "https://i.pinimg.com/736x/06/8f/a0/068fa09f4763b3848ae87aa3893f79ca.jpg",
+        "https://i.pinimg.com/736x/38/59/44/3859440c27cd6d23309060e7b12a58d4.jpg",
+        "https://i.pinimg.com/736x/67/4d/52/674d52d3db06d0245657f2bf4165dfb8.jpg",
+        "https://i.pinimg.com/1200x/91/6e/dd/916edd7d8a19d60dff77e630341ad709.jpg"
+      ]
+    },
+    {
+      "id": "card-008",
+      "category": "movies",
+      "badge": "featured · sci-fi news",
+      "title": "Spider-Man: Beyond the Spider-Verse Receives Production Update",
+      "summary": "Producers Phil Lord and Christopher Miller open up about animation rendering challenges, multiverse variants, and score compositions.",
+      "ctaText": "Read Update",
+      "ctaUrl": "/articles/beyond-spider-verse-update",
+      "imageUrl": [
+        "https://i.pinimg.com/1200x/de/0b/27/de0b2709017d4b54d9ca32192fc80560.jpg",
+        "https://i.pinimg.com/1200x/f9/dc/ef/f9dcef57febb39eb2659c93c973b1e62.jpg",
+        "https://i.pinimg.com/736x/51/60/8e/51608e0c16212b8df8d6bb30674f4efa.jpg"
+      ]
+    },
+    {
+      "id": "card-009",
+      "category": "kpop",
+      "badge": "featured · comeback spotlight",
+      "title": " Announces Multi-City Dome Tour for LE SSERAFIM",
+      "summary": "Following chart-topping global streaming numbers, the girl group unveils concept photos and ticket drop dates for their upcoming tour.",
+      "ctaText": "View Concept Photos",
+      "ctaUrl": "/articles/le-sserafim-dome-tour",
+      "imageUrl": [
+        "https://i.pinimg.com/736x/ca/2b/3e/ca2b3e0e30e3e92d91436f269ba8a67d.jpg",
+        "https://i.pinimg.com/736x/0a/14/56/0a1456a79a39920bfd62fa846d57f7d3.jpg"
+      ]
+    },
+    {
+      "id": "card-010",
+      "category": "manga",
+      "badge": "featured · milestone anniversary",
+      "title": "Berserk Celebrates Legacy with Limited Art Exhibition & Collector Run",
+      "summary": "Studio Gaga showcases never-before-seen original manuscripts and high-definition canvas prints in a special Tokyo tribute gallery.",
+      "ctaText": "Explore Gallery Details",
+      "ctaUrl": "/articles/berserk-exhibition-recap",
+      "imageUrl": [
+        "https://i.pinimg.com/1200x/33/90/11/339011a007b812f84b67e3321ba761a2.jpg",
+        "https://i.pinimg.com/736x/54/12/90/5412903abfde76110034a78129e31a19.jpg"
+      ]
+    },
+    {
+      "id": "card-013",
+      "category": "gaming",
+      "badge": "featured · upcoming release",
+      "title": "GTA VI Drops Final Gameplay Deep-Dive Ahead of Fall 2026 Launch",
+      "summary": "Rockstar Games reveals dynamic weather mechanics, updated DualSense haptics, and new Vice City story missions in its final pre-launch breakdown.",
+      "ctaText": "Read Analysis",
+      "ctaUrl": "/articles/gta-vi-gameplay-breakdown",
+      "imageUrl": [
+        "https://i.pinimg.com/736x/18/07/6d/18076d5bd8d412e6a65d9e7df7020d3a.jpg",
+        "https://i.pinimg.com/736x/b9/a9/72/b9a972e7cb25581da141ed7d89edb958.jpg",
+        "https://i.pinimg.com/736x/a0/07/9b/a0079befbfcf76ff8a1fffbd00e903db.jpg"
+      ]
+    },
+    {
+      "id": "card-014",
+      "category": "anime",
+      "badge": "featured · autumn simulcast",
+      "title": "The Apothecary Diaries Season 3 Leads Crunchyroll's Fall Lineup",
+      "summary": "Maomao returns as OLM expands the palace mystery, headlining a stacked autumn season alongside Black Clover's major return.",
+      "ctaText": "View Schedule",
+      "ctaUrl": "/articles/fall-2026-anime-lineup",
+      "imageUrl": [
+        "https://i.pinimg.com/736x/f0/df/e2/f0dfe2b648a58f4537fa2eba61f6af14.jpg",
+        "https://i.pinimg.com/736x/f3/02/21/f3022148dd7e16b76781c641dc07b693.jpg",
+        "https://i.pinimg.com/736x/5e/a9/01/5ea901e99a1b737006100b9f0b928aa0.jpg"
+      ]
+    },
+    {
+      "id": "card-015",
+      "category": "tvshows",
+      "badge": "featured · sci-fi series",
+      "title": "Blade Runner 2099 Wraps Production for Prime Video Premiere",
+      "summary": "Michelle Yeoh and Hunter Schafer star in the cyberpunk sequel series set fifty years after 2049, featuring brand-new replicant lore.",
+      "ctaText": "Read Preview",
+      "ctaUrl": "/articles/blade-runner-2099-preview",
+      "imageUrl": [
+        "https://i.pinimg.com/736x/4b/bd/bb/4bbdbbdb586b062474a8c49ee8d9701a.jpg",
+        "https://i.pinimg.com/1200x/bc/af/4e/bcaf4e64472cd35e9916607d82b81235.jpg",
+        "https://i.pinimg.com/736x/45/31/16/45311610e9ec8176afc4ff77327b7d47.jpg",
+        "https://i.pinimg.com/1200x/90/ab/13/90ab13022c74093cd3c24ad0dddcf980.jpg"
+      ]
+    },
+    {
+      "id": "card-016",
+      "category": "movies",
+      "badge": "featured · marvel studios",
+      "title": "Avengers: Doomsday Enters Post-Production for 2027 Global Release",
+      "summary": "The Russo Brothers share behind-the-scenes set updates as Robert Downey Jr. prepares his debut as Doctor Doom.",
+      "ctaText": "Read Production News",
+      "ctaUrl": "/articles/avengers-doomsday-updates",
+      "imageUrl": [
+        "https://i.pinimg.com/736x/bd/f5/77/bdf577408280fd172a5a013c6e737aa5.jpg",
+        "https://i.pinimg.com/736x/7f/39/77/7f39777e7d7ce23e5e4f408c49c4de4e.jpg"
+      ]
+    },
+    {
+      "id": "card-017",
+      "category": "kpop",
+      "badge": "featured · 10th anniversary",
+      "title": "BlackPink Confirms 10th Anniversary World Tour & Album Details",
+      "summary": "YG Entertainment confirms stadium dates and teaser drops following the massive success of their latest comeback single.",
+      "ctaText": "View Tour Dates",
+      "ctaUrl": "/articles/blackpink-10th-anniversary-tour",
+      "imageUrl": [
+        "https://i.pinimg.com/736x/ab/df/63/abdf63b14bfa00f7cad65872868f3d63.jpg",
+        "https://i.pinimg.com/736x/a6/cb/b3/a6cbb3678358a8901ce18d01d59239ea.jpg",
+        "https://i.pinimg.com/1200x/66/60/3b/66603b36c4c54619ae3b78fe9629b0f7.jpg"
+      ]
+    },
+    {
+      "id": "card-018",
+      "category": "comics",
+      "badge": "featured · marvel comics",
+      "title": "Marvel Announces Next Major X-Men Crossover Event",
+      "summary": "Following the From the Ashes era, a brand-new mutant storyline promises to reshape Krakoan legacy characters across all flagship titles.",
+      "ctaText": "Explore Solicitations",
+      "ctaUrl": "/articles/x-men-crossover-announcement",
+      "imageUrl": [
+        "https://i.pinimg.com/1200x/04/c3/d2/04c3d2cdd1c528fd39a70180b991eada.jpg",
+        "https://i.pinimg.com/1200x/a8/c5/30/a8c530dc4e294be81a2b2fb1b6f1a238.jpg",
+        "https://i.pinimg.com/736x/b4/86/85/b486856f0238037771120f3c183b671f.jpg",
+        "https://i.pinimg.com/1200x/05/a7/96/05a79687f71443ba4eba03a5a3a16b2d.jpg"
+      ]
+    },
+    {
+      "id": "card-019",
+      "category": "manga",
+      "badge": "featured · shonen jump",
+      "title": "Kagurabachi Hits Major Milestone with New Arc & Anime Rumors",
+      "summary": "Takeru Hokazono's hit manga surges past sales records as industry insiders hint at a high-profile studio adaptation announcement.",
+      "ctaText": "Read Breakdown",
+      "ctaUrl": "/articles/kagurabachi-new-arc-recap",
+      "imageUrl": [
+        "https://i.pinimg.com/1200x/75/eb/e9/75ebe92b4ee7d45e3be0e4fee175cd72.jpg",
+        "https://i.pinimg.com/736x/60/9a/32/609a32ebc9e9a996d745464cf378dfb9.jpg",
+        "https://i.pinimg.com/736x/ef/ad/99/efad99ae1fd51323cabb989b708ededc.jpg"
+      ]
+    }
+  ],
+  "trending": [
+    {
+      "id": "tr-01",
+      "title": "Solo Leveling",
+      "category": "anime",
+      "categoryLabel": "anime",
+      "color": "#E5A988"
+    },
+    {
+      "id": "tr-02",
+      "title": "Honkai: Star Rail",
+      "category": "gaming",
+      "categoryLabel": "gaming",
+      "color": "#4B92E5"
+    },
+    {
+      "id": "tr-03",
+      "title": "Avengers: Endgame",
+      "category": "movies",
+      "categoryLabel": "movies",
+      "color": "#F3B23A"
+    },
+    {
+      "id": "tr-04",
+      "title": "Stranger Things S4",
+      "category": "tvshows",
+      "categoryLabel": "tv shows",
+      "color": "#E54B62"
+    },
+    {
+      "id": "tr-05",
+      "title": "NewJeans - Get Up",
+      "category": "kpop",
+      "categoryLabel": "K-pop",
+      "color": "#C85BD6"
+    },
+    {
+      "id": "tr-06",
+      "title": "Spider-Man: Beyond",
+      "category": "comics",
+      "categoryLabel": "comics",
+      "color": "#EA7349"
+    },
+    {
+      "id": "tr-07",
+      "title": "Chainsaw Man",
+      "category": "manga",
+      "categoryLabel": "manga",
+      "color": "#8C929E"
+    },
+    {
+      "id": "tr-08",
+      "title": "Invincible S3",
+      "category": "tvshows",
+      "categoryLabel": "tv shows",
+      "color": "#E54B62"
+    },
+    {
+      "id": "tr-09",
+      "title": "Attack on Titan",
+      "category": "anime",
+      "categoryLabel": "anime",
+      "color": "#E5A988"
+    },
+    {
+      "id": "tr-10",
+      "title": "Marvel Rivals",
+      "category": "gaming",
+      "categoryLabel": "gaming",
+      "color": "#4B92E5"
+    },
+    {
+      "id": "tr-11",
+      "title": "Jujutsu Kaisen",
+      "category": "manga",
+      "categoryLabel": "manga",
+      "color": "#8C929E"
+    },
+    {
+      "id": "tr-12",
+      "title": "Dune: Part Two",
+      "category": "movies",
+      "categoryLabel": "movies",
+      "color": "#F3B23A"
+    },
+    {
+      "id": "tr-13",
+      "title": "Stray Kids - ATE",
+      "category": "kpop",
+      "categoryLabel": "K-pop",
+      "color": "#C85BD6"
+    },
+    {
+      "id": "tr-14",
+      "title": "Gargoyle of Gotham",
+      "category": "comics",
+      "categoryLabel": "comics",
+      "color": "#EA7349"
+    }
+  ],
+  "quickGuides": [
+    {
+      "id": "guide-001",
+      "category": "tvshows",
+      "title": "Everything to Remember Before Invincible S3 Drops",
+      "readTime": "3 min read",
+      "tags": ["Invincible", "Prime Video", "Lore"],
+      "summary": "Quick refresher on Viltrumite politics, Mark's updated suit, and where the Guardians left off.",
+      "ctaUrl": "/wiki/invincible-s3-prep"
+    },
+    {
+      "id": "guide-002",
+      "category": "comics",
+      "title": "DC's Absolute Universe Explained for Casuals",
+      "readTime": "5 min read",
+      "tags": ["DC Comics", "Absolute Batman", "Beginner Guide"],
+      "summary": "How the new Absolute line differs from Prime Earth and where you should start reading.",
+      "ctaUrl": "/wiki/dc-absolute-universe-explained"
+    },
+    {
+      "id": "guide-003",
+      "category": "gaming",
+      "title": "GTA VI Vice City Map Breakdown: Key Locations & Secrets",
+      "readTime": "4 min read",
+      "tags": ["GTA VI", "Rockstar Games", "Lore", "Map Analysis"],
+      "summary": "Everything spotted in the latest gameplay deep-dive, including surrounding key districts, water mechanics, and dynamic event hubs.",
+      "ctaUrl": "/wiki/gta-vi-map-breakdown"
+    },
+    {
+      "id": "guide-004",
+      "category": "anime",
+      "title": "Demon Slayer: Infinity Castle Arc Movie Trilogy Prep Guide",
+      "readTime": "6 min read",
+      "tags": ["Demon Slayer", "Ufotable", "Anime Movies"],
+      "summary": "Key Hashira matchups, Blood Demon Arts, and narrative milestones to remember before entering the theatrical trilogy.",
+      "ctaUrl": "/wiki/infinity-castle-prep-guide"
+    },
+    {
+      "id": "guide-005",
+      "category": "manga",
+      "title": "Chainsaw Man Part 2: Devil Contracts & Lore Refresher",
+      "readTime": "5 min read",
+      "tags": ["Chainsaw Man", "Fujimoto", "Manga Lore"],
+      "summary": "A concise breakdown of Asa Mitaka, the War Devil, and how the current arc setups connect back to the original public safety saga.",
+      "ctaUrl": "/wiki/chainsaw-man-part-2-lore"
+    }
+  ],
+  "polls": [
+    {
+      "id": "poll-001",
+      "category": "anime",
+      "question": "Which Fall 2026 release are you seated for on day one?",
+      "totalVotes": 14230,
+      "options": [
+        {
+          "id": "opt-1",
+          "label": "The Apothecary Diaries Season 3",
+          "votes": 6820
+        },
+        {
+          "id": "opt-2",
+          "label": "Chainsaw Man: Reze Arc Movie",
+          "votes": 5110
+        },
+        { "id": "opt-3", "label": "Black Clover Return Arc", "votes": 2300 }
+      ]
+    },
+    {
+      "id": "poll-002",
+      "category": "gaming",
+      "question": "Which game is taking Game of the Year?",
+      "totalVotes": 28910,
+      "options": [
+        { "id": "opt-1", "label": "GTA VI", "votes": 18400 },
+        { "id": "opt-2", "label": "Marvel Rivals", "votes": 6210 },
+        { "id": "opt-3", "label": "Monster Hunter Wilds", "votes": 4300 }
+      ]
+    },
+    {
+      "id": "poll-003",
+      "category": "movies",
+      "question": "Which superhero release is your most anticipated for the 2026/2027 slate?",
+      "totalVotes": 34120,
+      "options": [
+        { "id": "opt-1", "label": "Avengers: Doomsday", "votes": 17850 },
+        {
+          "id": "opt-2",
+          "label": "Spider-Man: Beyond the Spider-Verse",
+          "votes": 11200
+        },
+        { "id": "opt-3", "label": "DC's The Batman Part II", "votes": 5070 }
+      ]
+    },
+    {
+      "id": "poll-004",
+      "category": "kpop",
+      "question": "Which concert experience are you clearing your savings account for?",
+      "totalVotes": 21890,
+      "options": [
+        {
+          "id": "opt-1",
+          "label": "BlackPink 10th Anniversary Tour",
+          "votes": 10420
+        },
+        { "id": "opt-2", "label": "LE SSERAFIM Dome Tour", "votes": 7150 },
+        { "id": "opt-3", "label": "BTS 2026 World Tour", "votes": 4320 }
+      ]
+    },
+    {
+      "id": "poll-005",
+      "category": "manga",
+      "question": "Which new-gen Shonen Jump manga deserves an immediate high-budget anime treatment?",
+      "totalVotes": 18940,
+      "options": [
+        { "id": "opt-1", "label": "Kagurabachi", "votes": 11300 },
+        { "id": "opt-2", "label": "Sakamoto Days", "votes": 5210 },
+        { "id": "opt-3", "label": "Akane-banashi", "votes": 2430 }
+      ]
+    }
+  ],
+  "merchandise": [
+    {
+      "id": "merch-001",
+      "category": "anime",
+      "badge": "pre-order · official drop",
+      "title": "Demon Slayer: Infinity Castle Premium Scale Figures",
+      "price": "$189.99",
+      "rating": "4.9",
+      "inStock": true,
+      "summary": "Limited run 1/7 scale figures featuring Tanjiro and Akaza with reactive LED base display accents.",
+      "imageUrl": "https://m.media-amazon.com/images/I/51iT7MjwyHL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "shopUrl": "/store/demon-slayer-scale-figures"
+    },
+    {
+      "id": "merch-003",
+      "category": "kpop",
+      "badge": "official md · tour exclusive",
+      "title": "BlackPink 10th Anniversary World Tour Light Stick Ver. 3",
+      "price": "$58.00",
+      "rating": "5.0",
+      "inStock": true,
+      "summary": "Official light stick with Bluetooth stage synchronization, customizable silicone grips, and exclusive photocard sets.",
+      "imageUrl": "https://m.media-amazon.com/images/I/31Xt36mvARL._AC_UL450_SY450_QL70_.jpg",
+      "shopUrl": "/store/blackpink-ver3-lightstick"
+    },
+    {
+      "id": "merch-004",
+      "category": "comics",
+      "badge": "collector item · print art",
+      "title": "Absolute Batman Vol. 1 Deluxe Foil Variant Slipcase",
+      "price": "$49.99",
+      "rating": "4.7",
+      "inStock": false,
+      "summary": "Hardcover compilation collecting the introductory arc with foil-stamped artwork and author signed bookplates.",
+      "imageUrl": "https://m.media-amazon.com/images/I/419k4iMVPGL._SY445_SX342_FMwebp_.jpg",
+      "shopUrl": "/store/absolute-batman-slipcase"
+    },
+    {
+      "id": "merch-005",
+      "category": "manga",
+      "badge": "exclusive · apparel",
+      "title": "Kagurabachi Enten Sword Silhouette XL Desk Mat",
+      "price": "$29.99",
+      "rating": "4.9",
+      "inStock": true,
+      "summary": "Water-resistant 900x400mm gaming desk pad with stitched anti-fray edges and high-contrast panel print.",
+      "imageUrl": "https://i.etsystatic.com/37142032/r/il/3d792b/8135603479/il_794xN.8135603479_5gnm.jpg",
+      "shopUrl": "/store/kagurabachi-desk-mat"
+    },
+    {
+      "id": "merch-006",
+      "category": "gaming",
+      "badge": "official esports · limited drop",
+      "title": "VALORANT Champions Shanghai 'Frag or Die' Heavyweight Hoodie",
+      "price": "$98.00",
+      "rating": "4.9",
+      "inStock": true,
+      "summary": "Official 440GSM cotton fleece tournament hoodie featuring embroidered Shanghai venue branding and custom sleeve typography.",
+      "imageUrl": "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products_live%2Ff1586de98e19a701586a36a0e3356590b26e0b36-2560x2560.png%3FaccountingTag%3Dconsumer_products&w=828&q=75",
+      "shopUrl": "/store/vct-shanghai-frag-or-die-hoodie"
+    },
+    {
+      "id": "merch-007",
+      "category": "gaming",
+      "badge": "pre-order · 1/6 scale",
+      "title": "McFarlane Marvel Rivals Black Panther 10-Inch Collectible Statue",
+      "price": "$49.99",
+      "rating": "4.8",
+      "inStock": true,
+      "summary": "High-detail posed figure inspired by the game's King in Black skin line, bundled with exclusive comic art variant cards.",
+      "imageUrl": "https://cdn11.bigcommerce.com/s-hlbgbzrg7y/images/stencil/640w/products/3422/33490/Black_Panther__54703.1781825833.jpg?c=1",
+      "shopUrl": "/store/marvel-rivals-black-panther-figure"
+    },
+    {
+      "id": "merch-009",
+      "category": "kpop",
+      "badge": "pop-up store · limited",
+      "title": "NewJeans 'How Sweet' CD Case Acrylic Keyring (Full Set)",
+      "price": "$85.00",
+      "rating": "5.0",
+      "inStock": true,
+      "summary": "Official Line Friends pop-up collab featuring miniature clear CD jewel cases with interchangeable member photocard inserts.",
+      "imageUrl": "https://linefriendssquare.us/cdn/shop/files/NJ_24_CD__HI_8800251560603_1200x1200_001.jpg?v=1753079681&width=1200",
+      "shopUrl": "/store/newjeans-cd-keyring-set"
+    },
+    {
+      "id": "merch-010",
+      "category": "movies",
+      "badge": "pre-order · vinyl release",
+      "title": "Spider-Man: Beyond the Spider-Verse Picture Disc Vinyl OST",
+      "price": "$42.00",
+      "rating": "4.9",
+      "inStock": true,
+      "summary": "Double LP picture disc pressing featuring original orchestral score compositions and film concept art gatefold sleeve.",
+      "imageUrl": "https://i.ebayimg.com/images/g/w88AAOSwzhBm-U~c/s-l1600.webp",
+      "shopUrl": "/store/beyond-spider-verse-ost-vinyl"
+    },
+    {
+      "id": "merch-011",
+      "category": "anime",
+      "badge": "replica · collector agrade",
+      "title": "Chainsaw Man Reze Bomb Devil Pull-Cord Pendant Replica",
+      "price": "$34.99",
+      "rating": "4.6",
+      "inStock": false,
+      "summary": "Solid stainless steel choker necklace featuring the iconic neck-ring pull-pin motif from the Reze Arc theatrical film.",
+      "imageUrl": "https://i.etsystatic.com/67892777/r/il/4cb5d4/8594461435/il_794xN.8594461435_ghml.jpg",
+      "shopUrl": "/store/csm-reze-pull-cord-necklace"
+    },
+    {
+      "id": "merch-012",
+      "category": "comics",
+      "badge": "official print · variant",
+      "title": "Absolute Batman #1 Foil Stamp Screenprinted Art Poster",
+      "price": "$55.00",
+      "rating": "4.8",
+      "inStock": true,
+      "summary": "Hand-numbered 18x24 screenprint on heavy cardstock finished with metallic red foil embellishments.",
+      "imageUrl": "https://mondoshop.com/cdn/shop/files/Ian.Bertram_Absolute.Batman.No.1.Reprolarge.jpg?v=1752011838&width=570",
+      "shopUrl": "/store/absolute-batman-foil-poster"
+    }
+  ],
+  "topicHubs": [
+    {
+      "id": "hub-jujutsu-kaisen",
+      "slug": "jujutsu-kaisen",
+      "category": "anime",
+      "title": "The Jujutsu Kaisen Universe",
+      "subtitle": "Complete guide to the Jujutsu Kaisen universe - characters, timeline, watch order, explanations, and everything you need to know.",
+      "bannerImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+      "overview": "Jujutsu Kaisen is a dark fantasy anime series created by Gege Akutami. The story follows Yuji Itadori, a high school student who becomes the vessel of the powerful cursed spirit Sukuna. The series explores themes of death, morality, and the nature of curses.",
+      "quickStats": {
+        "episodes": "47 (ongoing)",
+        "mangaChapters": "271 (completed)",
+        "studio": "MAPPA",
+        "creator": "Gege Akutami",
+        "genres": ["Action", "Dark Fantasy", "Supernatural"],
+        "releaseYear": 2020
+      },
+      "storySummary": "The story begins when Yuji Itadori, a high school student with incredible physical abilities, encounters a cursed object - a rotting finger belonging to the powerful curse Sukuna. When his friends are attacked by curses, Yuji consumes the finger to gain power and save them. This makes him the vessel of Sukuna, and he joins the Tokyo Metropolitan Jujutsu High School to learn how to control this power while hunting down curses.",
+      "navigationTabs": [
+        { "label": "Characters", "targetId": "sec-characters", "icon": "👥" },
+        { "label": "Timelines", "targetId": "sec-timeline", "icon": "📅" },
+        {
+          "label": "Watch Orders",
+          "targetId": "sec-watch-order",
+          "icon": "📺"
+        },
+        { "label": "Articles", "targetId": "sec-articles", "icon": "📝" },
+        { "label": "Explained", "targetId": "sec-explained", "icon": "❓" },
+        { "label": "Comparisons", "targetId": "sec-comparisons", "icon": "⚔️" }
+      ],
+      "keyCharacters": [
+        {
+          "name": "Gojo Satoru",
+          "role": "The strongest sorcerer in the world"
+        },
+        {
+          "name": "Yuji Itadori",
+          "role": "The protagonist and Sukuna's vessel"
+        },
+        { "name": "Sukuna", "role": "The King of Curses" },
+        {
+          "name": "Megumi Fushiguro",
+          "role": "A prodigy who uses shadow techniques"
+        },
+        {
+          "name": "Nobara Kugisaki",
+          "role": "A fierce sorcerer from the countryside"
+        },
+        {
+          "name": "Geto Suguru",
+          "role": "Gojo's former best friend turned enemy"
+        },
+        { "name": "Toji Fushiguro", "role": "The Sorcerer Killer" },
+        { "name": "Mahito", "role": "The curse of humanity" },
+        { "name": "Kenjaku", "role": "The mastermind" }
+      ],
+      "gallery": [
+        "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+        "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg",
+        "https://i.pinimg.com/736x/06/8f/a0/068fa09f4763b3848ae87aa3893f79ca.jpg",
+        "https://i.pinimg.com/736x/38/59/44/3859440c27cd6d23309060e7b12a58d4.jpg"
+      ],
+      "explanations": [
+        "Why does Gojo cover his eyes?",
+        "What is Domain Expansion?",
+        "How does Sukuna's power work?"
+      ],
+      "relatedArticles": [
+        "art-jjk-s2-review",
+        "art-jjk-opening-details",
+        "art-shibuya-incident-explained"
+      ]
+    },
+    {
+      "id": "hub-bojack-horseman",
+      "slug": "bojack-horseman",
+      "category": "tvshows",
+      "title": "BoJack Horseman",
+      "subtitle": "Hollywoo Retrospectives, Character Guides, and Cultural Impact",
+      "bannerImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+      "overview": "Created by Raphael Bob-Waksberg, BoJack Horseman stands as one of television's most groundbreaking explorations of mental health, celebrity culture, and existential dread.",
+      "quickStats": {
+        "seasons": 6,
+        "episodes": 77,
+        "studio": "ShadowMachine / Netflix",
+        "creator": "Raphael Bob-Waksberg"
+      },
+      "gallery": [
+        "https://i.pinimg.com/736x/29/2c/29/292c2971d596d39c9774b19cddd0bc5e.jpg",
+        "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
+        "https://i.pinimg.com/1200x/51/54/76/5154760c80878e4e2ae4f20c9a981086.jpg"
+      ],
+      "relatedArticles": ["art-bojack-retrospective"]
+    },
+    {
+      "id": "hub-demon-slayer",
+      "slug": "demon-slayer",
+      "category": "anime",
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "subtitle": "Breathing Styles, Upper Ranks, and Theatrical Release Guides",
+      "bannerImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+      "overview": "Follow Tanjiro Kamado through the Demon Slayer Corps as Ufotable adapts Koyoharu Gotouge's record-breaking manga series into high-octane animation.",
+      "quickStats": {
+        "seasons": 4,
+        "studio": "Ufotable",
+        "author": "Koyoharu Gotouge",
+        "latestArc": "Infinity Castle Film Trilogy"
+      },
+      "gallery": [
+        "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg"
+      ],
+      "relatedArticles": ["art-demon-slayer-infinity-castle"]
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-bojack-retrospective",
+      "slug": "bojack-horseman-retrospective",
+      "category": "tvshows",
+      "topicHubId": "hub-bojack-horseman",
+      "title": "10 Years Later: Why BoJack Horseman Remains Unmatched",
+      "subtitle": "How a satirical cartoon about a washed-up sitcom horse became the definitive modern character study on trauma and responsibility.",
+      "author": {
+        "name": "BIWB Editorial",
+        "avatar": "/assets/avatars/editor.jpg"
+      },
+      "publishedDate": "2026-08-14",
+      "readTime": "8 min read",
+      "heroImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+      "tags": [
+        "BoJack Horseman",
+        "Retrospective",
+        "Adult Animation",
+        "Netflix"
+      ],
+      "sections": [
+        {
+          "type": "paragraph",
+          "content": "When BoJack Horseman first debuted, critics initially dismissed it as another cynical adult animated comedy relying on Hollywood puns and talking animals. However, as the series progressed through the mid-2010s, it transformed into one of the most structurally ambitious and emotionally devastating shows in television history."
+        },
+        {
+          "type": "heading",
+          "content": "Subverting the Sitcom Formula"
+        },
+        {
+          "type": "paragraph",
+          "content": "Unlike traditional episodic television where character actions reset by the next episode, BoJack enforced real consequences. Trauma lingered, relationships eroded permanently, and self-destructive behavior was never sanitized for laugh tracks."
+        },
+        {
+          "type": "image",
+          "url": "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
+          "caption": "The View from Halfway Down remains one of animation's most haunting episodes."
+        },
+        {
+          "type": "quote",
+          "quoteText": "You can't keep doing shitty things, and then feel bad about yourself like that makes it okay. You need to be better.",
+          "author": "Todd Chavez"
+        },
+        {
+          "type": "heading",
+          "content": "Legacy & Cultural Impact"
+        },
+        {
+          "type": "paragraph",
+          "content": "A decade after its premiere, the series continues to drive online discourse, TikTok visual essays, and screenwriting analyses regarding how to write flawed, irredeemable characters without glorifying their toxic traits."
+        }
+      ]
+    },
+    {
+      "id": "art-kagurabachi-milestone",
+      "slug": "kagurabachi-new-arc-recap",
+      "category": "manga",
+      "topicHubId": "hub-kagurabachi",
+      "title": "Kagurabachi Hits Major Milestone with New Arc & Anime Rumors",
+      "subtitle": "Takeru Hokazono's revenge saga surpasses sales records while major animation studios circle the IP.",
+      "author": {
+        "name": "BIWB Editorial",
+        "avatar": "/assets/avatars/editor.jpg"
+      },
+      "publishedDate": "2026-09-02",
+      "readTime": "5 min read",
+      "heroImage": "https://i.pinimg.com/1200x/75/eb/e9/75ebe92b4ee7d45e3be0e4fee175cd72.jpg",
+      "tags": ["Kagurabachi", "Shonen Jump", "Manga", "Anime Adaptations"],
+      "sections": [
+        {
+          "type": "paragraph",
+          "content": "What started as an internet meme prior to its debut has solidified itself as one of Weekly Shonen Jump's powerhouse flagship series. Chihiro's quest to reclaim his father's enchanted blades has captured international readership with cinematic paneling and brutal swordplay."
+        },
+        {
+          "type": "image",
+          "url": "https://i.pinimg.com/736x/60/9a/32/609a32ebc9e9a996d745464cf378dfb9.jpg",
+          "caption": "Chihiro Rokuhira wielding Enten in Chapter 48."
+        },
+        {
+          "type": "heading",
+          "content": "Studio Leaks & What's Next"
+        },
+        {
+          "type": "paragraph",
+          "content": "Industry insiders suggest an official anime production announcement is slated for the upcoming Jump Festa showcase, with high-budget fight choreography being prioritized."
+        }
+      ]
+    }
+  ],
+  "quickGuideDetails": [
+    {
+      "id": "guide-detail-001",
+      "guideId": "guide-001",
+      "slug": "invincible-s3-prep",
+      "category": "tvshows",
+      "title": "Everything to Remember Before Invincible S3 Drops",
+      "subtitle": "A quick refresher on Viltrumite politics, Mark's upgraded suit, and where the Guardians left off.",
+      "readTime": "3 min read",
+      "lastUpdated": "2026-08-20",
+      "heroImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+      "tags": ["Invincible", "Prime Video", "Lore", "Quick Prep"],
+      "sections": [
+        {
+          "heading": "Mark's New Suit & Mental State",
+          "content": "Following the traumatic battle with Angstrom Levy, Mark is left emotionally fractured. Season 3 sees him adopt the iconic blue-and-black suit, signaling a darker, more pragmatic approach to protecting Earth."
+        },
+        {
+          "heading": "The Viltrumite Threat Escalates",
+          "content": "Anissa's warning made it clear: Earth is running out of time. Nolan (Omni-Man) and Allen the Alien are currently forming a coalition in space, laying the groundwork for the inevitable Viltrumite War."
+        },
+        {
+          "heading": "Guardians of the Globe Status",
+          "content": "With Rex Splode recovering from critical injuries, Cecil's manipulation of the team reaching an all-time high, and Eve struggling with her power limits, the Guardians are at their weakest."
+        }
+      ]
+    },
+    {
+      "id": "guide-detail-002",
+      "guideId": "guide-002",
+      "slug": "dc-absolute-universe-explained",
+      "category": "comics",
+      "title": "DC's Absolute Universe Explained for Casuals",
+      "subtitle": "How the Absolute line differs from Prime Earth, key character redesigns, and where to start.",
+      "readTime": "5 min read",
+      "lastUpdated": "2026-09-01",
+      "heroImage": "https://i.pinimg.com/1200x/04/c3/d2/04c3d2cdd1c528fd39a70180b991eada.jpg",
+      "tags": ["DC Comics", "Absolute Batman", "Beginner Guide"],
+      "sections": [
+        {
+          "heading": "What is the Absolute Universe?",
+          "content": "Born out of Darkseid's influence, the Absolute Universe is an alternate continuity where DC heroes lack their traditional safety nets. Superman has no Kent family farm, Wonder Woman was raised in Hell, and Batman has no fortune."
+        },
+        {
+          "heading": "Absolute Batman's Key Differences",
+          "content": "Bruce Wayne is a blue-collar city engineer instead of a billionaire playboy. His suit is modular tactical armor built from structural steel, and his massive battle-axe emblem doubles as a heavy demolition tool."
+        },
+        {
+          "heading": "Reading Order Recommendation",
+          "content": "Start directly with Absolute Power #4 for the universe's birth, followed by Absolute Batman #1, Absolute Superman #1, and Absolute Wonder Woman #1."
+        }
+      ]
+    },
+    {
+      "id": "guide-detail-003",
+      "guideId": "guide-003",
+      "slug": "gta-vi-map-breakdown",
+      "category": "gaming",
+      "title": "GTA VI Vice City Map Breakdown: Key Locations & Secrets",
+      "subtitle": "Analyzing Leonida's districts, water engine physics, and key POIs from recent trailers.",
+      "readTime": "4 min read",
+      "lastUpdated": "2026-09-15",
+      "heroImage": "https://i.pinimg.com/736x/18/07/6d/18076d5bd8d412e6a65d9e7df7020d3a.jpg",
+      "tags": ["GTA VI", "Rockstar Games", "Map Analysis", "Lore"],
+      "sections": [
+        {
+          "heading": "Vice City Metro & Port Gellhorn",
+          "content": "The central urban hub spans neon-lit Vice Beach, Ocean Drive, and the industrialized Port Gellhorn, offering dense verticality and interior accessibility."
+        },
+        {
+          "heading": "The Grassrivers & Keys",
+          "content": "Beyond the city lie expansive wetlands based on the Everglades, featuring dynamic boat physics, wildlife interactions, and isolated rural settlements."
+        }
+      ]
+    },
+    {
+      "id": "guide-detail-004",
+      "guideId": "guide-004",
+      "slug": "infinity-castle-prep-guide",
+      "category": "anime",
+      "title": "Demon Slayer: Infinity Castle Arc Movie Trilogy Prep Guide",
+      "subtitle": "Key Hashira matchups, Blood Demon Arts, and narrative milestones for the theatrical trilogy.",
+      "readTime": "6 min read",
+      "lastUpdated": "2026-08-30",
+      "heroImage": "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg",
+      "tags": ["Demon Slayer", "Ufotable", "Anime Movies"],
+      "sections": [
+        {
+          "heading": "The Shifting Dimension of Nakime",
+          "content": "The Infinity Castle is controlled entirely by Nakime's Biwa music, continuously warping gravity and separating the Demon Slayers into isolated arenas."
+        },
+        {
+          "heading": "Essential Upper Rank Showdowns",
+          "content": "Prepare for crucial clashes: Shinobu & Kanao vs. Upper Rank 2 (Doma), Zenitsu vs. Kaigaku, and Tanjiro & Giyu vs. Upper Rank 3 (Akaza)."
+        }
+      ]
+    },
+    {
+      "id": "guide-detail-005",
+      "guideId": "guide-005",
+      "slug": "chainsaw-man-part-2-lore",
+      "category": "manga",
+      "title": "Chainsaw Man Part 2: Devil Contracts & Lore Refresher",
+      "subtitle": "Asa Mitaka, Yoru the War Devil, and the Academy Saga's major factions.",
+      "readTime": "5 min read",
+      "lastUpdated": "2026-09-10",
+      "heroImage": "https://i.pinimg.com/736x/06/8f/a0/068fa09f4763b3848ae87aa3893f79ca.jpg",
+      "tags": ["Chainsaw Man", "Fujimoto", "Manga Lore"],
+      "sections": [
+        {
+          "heading": "Asa Mitaka & Yoru's Host Dynamics",
+          "content": "Unlike Denji, Asa shares her brain with the War Devil. Yoru can transform anything Asa feels ownership or guilt over into lethal weaponry."
+        },
+        {
+          "heading": "The Chainsaw Man Church",
+          "content": "Fami (the Famine Devil) has manipulated public perception, creating a worldwide cult around Chainsaw Man to trigger widespread fear and empower the Horsemen."
+        }
+      ]
+    },
+    {
+      "id": "guide-detail-006",
+      "guideId": "guide-006",
+      "slug": "jjk-cursed-energy-guide",
+      "category": "anime",
+      "title": "Jujutsu Kaisen: Cursed Energy & Domain Expansion Breakdown",
+      "subtitle": "Understanding negative emotions, innate techniques, binding vows, and domain mechanics.",
+      "readTime": "5 min read",
+      "lastUpdated": "2026-09-18",
+      "heroImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+      "tags": ["Jujutsu Kaisen", "Power System", "MAPPA", "Lore"],
+      "sections": [
+        {
+          "heading": "Cursed Energy vs. Cursed Technique",
+          "content": "Cursed energy is raw electricity generated by negative human emotion. A Cursed Technique is the specific appliance that runs on that electricity (e.g., Gojo's Limitless or Megumi's Ten Shadows)."
+        },
+        {
+          "heading": "Domain Expansion Mechanics",
+          "content": "By constructing a barrier with cursed energy and manifesting their innate domain, sorcerers gain a guaranteed-hit factor for their techniques within that space."
+        }
+      ]
+    }
+  ],
+  "categoryPages": [
+    {
+      "id": "cat-anime",
+      "slug": "anime",
+      "title": "Anime Hub",
+      "description": "Your destination for seasonal simulcast guides, studio updates, theatrical film announcements, and deep dives into the world's biggest anime series.",
+      "heroImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+      "featuredShows": ["jujutsu-kaisen", "demon-slayer", "chainsaw-man"],
+      "trendingTopics": [
+        "Fall 2026 Simulcasts",
+        "Movie Trilogies",
+        "MAPPA Studios",
+        "Power Systems Explained"
+      ]
+    },
+    {
+      "id": "cat-gaming",
+      "slug": "gaming",
+      "title": "Gaming & Esports Hub",
+      "description": "Breaking news, map breakdowns, patch notes, esports meta analyses, and gameplay previews for upcoming blockbuster titles.",
+      "heroImage": "https://i.pinimg.com/736x/18/07/6d/18076d5bd8d412e6a65d9e7df7020d3a.jpg",
+      "featuredShows": ["gta-vi", "marvel-rivals", "valorant"],
+      "trendingTopics": [
+        "GTA VI Vice City Map",
+        "VCT Esports Meta",
+        "Game of the Year Contenders",
+        "Xbox Mythic Trophies"
+      ]
+    },
+    {
+      "id": "cat-movies",
+      "slug": "movies",
+      "title": "Cinema & Movies Hub",
+      "description": "Theatrical release slates, box office tracking, behind-the-scenes production updates, and deep cinematic analysis.",
+      "heroImage": "https://i.pinimg.com/1200x/de/0b/27/de0b2709017d4b54d9ca32192fc80560.jpg",
+      "featuredShows": ["spider-man-beyond-spider-verse", "avengers-doomsday"],
+      "trendingTopics": [
+        "Marvel Studios Slate",
+        "IMAX Screenings",
+        "Soundtrack Vinyl Drops",
+        "Post-Production Leaks"
+      ]
+    },
+    {
+      "id": "cat-tvshows",
+      "slug": "tvshows",
+      "title": "TV & Streaming Hub",
+      "description": "Retrospectives, episode breakdowns, season renewal updates, and character arc analyses across major streaming platforms.",
+      "heroImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+      "featuredShows": ["bojack-horseman", "invincible", "blade-runner-2099"],
+      "trendingTopics": [
+        "Binge vs Weekly Drops",
+        "Cancelled Too Soon",
+        "Character Arc Edits",
+        "Prime Video Originals"
+      ]
+    },
+    {
+      "id": "cat-kpop",
+      "slug": "kpop",
+      "title": "K-Pop & Music Central",
+      "description": "Comeback schedules, world tour route announcements, concept photo reveals, and official merchandise drops.",
+      "heroImage": "https://i.pinimg.com/736x/ca/2b/3e/ca2b3e0e30e3e92d91436f269ba8a67d.jpg",
+      "featuredShows": ["blackpink", "le-sserafim", "newjeans"],
+      "trendingTopics": [
+        "Dome Tours",
+        "Light Stick Releases",
+        "10th Anniversary Comebacks",
+        "Photocard Sets"
+      ]
+    },
+    {
+      "id": "cat-comics",
+      "slug": "comics",
+      "title": "Comics & Graphic Novels Hub",
+      "description": "Variant cover solicitations, crossover event recaps, writer spotlights, and universe reboot guides for comic enthusiasts.",
+      "heroImage": "https://i.pinimg.com/1200x/04/c3/d2/04c3d2cdd1c528fd39a70180b991eada.jpg",
+      "featuredShows": ["absolute-batman", "x-men-from-the-ashes"],
+      "trendingTopics": [
+        "DC Absolute Universe",
+        "Marvel X-Men Crossovers",
+        "Collector Hardcovers",
+        "Key First Appearances"
+      ]
+    },
+    {
+      "id": "cat-manga",
+      "slug": "manga",
+      "title": "Manga Central",
+      "description": "Weekly Shonen Jump leaks, physical volume collection showcases, author updates, and deep-dive lore breakdowns.",
+      "heroImage": "https://i.pinimg.com/1200x/75/eb/e9/75ebe92b4ee7d45e3be0e4fee175cd72.jpg",
+      "featuredShows": ["chainsaw-man", "kagurabachi", "berserk"],
+      "trendingTopics": [
+        "Shonen Jump Leaks",
+        "Indefinite Hiatuses",
+        "Physical Hauls",
+        "Anime Adaptations"
+      ]
+    }
+  ],
+  "categoryNames": [
+    "Anime",
+    "Gaming",
+    "Movies",
+    "TV Shows",
+    "K-Pop",
+    "Comics",
+    "Manga"
+  ]
+}
