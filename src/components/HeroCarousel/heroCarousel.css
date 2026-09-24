@@ -1,0 +1,253 @@
+:root{
+    --bg:#0D0D14;
+    --surface: #16161F; 
+    --surfaceelevated:#1E1E2A;
+    --surfaceoverlay:rgba(13,13,20,0.72);
+/* 
+    Typography */
+    --textprimary:#F2F2F7; /*Headings and bodytext*/;
+    --textsecondary: #A0A0B0; /* Meta, captions,timestamps*/
+    --border: #262635;
+
+    /* Category colors */
+    --anime: #A855F7; /* tags, hover glow, hero wash */
+    --gaming: #22D3EE; /* same pattern */
+    --movies: #F59E0B; /* same pattern */
+    --tv-shows: #FB7185; /* same pattern */
+    --k-pop: #EC4899; /* same pattern */
+    --comics: #EF4444; /* same pattern */
+    --manga: #E5E5E5; /* same pattern */
+}
+body{
+    background-color: var(--bg);
+    margin: 0;
+}
+.hero-container{
+    display: grid;
+    gap: 0.8rem;
+    height: 500px;
+    color:var(--textprimary)
+}
+.hero-carousel{
+    width: 100%;
+    height:600px;
+    position: relative;
+    border: 2px solid var(--bg);
+    border-radius: 20px;
+}
+.hero-slide::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.35),
+        transparent
+    );
+}
+
+.hero-info{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    max-width: 600px;
+    animation: heroTextIn 0.9s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.hero-info h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.hero-navigation{
+    position: absolute;
+    top: 450px;
+    left: 40px;
+}
+.hero-nav-buttons button{
+    background-color: transparent;
+    border: 2px solid var(--border);
+    outline: transparent;
+    color: white;
+    padding: 10px;
+    transition:
+        transform 3s ease-in-out,
+        box-shadow 0.15s ease,
+        background-color 0.2s ease-in-out;
+}
+.hero-nav-buttons button:hover{
+   transform:translateX(1.02);
+}
+
+            /* Typography */
+.hero-badge{
+     font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 30px;
+}
+
+.hero-info h2{
+    font-size: clamp(3rem, 6vw, 1.5rem);
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    margin: 10px 0 18px;
+    color: #FFF8EE;
+    margin-bottom: 30px;
+}
+.hero-summary{
+    max-width: 500px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #FFF8EE;
+    opacity: 0.9;
+    margin-bottom: 24px;
+}
+.button1{
+    background-color: var(--anime);
+}
+.button2{
+    background-color: transparent;
+    border: 2px solid white !important;
+}
+.hero-button{
+    outline: transparent;
+    border:2px solid transparent;
+    color: white;
+    height: 70px;
+    padding: 12px;
+    font-size: 1rem;
+    box-shadow: 0 0 20px rgba(80, 80, 147, 0.72);
+    transition:
+        transform 3s ease-in-out,
+         box-shadow 0.7s ease-in-out,
+        background-color 0.5s ease-in-out;
+        margin-left: 20px;
+}
+.button1:hover{
+    background-color: transparent;
+    border:2px solid white;
+    color: white;
+}
+.button2:hover{
+    background-color:white;
+    color: black;
+}
+            /* Animation */
+@keyframes heroTextIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+                /* Trend Section */
+.trend-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.trend-card {
+  position: relative;
+  height: 360px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+
+.trend-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(8, 9, 13, 0.95),
+    rgba(8, 9, 13, 0.35) 60%,
+    rgba(8, 9, 13, 0.05)
+  );
+}
+.trend-card img{
+    width: 268px;
+    height: 250px;
+}
+
+.trend-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba(80, 80, 147, 0.72);
+    transition: box-shadow 0.7s ease-in-out, transform 0.7s ease-in-out;
+    cursor:pointer;
+}
+
+
+.trend-info {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+  z-index: 1;
+}
+
+
+.trend-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+
+
+.trend-label svg {
+  font-size: 0.65rem;
+}
+
+
+.trend-info h3 {
+  margin: 0 0 8px;
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+
+.trend-info p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.85rem;
+}
+
+
+.trend-info p svg {
+  color: #facc15;
+}
+.trends-header h2{
+    margin-left: 30px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.trends-header button{
+    margin-left:30px;
+    margin-bottom: 30px;
+    padding:12px ;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}

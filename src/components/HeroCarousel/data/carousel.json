@@ -1,0 +1,112 @@
+[
+  {
+    "id": "card-002",
+    "category": "gaming",
+    "badge": "featured · controversy",
+    "title": "Marvel Rivals Sparks Backlash Over In-Game Moderation & Report System",
+    "summary": "NetEase faces intense player backlash following recent reporting tool adjustments and ongoing community debates around player moderation and character cosmetics.",
+    "ctaText": "Read Coverage",
+    "ctaUrl": "/articles/marvel-rivals-moderation-controversy",
+    "image": "https://images.pexels.com/photos/11716413/pexels-photo-11716413.jpeg"
+  },
+    {
+    "id": "card-001",
+    "category": "gaming",
+    "badge": "featured · gaming news",
+    "title": "Xbox Reveals 'Mythic' Achievements with 15-Second Unlock Sound",
+    "summary": "Microsoft introduces its long-awaited tier of Mythic Achievements to rival PlayStation Platinum Trophies, complete with an extravagant new unlock fanfare.",
+    "ctaText": "Read Article",
+    "ctaUrl": "/articles/xbox-mythic-achievements",
+    "image": "https://images.pexels.com/photos/3337211/pexels-photo-3337211.jpeg"
+  },
+  {
+    "id": "card-003",
+    "category": "anime",
+    "badge": "featured · anime trailer",
+    "title": "Demon Slayer: Swordsmith Village Arc Official Showcase",
+    "summary": "Tanjiro and his allies navigate perilous encounters with Upper Rank demons on their quest to forge new blades.",
+    "ctaText": "Watch Trailer",
+    "ctaUrl": "https://www.youtube.com/embed/example_ds",
+    "image": "https://4kwallpapers.com/images/walls/thumbs_2t/26517.png"
+  },
+  {
+    "id": "card-004",
+    "category": "tvshows",
+    "badge": "featured · retrospective",
+    "title": "10 Years Later: Why BoJack Horseman Remains Unmatched",
+    "summary": "A deep-dive retrospective analyzing how a satirical animated comedy became one of TV's most profound character studies.",
+    "ctaText": "Read Retrospective",
+    "ctaUrl": "/articles/bojack-horseman-retrospective",
+    "image": "https://images.pexels.com/photos/16005374/pexels-photo-16005374.jpeg"
+  },
+  {
+    "id": "card-013",
+    "category": "gaming",
+    "badge": "featured · upcoming release",
+    "title": "GTA VI Drops Final Gameplay Deep-Dive Ahead of Fall 2026 Launch",
+    "summary": "Rockstar Games reveals dynamic weather mechanics, updated DualSense haptics, and new Vice City story missions in its final pre-launch breakdown.",
+    "ctaText": "Read Analysis",
+    "ctaUrl": "/articles/gta-vi-gameplay-breakdown",
+    "image": "https://images.pexels.com/photos/2896135/pexels-photo-2896135.jpeg"
+  },
+  {
+    "id": "card-014",
+    "category": "anime",
+    "badge": "featured · autumn simulcast",
+    "title": "The Apothecary Diaries Season 3 Leads Crunchyroll's Fall Lineup",
+    "summary": "Maomao returns as OLM expands the palace mystery, headlining a stacked autumn season alongside Black Clover's major return.",
+    "ctaText": "View Schedule",
+    "ctaUrl": "/articles/fall-2026-anime-lineup",
+    "image": "https://wallpapercave.com/wp/wp15346835.png"
+  },
+  {
+    "id": "card-015",
+    "category": "tvshows",
+    "badge": "featured · sci-fi series",
+    "title": "Blade Runner 2099 Wraps Production for Prime Video Premiere",
+    "summary": "Michelle Yeoh and Hunter Schafer star in the cyberpunk sequel series set fifty years after 2049, featuring brand-new replicant lore.",
+    "ctaText": "Read Preview",
+    "ctaUrl": "/articles/blade-runner-2099-preview",
+    "image": "https://wallpapercave.com/wp/wp7986464.jpg"
+  },
+  {
+    "id": "card-016",
+    "category": "movies",
+    "badge": "featured · marvel studios",
+    "title": "Avengers: Doomsday Enters Post-Production for 2027 Global Release",
+    "summary": "The Russo Brothers share behind-the-scenes set updates as Robert Downey Jr. prepares his debut as Doctor Doom.",
+    "ctaText": "Read Production News",
+    "ctaUrl": "/articles/avengers-doomsday-updates",
+    "image": "https://4kwallpapers.com/images/walls/thumbs_3t/27221.jpg"
+  },
+  {
+    "id": "card-017",
+    "category": "kpop",
+    "badge": "featured · 10th anniversary",
+    "title": "BlackPink Confirms 10th Anniversary World Tour & Album Details",
+    "summary": "YG Entertainment confirms stadium dates and teaser drops following the massive success of their latest comeback single.",
+    "ctaText": "View Tour Dates",
+    "ctaUrl": "/articles/blackpink-10th-anniversary-tour",
+    "image": "https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg"
+  },
+  {
+    "id": "card-018",
+    "category": "comics",
+    "badge": "featured · marvel comics",
+    "title": "Marvel Announces Next Major X-Men Crossover Event",
+    "summary": "Following the From the Ashes era, a brand-new mutant storyline promises to reshape Krakoan legacy characters across all flagship titles.",
+    "ctaText": "Explore Solicitations",
+    "ctaUrl": "/articles/x-men-crossover-announcement",
+    "image": "https://wallpapercave.com/wp/wp9545805.jpg"
+  },
+  {
+    "id": "card-019",
+    "category": "manga",
+    "badge": "featured · shonen jump",
+    "title": "Kagurabachi Hits Major Milestone with New Arc & Anime Rumors",
+    "summary": "Takeru Hokazono's hit manga surges past sales records as industry insiders hint at a high-profile studio adaptation announcement.",
+    "ctaText": "Read Breakdown",
+    "ctaUrl": "/articles/kagurabachi-new-arc-recap",
+    "image": "https://wallpapercave.com/wp/wp13240300.jpg"
+  }
+]

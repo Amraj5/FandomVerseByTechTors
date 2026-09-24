@@ -1,0 +1,130 @@
+[
+  {
+    "id": "tr-01",
+    "title": "Solo Leveling",
+    "category": "anime",
+    "categoryLabel": "anime",
+    "color": "#E5A988",
+    "rating": "4.8",
+    "image": "https://static.kinoafisha.info/upload/articles/720517852125.jpg"
+  },
+  {
+    "id": "tr-02",
+    "title": "Honkai: Star Rail",
+    "category": "gaming",
+    "categoryLabel": "gaming",
+    "color": "#4B92E5",
+    "rating": "4.6",
+    "image": "https://www.mvideo.ru/blog/wp-content/uploads/2024/03/3-12.webp"
+  },
+  {
+    "id": "tr-03",
+    "title": "Avengers: Endgame",
+    "category": "movies",
+    "categoryLabel": "movies",
+    "color": "#F3B23A",
+    "rating": "4.9",
+    "image": "https://avatars.mds.yandex.net/i?id=ec1aa6b8bc090f3a9afe8d6d50e19a32fb0246d6-5499519-images-thumbs&n=13"
+  },
+  {
+    "id": "tr-04",
+    "title": "Stranger Things S4",
+    "category": "tvshows",
+    "categoryLabel": "tv shows",
+    "color": "#E54B62",
+    "rating": "4.7",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png"
+  },
+  {
+    "id": "tr-05",
+    "title": "NewJeans - Get Up",
+    "category": "kpop",
+    "categoryLabel": "K-pop",
+    "color": "#C85BD6",
+    "rating": "4.9",
+    "image":"https://ir.ozone.ru/s3/multimedia-1-c/6958526160.jpg"
+  },
+  {
+    "id": "tr-06",
+    "title": "Spider-Man: Beyond",
+    "category": "comics",
+    "categoryLabel": "comics",
+    "color": "#EA7349",
+    "rating": "4.8",
+    "image":"https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/5/1/5/8374515/1cf06a8f233c2ef78e8571a542edca80.jpg"
+  },
+  {
+    "id": "tr-07",
+    "title": "Chainsaw Man",
+    "category": "manga",
+    "categoryLabel": "manga",
+    "color": "#8C929E",
+    "rating": "4.8",
+    "image":"https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/5/1/5/8374515/1cf06a8f233c2ef78e8571a542edca80.jpg"
+  },
+  {
+    "id": "tr-08",
+    "title": "Invincible S3",
+    "category": "tvshows",
+    "categoryLabel": "tv shows",
+    "color": "#E54B62",
+    "rating": "4.9",
+     "image": "https://www.mvideo.ru/blog/wp-content/uploads/2024/03/3-12.webp"
+  },
+  {
+    "id": "tr-09",
+    "title": "Attack on Titan",
+    "category": "anime",
+    "categoryLabel": "anime",
+    "color": "#E5A988",
+    "rating": "4.9",
+    "image": "https://static.kinoafisha.info/upload/articles/720517852125.jpg"
+  },
+  {
+    "id": "tr-10",
+    "title": "Marvel Rivals",
+    "category": "gaming",
+    "categoryLabel": "gaming",
+    "color": "#4B92E5",
+    "rating": "4.3",
+    "image": "https://avatars.mds.yandex.net/i?id=ec1aa6b8bc090f3a9afe8d6d50e19a32fb0246d6-5499519-images-thumbs&n=13"
+    
+  },
+  {
+    "id": "tr-11",
+    "title": "Jujutsu Kaisen",
+    "category": "manga",
+    "categoryLabel": "manga",
+    "color": "#8C929E",
+    "rating": "4.7",
+    "image":"https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/5/1/5/8374515/1cf06a8f233c2ef78e8571a542edca80.jpg"
+  },
+  {
+    "id": "tr-12",
+    "title": "Dune: Part Two",
+    "category": "movies",
+    "categoryLabel": "movies",
+    "color": "#F3B23A",
+    "rating": "4.8",
+    "image":"https://images.ctfassets.net/4cd45et68cgf/7H7WjekFNEd8sY5TCttTID/52b15ae7382fcbbaa27198fd0cfadae8/EN_ST4_Main_LocationPayoff_Vertical_27x40_RGB_PRE.jpg?w=2000"
+  },
+  {
+    "id": "tr-13",
+    "title": "Stray Kids - ATE",
+    "category": "kpop",
+    "categoryLabel": "K-pop",
+    "color": "#C85BD6",
+    "rating": "4.8",
+    "image":"https://ir.ozone.ru/s3/multimedia-1-c/6958526160.jpg"
+  },
+  {
+    "id": "tr-14",
+    "title": "Gargoyle of Gotham",
+    "category": "comics",
+    "categoryLabel": "comics",
+    "color": "#EA7349",
+    "rating": "4.6",
+    "image":"https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/5/1/5/8374515/1cf06a8f233c2ef78e8571a542edca80.jpg"
+    
+  }
+]
