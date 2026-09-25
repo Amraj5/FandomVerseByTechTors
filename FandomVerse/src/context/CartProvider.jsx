@@ -86,7 +86,7 @@ export const CartProvider = ({ children }) => {
       decrement: (id) => {dispatch({ type: "DECREMENT", payload: id })},
       clearCart: () => {dispatch({ type: "CLEAR_CART" })},
 
-      isInCart: (id) => cart.items.some((i) => i.id === id)},
+      isInCart: (id) => cart.items.some((i) => i.id === id),
     };
   }, [cart.items]);
 
