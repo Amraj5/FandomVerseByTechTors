@@ -72,23 +72,21 @@ export const CartProvider = ({ children }) => {
       (total, i) => total + i.quantity * i.price,
       0
     );
-    const ids = new Set(cart.items.map((i) => i.id));
 
     return {
       items: cart.items,
       totalItems,
       subtotal,
 
-      addItems: (merchandise) =>
-        dispatch({ type: "ADD_TO_CART", payload: toCartItem(merchandise) }),
-      removeItems: (id) => dispatch({ type: "REMOVE_FROM_CART", payload: id }),
-      setQuantity: (id, quantity) =>
-        dispatch({ type: "SET_QUANTITY", payload: { id, quantity } }),
-      increment: (id) => dispatch({ type: "INCREMENT", payload: id }),
-      decrement: (id) => dispatch({ type: "DECREMENT", payload: id }),
-      clearCart: () => dispatch({ type: "CLEAR_CART" }),
+      addItems: (merchandise) =>{
+        dispatch({ type: "ADD_TO_CART", payload: toCartItem(merchandise) })},
+      removeItems: (id) =>{ dispatch({ type: "REMOVE_FROM_CART", payload: id })},
+      setQuantity: (id, quantity) =>{dispatch({ type: "SET_QUANTITY", payload: { id, quantity } })},
+      increment: (id) => {dispatch({ type: "INCREMENT", payload: id })},
+      decrement: (id) => {dispatch({ type: "DECREMENT", payload: id })},
+      clearCart: () => {dispatch({ type: "CLEAR_CART" })},
 
-      isInCart: (id) => ids.has(id),
+      isInCart: (id) => cart.items.some((i) => i.id === id)},
     };
   }, [cart.items]);
 
