@@ -1,45 +1,38 @@
 import React from 'react';
 import './Footer.css';
 
-/* ===== Inline SVG icons (Lucide-style, MIT) ===== */
-const Icon = ({ children, size = 18, ...rest }) => (
+/* ===== Inline SVG icons ===== */
+const Svg = ({ children, size = 18, strokeWidth = 1.8, ...p }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width={size}
-        height={size}
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        aria-hidden="true"
-        {...rest}
+        width={size} height={size} viewBox="0 0 24 24"
+        fill="none" stroke="currentColor"
+        strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round"
+        aria-hidden="true" {...p}
     >
         {children}
     </svg>
 );
 
 const XIcon = (p) => (
-    <Icon {...p}>
-        <path d="M18 6 6 18" />
-        <path d="m6 6 12 12" />
-    </Icon>
+    <Svg {...p}>
+        <path d="M4 4l7 8-7 8" /><path d="M20 4l-7 8 7 8" />
+    </Svg>
 );
 const DiscordIcon = (p) => (
-    <Icon {...p}>
+    <Svg {...p}>
         <path d="M8.5 8.5c-.5 1.5-1 3.5-1 6.5 1 .5 2 .8 3 .8h3c1 0 2-.3 3-.8 0-3-.5-5-1-6.5" />
         <path d="M10.5 12h3" />
-    </Icon>
+    </Svg>
 );
 const YouTubeIcon = (p) => (
-    <Icon {...p}>
-        <path d="M22 8.5a3 3 0 0 0-2.1-2.1C18.2 6 12 6 12 6s-6.2 0-7.9.4A3 3 0 0 0 2 8.5 31 31 0 0 0 2 12a31 31 0 0 0 .1 3.5 3 3 0 0 0 2.1 2.1C5.8 18 12 18 12 18s6.2 0 7.9-.4a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .1-3.5 31 31 0 0 0-.1-3.5Z" />
-        <path d="m10 15 5-3-5-3Z" fill="currentColor" stroke="none" />
-    </Icon>
+    <Svg {...p}>
+        <rect x="2" y="6" width="20" height="12" rx="3" />
+        <path d="m10 9 5 3-5 3Z" fill="currentColor" stroke="none" />
+    </Svg>
 );
 const RedditIcon = (p) => (
-    <Icon {...p}>
+    <Svg {...p}>
         <circle cx="12" cy="14" r="6" />
         <circle cx="9" cy="13.5" r=".8" fill="currentColor" stroke="none" />
         <circle cx="15" cy="13.5" r=".8" fill="currentColor" stroke="none" />
@@ -47,38 +40,36 @@ const RedditIcon = (p) => (
         <circle cx="19" cy="8" r="1.5" />
         <path d="m17.5 9.5-4-1" />
         <path d="m13.5 8.5.5-4" />
-    </Icon>
+    </Svg>
 );
 const InstagramIcon = (p) => (
-    <Icon {...p}>
+    <Svg {...p}>
         <rect x="3" y="3" width="18" height="18" rx="5" />
         <circle cx="12" cy="12" r="4" />
         <circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none" />
-    </Icon>
+    </Svg>
 );
 const TwitchIcon = (p) => (
-    <Icon {...p}>
+    <Svg {...p}>
         <path d="M4 4h16v10l-4 4h-4l-3 3v-3H4Z" />
         <path d="M11 8v4M15 8v4" />
-    </Icon>
+    </Svg>
 );
 const MailIcon = (p) => (
-    <Icon {...p}>
+    <Svg {...p}>
         <rect x="3" y="5" width="18" height="14" rx="2" />
         <path d="m3 7 9 6 9-6" />
-    </Icon>
+    </Svg>
 );
 const HeartIcon = (p) => (
-    <Icon {...p}>
+    <Svg {...p}>
         <path
             d="M19 14c1.5-1.5 3-3.3 3-5.5A4.5 4.5 0 0 0 12 6a4.5 4.5 0 0 0-10 2.5C2 10.7 3.5 12.5 5 14l7 7Z"
-            fill="currentColor"
-            stroke="none"
+            fill="currentColor" stroke="none"
         />
-    </Icon>
+    </Svg>
 );
 
-/* ===== Data ===== */
 const LINK_GROUPS = [
     {
         title: 'Explore',
@@ -125,12 +116,12 @@ const LINK_GROUPS = [
 ];
 
 const SOCIALS = [
-    { label: 'X (Twitter)', href: '#x',        Icon: XIcon },
-    { label: 'Discord',     href: '#discord',  Icon: DiscordIcon },
-    { label: 'YouTube',     href: '#youtube',  Icon: YouTubeIcon },
-    { label: 'Reddit',      href: '#reddit',   Icon: RedditIcon },
+    { label: 'X (Twitter)', href: '#x',         Icon: XIcon },
+    { label: 'Discord',     href: '#discord',   Icon: DiscordIcon },
+    { label: 'YouTube',     href: '#youtube',   Icon: YouTubeIcon },
+    { label: 'Reddit',      href: '#reddit',    Icon: RedditIcon },
     { label: 'Instagram',   href: '#instagram', Icon: InstagramIcon },
-    { label: 'Twitch',      href: '#twitch',   Icon: TwitchIcon },
+    { label: 'Twitch',      href: '#twitch',    Icon: TwitchIcon },
 ];
 
 const Footer = () => {
@@ -138,15 +129,12 @@ const Footer = () => {
 
     return (
         <footer className="footer">
-            <div className="footer-accent" aria-hidden="true"></div>
+            <div className="footer-accent" aria-hidden="true" />
 
             <div className="footer-inner">
-                {/* Brand column */}
                 <div className="footer-brand">
                     <a href="/" className="footer-logo" aria-label="FandomVerse home">
-                        <div className="footer-logo-mark">
-                            <span>Fv</span>
-                        </div>
+                        <div className="footer-logo-mark"><span>Fv</span></div>
                         <div className="footer-logo-word">
                             <span>Fandom</span><span className="accent">Verse</span>
                         </div>
@@ -180,7 +168,6 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Link columns */}
                 <div className="footer-links">
                     {LINK_GROUPS.map((group) => (
                         <div key={group.title} className="footer-col">
@@ -205,7 +192,6 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Bottom bar */}
             <div className="footer-bottom">
                 <div className="footer-bottom-inner">
                     <span className="footer-copy">
