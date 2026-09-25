@@ -1,5 +1,5 @@
 import { useReducer, useMemo } from "react";
-import { CartContext } from "./cartContext";
+import { CartContext } from "./CartContext";
 
 
 const initialCart = { items: [] };
