@@ -1,20 +1,43 @@
-import "./MerchCard.css";
+import "./merchcard.css";
 import data from "./data/fandomverse-dataset.json";
 import { Link } from "react-router-dom";
-const MerchCard = ()=> {
+
+function MerchCard() {
+  const merchandise = data.merchandise;
+
   return (
-    data.merchandise.map((item, index) => (
-    <Link to={`/store/${item.id}`} key={item.id} className="merch-link">
-      <div className="MerchCard" key={item.id ?? index}>
-              <img src={item.imageUrl} alt="card image" />
-              <p>{item.title}</p>
-              <div className="payment">
+    <section>
+       <h2 className="merch-header">Featured Merchandise</h2>
+    <div className="merch-grid">
+      {merchandise.map((item) => {
+        return (
+          <Link
+            to={`/store/${item.id}`}
+            key={item.id}
+            className="merch-link"
+          >
+              <div
+  className={`MerchCard ${item.category}`}
+  style={{
+    backgroundImage: `url("${item.imageUrl}")`,
+  }}
+>
+              <div className="merch-overlay">
+                <p className="merch-title">{item.title}</p>
+
+                <div className="payment">
                   <p>{item.price}</p>
                   <button type="button">Add</button>
+                </div>
               </div>
-      </div>
-    </Link>
-    ))
-);}
+            </div>
+          </Link>
+        );
+      })}
+    </div>
+    </section>
+     
+  );
+}
 
 export default MerchCard;

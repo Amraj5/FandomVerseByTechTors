@@ -1,66 +1,190 @@
-.MerchCard{
-    color: #16161F;
-    border-radius: 8px;
-    padding: 16px;
-    height: 220px;
-    width: 200px;
+.merch-grid {
     display: flex;
-    flex-direction: column;
-    overflow: hidden; 
-    border: 1px solid #A0A0B0;
-}
-
-.MerchCard:hover{
-    transform: translateY(-4px);
-    box-shadow: 0 0 20px rgba(0, 241, 254, 0.233);
-    transition: box-shadow 0.7s ease-in-out, transform 0.7s ease-in-out;
-    cursor:pointer;
-}
-
-.MerchCard p{
-    font-size: 14px;
-    line-height: 1.5;
-    margin-top: 8px;
-    color: #F2F2F7;
-}
-
-.MerchCard img {
-  width: 100%;
-  height: 100%;          
-  object-fit: cover;      
-  display: block;
-  border-radius: 8px;
-  overflow: scroll;
-}
-.MerchCard img:hover {
-  transform: scale(1.1);
-  transition: transform 0.7s ease-in-out;
-}
-.payment{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
-
-.payment button{
-    background-color: #16161F;
-    border: solid 1px #A0A0B0;
-    border-radius: 8px;
-    padding: 8px 16px;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #F2F2F7;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.payment button:hover{
-    background-color: #F2F2F7;
-    color: #16161F;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 100px;
 }
 
 .merch-link {
-  display: block;
-  color: inherit;
-  text-decoration: none;
+    display: block;
+    color: inherit;
+    text-decoration: none;
 }
+
+.MerchCard {
+    position: relative;
+
+    width: 240px;
+    height: 320px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 16px;
+    overflow: hidden;
+
+    /* Default in case a category is missing */
+    --category-color: #8C929E;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* =========================
+   CATEGORY COLORS
+========================= */
+
+.MerchCard.anime {
+    --category-color: #E5A988;
+}
+
+.MerchCard.gaming {
+    --category-color: #4B92E5;
+}
+
+.MerchCard.movies {
+    --category-color: #F3B23A;
+}
+
+.MerchCard.tvshows {
+    --category-color: #E54B62;
+}
+
+.MerchCard.kpop {
+    --category-color: #C85BD6;
+}
+
+.MerchCard.comics {
+    --category-color: #EA7349;
+}
+
+.MerchCard.manga {
+    --category-color: #8C929E;
+}
+
+
+/* =========================
+   HOVER
+========================= */
+
+.MerchCard:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.35),
+        0 0 22px color-mix(
+            in srgb,
+            var(--category-color) 45%,
+            transparent
+        );
+}
+
+
+/* =========================
+   IMAGE OVERLAY
+========================= */
+
+.MerchCard::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to top,
+        rgba(8, 9, 13, 0.95),
+        rgba(8, 9, 13, 0.35) 55%,
+        rgba(8, 9, 13, 0.05)
+    );
+
+    pointer-events: none;
+}
+
+
+/* =========================
+   CARD CONTENT
+========================= */
+
+.merch-overlay {
+    position: absolute;
+
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
+
+    z-index: 1;
+}
+
+.merch-title {
+    margin: 0 0 10px;
+
+    color: white;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    line-height: 1.35;
+}
+
+
+/* =========================
+   PRICE + BUTTON
+========================= */
+
+.payment {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+}
+
+.payment p {
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    font-size: 0.9rem;
+}
+
+
+/* =========================
+   ADD BUTTON
+========================= */
+
+.payment button {
+    padding: 7px 14px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+
+    color: white;
+
+    font-size: 0.8rem;
+
+    cursor: pointer;
+
+    backdrop-filter: blur(8px);
+
+    transition:
+        background 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.payment button:hover {
+    background: color-mix(
+        in srgb,
+        var(--category-color) 25%,
+        transparent
+    );

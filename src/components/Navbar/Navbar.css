@@ -36,11 +36,10 @@
     font-family: 'Inter', sans-serif;
     color: var(--text-primary);
     background: var(--bg);
-    max-width: 1200px;
+    max-width:100%;
     margin: 0 auto;
     border: 1px solid var(--border);
     border-radius: 12px;
-    overflow-x: hidden;
 }
 
 /* ===== Utility bar ===== */
@@ -76,6 +75,7 @@ nav.navbar {
     background: var(--surface-overlay);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+
     border-bottom: 1px solid var(--border);
 }
 
