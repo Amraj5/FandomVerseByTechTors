@@ -1,0 +1,235 @@
+{
+  "guideDetails":
+
+[
+  {
+    "id": "guide-detail-001",
+    "guideId": "guide-001",
+    "slug": "invincible-s3-prep",
+    "category": "tvshows",
+    "title": "Everything to Remember Before Invincible S3 Drops",
+    "subtitle": "A quick refresher on Viltrumite politics, Mark's upgraded suit, and where the Guardians left off.",
+    "readTime": "3 min read",
+    "lastUpdated": "2026-08-20",
+    "heroImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+    "tags": [
+      "Invincible",
+      "Prime Video",
+      "Lore",
+      "Quick Prep"
+    ],
+    "sections": [
+      {
+        "heading": "Mark's New Suit & Mental State",
+        "content": "Following the traumatic battle with Angstrom Levy, Mark is left emotionally fractured. Season 3 sees him adopt the iconic blue-and-black suit, signaling a darker, more pragmatic approach to protecting Earth."
+      },
+      {
+        "heading": "The Viltrumite Threat Escalates",
+        "content": "Anissa's warning made it clear: Earth is running out of time. Nolan (Omni-Man) and Allen the Alien are currently forming a coalition in space, laying the groundwork for the inevitable Viltrumite War."
+      },
+      {
+        "heading": "Guardians of the Globe Status",
+        "content": "With Rex Splode recovering from critical injuries, Cecil's manipulation of the team reaching an all-time high, and Eve struggling with her power limits, the Guardians are at their weakest."
+      }
+    ]
+  },
+  {
+    "id": "guide-detail-002",
+    "guideId": "guide-002",
+    "slug": "dc-absolute-universe-explained",
+    "category": "comics",
+    "title": "DC's Absolute Universe Explained for Casuals",
+    "subtitle": "How the Absolute line differs from Prime Earth, key character redesigns, and where to start.",
+    "readTime": "5 min read",
+    "lastUpdated": "2026-09-01",
+    "heroImage": "https://i.pinimg.com/1200x/04/c3/d2/04c3d2cdd1c528fd39a70180b991eada.jpg",
+    "tags": [
+      "DC Comics",
+      "Absolute Batman",
+      "Beginner Guide"
+    ],
+    "sections": [
+      {
+        "heading": "What is the Absolute Universe?",
+        "content": "Born out of Darkseid's influence, the Absolute Universe is an alternate continuity where DC heroes lack their traditional safety nets. Superman has no Kent family farm, Wonder Woman was raised in Hell, and Batman has no fortune."
+      },
+      {
+        "heading": "Absolute Batman's Key Differences",
+        "content": "Bruce Wayne is a blue-collar city engineer instead of a billionaire playboy. His suit is modular tactical armor built from structural steel, and his massive battle-axe emblem doubles as a heavy demolition tool."
+      },
+      {
+        "heading": "Reading Order Recommendation",
+        "content": "Start directly with Absolute Power #4 for the universe's birth, followed by Absolute Batman #1, Absolute Superman #1, and Absolute Wonder Woman #1."
+      }
+    ]
+  },
+  {
+    "id": "guide-detail-003",
+    "guideId": "guide-003",
+    "slug": "gta-vi-map-breakdown",
+    "category": "gaming",
+    "title": "GTA VI Vice City Map Breakdown: Key Locations & Secrets",
+    "subtitle": "Analyzing Leonida's districts, water engine physics, and key POIs from recent trailers.",
+    "readTime": "4 min read",
+    "lastUpdated": "2026-09-15",
+    "heroImage": "https://i.pinimg.com/736x/18/07/6d/18076d5bd8d412e6a65d9e7df7020d3a.jpg",
+    "tags": [
+      "GTA VI",
+      "Rockstar Games",
+      "Map Analysis",
+      "Lore"
+    ],
+    "sections": [
+      {
+        "heading": "Vice City Metro & Port Gellhorn",
+        "content": "The central urban hub spans neon-lit Vice Beach, Ocean Drive, and the industrialized Port Gellhorn, offering dense verticality and interior accessibility."
+      },
+      {
+        "heading": "The Grassrivers & Keys",
+        "content": "Beyond the city lie expansive wetlands based on the Everglades, featuring dynamic boat physics, wildlife interactions, and isolated rural settlements."
+      }
+    ]
+  },
+  {
+    "id": "guide-detail-004",
+    "guideId": "guide-004",
+    "slug": "infinity-castle-prep-guide",
+    "category": "anime",
+    "title": "Demon Slayer: Infinity Castle Arc Movie Trilogy Prep Guide",
+    "subtitle": "Key Hashira matchups, Blood Demon Arts, and narrative milestones for the theatrical trilogy.",
+    "readTime": "6 min read",
+    "lastUpdated": "2026-08-30",
+    "heroImage": "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg",
+    "tags": [
+      "Demon Slayer",
+      "Ufotable",
+      "Anime Movies"
+    ],
+    "sections": [
+      {
+        "heading": "The Shifting Dimension of Nakime",
+        "content": "The Infinity Castle is controlled entirely by Nakime's Biwa music, continuously warping gravity and separating the Demon Slayers into isolated arenas."
+      },
+      {
+        "heading": "Essential Upper Rank Showdowns",
+        "content": "Prepare for crucial clashes: Shinobu & Kanao vs. Upper Rank 2 (Doma), Zenitsu vs. Kaigaku, and Tanjiro & Giyu vs. Upper Rank 3 (Akaza)."
+      }
+    ]
+  },
+  {
+    "id": "guide-detail-005",
+    "guideId": "guide-005",
+    "slug": "chainsaw-man-part-2-lore",
+    "category": "manga",
+    "title": "Chainsaw Man Part 2: Devil Contracts & Lore Refresher",
+    "subtitle": "Asa Mitaka, Yoru the War Devil, and the Academy Saga's major factions.",
+    "readTime": "5 min read",
+    "lastUpdated": "2026-09-10",
+    "heroImage": "https://i.pinimg.com/736x/06/8f/a0/068fa09f4763b3848ae87aa3893f79ca.jpg",
+    "tags": [
+      "Chainsaw Man",
+      "Fujimoto",
+      "Manga Lore"
+    ],
+    "sections": [
+      {
+        "heading": "Asa Mitaka & Yoru's Host Dynamics",
+        "content": "Unlike Denji, Asa shares her brain with the War Devil. Yoru can transform anything Asa feels ownership or guilt over into lethal weaponry."
+      },
+      {
+        "heading": "The Chainsaw Man Church",
+        "content": "Fami (the Famine Devil) has manipulated public perception, creating a worldwide cult around Chainsaw Man to trigger widespread fear and empower the Horsemen."
+      }
+    ]
+  },
+  {
+    "id": "guide-detail-006",
+    "guideId": "guide-006",
+    "slug": "jjk-cursed-energy-guide",
+    "category": "anime",
+    "title": "Jujutsu Kaisen: Cursed Energy & Domain Expansion Breakdown",
+    "subtitle": "Understanding negative emotions, innate techniques, binding vows, and domain mechanics.",
+    "readTime": "5 min read",
+    "lastUpdated": "2026-09-18",
+    "heroImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+    "tags": [
+      "Jujutsu Kaisen",
+      "Power System",
+      "MAPPA",
+      "Lore"
+    ],
+    "sections": [
+      {
+        "heading": "Cursed Energy vs. Cursed Technique",
+        "content": "Cursed energy is raw electricity generated by negative human emotion. A Cursed Technique is the specific appliance that runs on that electricity (e.g., Gojo's Limitless or Megumi's Ten Shadows)."
+      },
+      {
+        "heading": "Domain Expansion Mechanics",
+        "content": "By constructing a barrier with cursed energy and manifesting their innate domain, sorcerers gain a guaranteed-hit factor for their techniques within that space."
+      }
+    ]
+  },
+  {
+    "id": "guide-detail-007",
+    "guideId": "guide-007",
+    "slug": "dune-part-three-prophecy",
+    "category": "movies",
+    "title": "Dune: Part Three — What the Prophecy Actually Says",
+    "subtitle": "The Golden Path, the Bene Gesserit breeding program, and where the films are likely to stop.",
+    "readTime": "4 min read",
+    "lastUpdated": "2026-09-12",
+    "heroImage": null,
+    "tags": [
+      "Dune",
+      "Frank Herbert",
+      "Book vs Film",
+      "Lore"
+    ],
+    "sections": [
+      {
+        "heading": "The Prophecy Was Planted, Not Foretold",
+        "content": "The Bene Gesserit spent generations seeding messianic legends across the known universe so that a manufactured saviour could be deployed when useful. The Fremen's expectation of a Lisan al-Gaib is not a prediction that Paul fulfils so much as a script he walks into, and the story's tension comes from him knowing that."
+      },
+      {
+        "heading": "What the Golden Path Is Actually For",
+        "content": "Paul's prescience shows him a future in which humanity is exterminated, and a narrow path that avoids it at an enormous cost in lives and in his own humanity. His refusal to fully walk it in the second book is what forces the burden onto his son, so Part Three is really about the consequences of a messiah declining the job."
+      },
+      {
+        "heading": "Where the Films Will Probably End",
+        "content": "The first two films cover the first novel. If a third follows Dune Messiah, expect it to open years into Paul's reign, with the Fremen turning on each other, the spice economy weaponised, and a very different Paul from the one who rode a sandworm into battle."
+      }
+    ]
+  },
+  {
+    "id": "guide-detail-008",
+    "guideId": "guide-008",
+    "slug": "kpop-lightstick-guide",
+    "category": "kpop",
+    "title": "K-Pop Light Stick Versions Explained Before You Buy",
+    "subtitle": "Version differences, venue sync systems, and how to avoid paying resale markup.",
+    "readTime": "4 min read",
+    "lastUpdated": "2026-09-19",
+    "heroImage": null,
+    "tags": [
+      "K-Pop",
+      "Merch",
+      "Buying Guide",
+      "Concerts"
+    ],
+    "sections": [
+      {
+        "heading": "What Changes Between Versions",
+        "content": "A new version number usually means a redesigned body, an updated wireless chip, and an app that may or may not talk to the previous model. Older versions keep working as plain light sticks, but they often lose central sync control at newer tours, which is the single biggest reason people upgrade."
+      },
+      {
+        "heading": "How Venue Sync Actually Works",
+        "content": "Sync-enabled light sticks connect over Bluetooth to a control system in the venue, which pushes colour and timing changes to the whole crowd at once. It only activates inside the venue, it is one-directional, and it drains batteries noticeably faster than manual mode, so bring spares."
+      },
+      {
+        "heading": "Spotting Resale Markups",
+        "content": "Officially licensed stock is sold through the group's label store, the tour's merchandise stalls, and a small number of authorised retailers. Anything listing an older version as a pre-order at above retail is almost always a reseller, and the app-linked models are the ones most commonly faked."
+      }
+    ]
+  }
+]
+}

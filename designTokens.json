@@ -1,0 +1,403 @@
+{
+  "specVersion": "v2",
+  "source": "FandomVerse-Design-Spec-v2.pdf",
+  "note": "Supersedes §4 of FandomVerse-Documentation-Draft-v1.md where values conflict. §1.4 sample values below override the per-item colors previously hardcoded in trending.json.",
+  "color": {
+    "surface": {
+      "bg": "#0D0D14",
+      "surface": "#16161F",
+      "surfaceElevated": "#1E1E2A",
+      "surfaceOverlay": "rgba(13,13,20,0.72)"
+    },
+    "text": {
+      "textPrimary": "#F2F2F7",
+      "textSecondary": "#A0A0B0",
+      "textTertiary": "#6E6E80"
+    },
+    "border": {
+      "border": "#262635",
+      "borderStrong": "#3A3A4D",
+      "borderAccent": "color-mix(in srgb, var(--accent) 60%, transparent)"
+    },
+    "status": {
+      "positive": "#34D399",
+      "warning": "#FBBF24",
+      "danger": "#F87171"
+    },
+    "glass": {
+      "appliesTo": [
+        "navbar",
+        "chatbot-panel",
+        "cart-sidebar"
+      ],
+      "desktop": {
+        "background": "rgba(13,13,20,0.72)",
+        "backdropFilter": "blur(8px)",
+        "borderBottom": "1px solid #262635"
+      },
+      "mobile": {
+        "maxWidth": 768,
+        "background": "rgba(13,13,20,0.94)",
+        "backdropFilter": "none",
+        "borderBottom": "1px solid #262635"
+      }
+    }
+  },
+  "accentBudget": {
+    "maxScreenShare": "10%",
+    "permittedSurfaces": [
+      "category tag chips",
+      "card hover border + 1px glow",
+      "category hub header gradient stop",
+      "active category-scoped filter",
+      "bookmark icon when saved"
+    ],
+    "tagTint": "color-mix(in srgb, var(--accent) 18%, transparent)",
+    "hoverGlow": "0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent)",
+    "swap": ".hub { --accent: <hex>; }"
+  },
+  "categories": [
+    {
+      "slug": "anime",
+      "label": "Anime",
+      "accent": "#A855F7",
+      "accentToken": "var(--accent)",
+      "auroraStops": [
+        "#A855F7",
+        "#7C3AED",
+        "#0D0D14"
+      ],
+      "auroraGradient": "linear-gradient(135deg, #A855F7, #7C3AED, #0D0D14)",
+      "tint12": "color-mix(in srgb, #A855F7 12%, transparent)",
+      "tint18": "color-mix(in srgb, #A855F7 18%, transparent)"
+    },
+    {
+      "slug": "gaming",
+      "label": "Gaming",
+      "accent": "#22D3EE",
+      "accentToken": "var(--accent)",
+      "auroraStops": [
+        "#22D3EE",
+        "#2563EB",
+        "#0D0D14"
+      ],
+      "auroraGradient": "linear-gradient(135deg, #22D3EE, #2563EB, #0D0D14)",
+      "tint12": "color-mix(in srgb, #22D3EE 12%, transparent)",
+      "tint18": "color-mix(in srgb, #22D3EE 18%, transparent)"
+    },
+    {
+      "slug": "movies",
+      "label": "Movies",
+      "accent": "#F59E0B",
+      "accentToken": "var(--accent)",
+      "auroraStops": [
+        "#F59E0B",
+        "#B45309",
+        "#0D0D14"
+      ],
+      "auroraGradient": "linear-gradient(135deg, #F59E0B, #B45309, #0D0D14)",
+      "tint12": "color-mix(in srgb, #F59E0B 12%, transparent)",
+      "tint18": "color-mix(in srgb, #F59E0B 18%, transparent)"
+    },
+    {
+      "slug": "tvshows",
+      "label": "TV shows",
+      "accent": "#FB7185",
+      "accentToken": "var(--accent)",
+      "auroraStops": [
+        "#FB7185",
+        "#BE123C",
+        "#0D0D14"
+      ],
+      "auroraGradient": "linear-gradient(135deg, #FB7185, #BE123C, #0D0D14)",
+      "tint12": "color-mix(in srgb, #FB7185 12%, transparent)",
+      "tint18": "color-mix(in srgb, #FB7185 18%, transparent)"
+    },
+    {
+      "slug": "kpop",
+      "label": "K-pop",
+      "accent": "#EC4899",
+      "accentToken": "var(--accent)",
+      "auroraStops": [
+        "#EC4899",
+        "#A855F7",
+        "#0D0D14"
+      ],
+      "auroraGradient": "linear-gradient(135deg, #EC4899, #A855F7, #0D0D14)",
+      "tint12": "color-mix(in srgb, #EC4899 12%, transparent)",
+      "tint18": "color-mix(in srgb, #EC4899 18%, transparent)"
+    },
+    {
+      "slug": "comics",
+      "label": "Comics",
+      "accent": "#EF4444",
+      "accentToken": "var(--accent)",
+      "auroraStops": [
+        "#EF4444",
+        "#F59E0B",
+        "#0D0D14"
+      ],
+      "auroraGradient": "linear-gradient(135deg, #EF4444, #F59E0B, #0D0D14)",
+      "tint12": "color-mix(in srgb, #EF4444 12%, transparent)",
+      "tint18": "color-mix(in srgb, #EF4444 18%, transparent)"
+    },
+    {
+      "slug": "manga",
+      "label": "Manga",
+      "accent": "#E5E5E5",
+      "accentToken": "var(--accent)",
+      "auroraStops": [
+        "#E5E5E5",
+        "#52525B",
+        "#0D0D14"
+      ],
+      "auroraGradient": "linear-gradient(135deg, #E5E5E5, #52525B, #0D0D14)",
+      "tint12": "color-mix(in srgb, #E5E5E5 12%, transparent)",
+      "tint18": "color-mix(in srgb, #E5E5E5 18%, transparent)"
+    }
+  ],
+  "typography": {
+    "display": "Space Grotesk",
+    "body": "Inter",
+    "scale": {
+      "t3": {
+        "size": 12,
+        "lineHeight": 16,
+        "weight": 400,
+        "use": "timestamps, breadcrumbs, tiny labels"
+      },
+      "t2": {
+        "size": 13,
+        "lineHeight": 18,
+        "weight": 400,
+        "use": "card meta, chat text"
+      },
+      "t1": {
+        "size": 14,
+        "lineHeight": 20,
+        "weight": "400-500",
+        "use": "body, nav links, buttons"
+      },
+      "b1": {
+        "size": 16,
+        "lineHeight": 24,
+        "weight": 400,
+        "use": "default body, article paragraphs"
+      },
+      "b2": {
+        "size": 18,
+        "lineHeight": 26,
+        "weight": 500,
+        "use": "card titles, section intros"
+      },
+      "h3": {
+        "size": 20,
+        "lineHeight": 28,
+        "weight": 500,
+        "use": "section headings, modal titles"
+      },
+      "h2": {
+        "size": 24,
+        "lineHeight": 32,
+        "weight": 500,
+        "use": "hub titles, article H2"
+      },
+      "h1": {
+        "size": 32,
+        "lineHeight": 40,
+        "weight": 500,
+        "use": "page titles"
+      },
+      "hero": {
+        "size": "clamp(28px, 5vw, 44px)",
+        "lineHeight": 1.1,
+        "weight": 500,
+        "use": "landing hero, editorial headlines"
+      }
+    },
+    "editorialBody": {
+      "maxWidth": 720,
+      "fontSize": 17,
+      "lineHeight": 1.7,
+      "paragraphSpacing": 16
+    },
+    "pullQuote": {
+      "size": 20,
+      "lineHeight": 30,
+      "weight": 500,
+      "borderLeft": "3px solid var(--accent)"
+    },
+    "numerals": "font-variant-numeric: tabular-nums"
+  },
+  "spacing": {
+    "scale": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      32,
+      48
+    ],
+    "pageOuterPadding": {
+      "mobile": 16,
+      "desktop": 24
+    },
+    "sectionGap": {
+      "mobile": 32,
+      "desktop": 48
+    },
+    "gridGap": {
+      "mobile": 12,
+      "desktop": 16
+    }
+  },
+  "layout": {
+    "containerMaxWidth": 1200,
+    "breakpoints": [
+      360,
+      768,
+      1024,
+      1440
+    ],
+    "baseGrid": {
+      "columns": 12,
+      "gap": {
+        "mobile": 12,
+        "desktop": 16
+      }
+    },
+    "heroCellSpan": {
+      "desktop": "8/12",
+      "mobile": "12/12"
+    },
+    "sidebarCellSpan": {
+      "desktop": "4/12",
+      "mobile": "12/12"
+    }
+  },
+  "gridRecipes": {
+    "hubSearchBookmarks": {
+      "template": "repeat(auto-fill, minmax(190px, 1fr))",
+      "cardWidth": "190-260px"
+    },
+    "featuredArticlesLanding": {
+      "template": "repeat(3, 1fr)",
+      "mobileTemplate": "1fr",
+      "cardWidth": "1/3 container"
+    },
+    "merch": {
+      "template": "repeat(auto-fill, minmax(160px, 1fr))",
+      "cardWidth": "160-220px"
+    },
+    "gallery": {
+      "template": "repeat(auto-fill, minmax(130px, 1fr))",
+      "cardWidth": "130-180px"
+    },
+    "rule": "grid-auto-rows: 1fr on list layouts so row siblings share height"
+  },
+  "cards": {
+    "shared": {
+      "background": "var(--surface)",
+      "border": "1px solid var(--border)",
+      "borderRadius": 12,
+      "hover": "translateY(-4px) + border-color var(--accent) + 0 0 0 3px accent-15%",
+      "animates": "transform, border-color only"
+    },
+    "content": {
+      "appliesTo": [
+        "article",
+        "media",
+        "character",
+        "event"
+      ],
+      "padding": "12 or 16",
+      "thumbAspect": "16:9",
+      "thumbRadius": 8,
+      "order": [
+        "thumb",
+        "gap 12",
+        "tagRow(title, bookmark 28px)",
+        "title t2/500",
+        "meta t3"
+      ]
+    },
+    "trendingRow": {
+      "padding": 10,
+      "thumb": "40x40",
+      "thumbRadius": 8,
+      "order": [
+        "dot",
+        "name/meta",
+        "rating tnum"
+      ]
+    },
+    "heroFeature": {
+      "padding": "20-24",
+      "minHeight": {
+        "mobile": 220,
+        "desktop": 320
+      },
+      "content": "bottom-aligned, scrim behind text"
+    },
+    "merch": {
+      "padding": 12,
+      "thumbAspect": "1:1",
+      "order": [
+        "name t2/500",
+        "meta",
+        "price 15/500 tnum + add btn sm"
+      ]
+    },
+    "character": {
+      "padding": 12,
+      "thumbAspect": "1:1",
+      "thumbRadius": 8,
+      "order": [
+        "name",
+        "series",
+        "trait tags"
+      ]
+    },
+    "event": {
+      "padding": 12,
+      "thumbAspect": "16:9",
+      "order": [
+        "date badge 11 tnum",
+        "location row + pin icon 14"
+      ]
+    },
+    "galleryTile": {
+      "padding": 0,
+      "aspect": "1:1",
+      "borderless": true,
+      "note": "image edge is the edge"
+    }
+  },
+  "motion": {
+    "--t-micro": "60ms",
+    "--t-fast": "150ms",
+    "--t-normal": "200ms",
+    "--t-slow": "300ms",
+    "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "routeChange": "200ms fade + 6px translateY",
+    "cardEntry": "staggered fade, 40ms index delay, first paint only (IntersectionObserver, once)",
+    "counterRollUp": "60ms steps to target",
+    "reducedMotion": "disable stagger, auto-rotate, roll-up; keep opacity fades <= 150ms"
+  },
+  "imagery": {
+    "objectFit": "cover",
+    "rule": "explicit aspect-ratio box, never layout-shifting loads",
+    "maxBytes": {
+      "raster": 204800,
+      "hero": 409600
+    },
+    "placeholder": "tinted surface block (accent 12% bg) + centered label",
+    "lightbox": {
+      "imageMaxWidth": "min(70vw, 960px)",
+      "radius": 12,
+      "captionSize": 13
+    }
+  }
+}

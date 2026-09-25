@@ -1,0 +1,2575 @@
+{
+  "characters":
+
+[
+  {
+    "id": "char-anime-001",
+    "category": "anime",
+    "franchise": "Jujutsu Kaisen",
+    "series": "Jujutsu Kaisen",
+    "name": "Gojo Satoru",
+    "role": "Special Grade Sorcerer",
+    "image": "https://cdn.myanimelist.net/images/characters/14/521620.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "MAPPA",
+    "imageSourceUrl": "https://cdn.myanimelist.net/images/characters/14/521620.jpg",
+    "biography": "The strongest jujutsu sorcerer of the modern age and a teacher at Tokyo Metropolitan Jujutsu High. Born with both the Limitless technique and the Six Eyes, he can manipulate space itself and rarely needs to exert real effort in a fight. His flippant, playful demeanor hides a ruthless tactical mind and a genuine commitment to raising a generation of students who will not repeat his own mistakes.",
+    "traits": [
+      "Limitless",
+      "Six Eyes",
+      "Domain Expansion",
+      "Chaotic Mentor",
+      "Unmatched Confidence"
+    ],
+    "slug": "gojo-satoru",
+    "href": "/characters/gojo-satoru",
+    "accent": "#A855F7",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Anime",
+        "href": "/category/anime",
+        "current": false
+      },
+      {
+        "label": "Gojo Satoru",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Jujutsu Kaisen", "Limitless", "Six Eyes"],
+      "title": "Gojo Satoru",
+      "meta": "Jujutsu Kaisen",
+      "bookmarkId": "char-anime-001"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Gojo Satoru"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "anime",
+        "franchise": "Jujutsu Kaisen"
+      }
+    },
+    "relatedCharacters": ["char-anime-003"]
+  },
+  {
+    "id": "char-anime-002",
+    "category": "anime",
+    "franchise": "Demon Slayer",
+    "series": "Demon Slayer: Kimetsu no Yaiba",
+    "name": "Tanjiro Kamado",
+    "role": "Demon Slayer Corps Member",
+    "image": "https://cdn.myanimelist.net/images/characters/6/386735.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Ufotable",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A kind-hearted charcoal seller whose family was slaughtered by demons, leaving his sister Nezuko turned. He joins the Demon Slayer Corps to find a cure for her and to hunt the demon responsible. Despite carrying a heavy grudge, Tanjiro refuses to abandon his empathy, treating even dying demons with respect and remembering them as people.",
+    "traits": [
+      "Water Breathing",
+      "Sun Breathing",
+      "Empathetic",
+      "Iron-Willed",
+      "Enhanced Sense of Smell"
+    ],
+    "slug": "tanjiro-kamado",
+    "href": "/characters/tanjiro-kamado",
+    "accent": "#A855F7",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Anime",
+        "href": "/category/anime",
+        "current": false
+      },
+      {
+        "label": "Tanjiro Kamado",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": [
+        "Demon Slayer: Kimetsu no Yaiba",
+        "Water Breathing",
+        "Sun Breathing"
+      ],
+      "title": "Tanjiro Kamado",
+      "meta": "Demon Slayer: Kimetsu no Yaiba",
+      "bookmarkId": "char-anime-002"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Tanjiro Kamado"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "anime",
+        "franchise": "Demon Slayer"
+      }
+    },
+    "relatedCharacters": ["char-anime-001", "char-anime-003", "char-anime-004"]
+  },
+  {
+    "id": "char-anime-003",
+    "category": "anime",
+    "franchise": "Jujutsu Kaisen",
+    "series": "Jujutsu Kaisen",
+    "name": "Yuji Itadori",
+    "role": "Vessel of Sukuna",
+    "image": "https://wallpapercave.com/uwp/uwp4564605.jpeg",
+    "imageIsStandIn": false,
+    "imageCredit": "MAPPA",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A high school student with freakish physical strength who swallowed a cursed finger to save his friends and became the vessel of Ryomen Sukuna, the King of Curses. Sentenced to death but granted a stay of execution, he enrolls at Jujutsu High to hunt down the remaining fingers and consume them. His defining trait is an unshakeable conviction about how people should die.",
+    "traits": [
+      "Divergent Fist",
+      "Immense Physical Strength",
+      "Sukuna's Vessel",
+      "Self-Sacrificing",
+      "Loyal"
+    ],
+    "slug": "yuji-itadori",
+    "href": "/characters/yuji-itadori",
+    "accent": "#A855F7",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Anime",
+        "href": "/category/anime",
+        "current": false
+      },
+      {
+        "label": "Yuji Itadori",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": [
+        "Jujutsu Kaisen",
+        "Divergent Fist",
+        "Immense Physical Strength"
+      ],
+      "title": "Yuji Itadori",
+      "meta": "Jujutsu Kaisen",
+      "bookmarkId": "char-anime-003"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Yuji Itadori"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "anime",
+        "franchise": "Jujutsu Kaisen"
+      }
+    },
+    "relatedCharacters": ["char-anime-001"]
+  },
+  {
+    "id": "char-anime-004",
+    "category": "anime",
+    "franchise": "The Apothecary Diaries",
+    "series": "The Apothecary Diaries",
+    "name": "Maomao",
+    "role": "Apothecary of the Rear Palace",
+    "image": "https://wallpapercave.com/uwp/uwp5051485.jpeg",
+    "imageIsStandIn": false,
+    "imageCredit": "OLM",
+    "imageSourceUrl": "https://myanimelist.net/character/235442/Maomao",
+    "biography": "A sharp-tongued apothecary raised in the pleasure district who is kidnapped and sold into service at the imperial rear palace. Her inability to leave a medical mystery alone drags her into palace intrigue, where her command of poisons, pharmacology, and cold observation make her invaluable and inconvenient. She would much rather be testing remedies than navigating court politics.",
+    "traits": [
+      "Pharmacology Expert",
+      "Poison Immunity",
+      "Analytical",
+      "Blunt",
+      "Relentlessly Curious"
+    ],
+    "slug": "maomao",
+    "href": "/characters/maomao",
+    "accent": "#A855F7",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Anime",
+        "href": "/category/anime",
+        "current": false
+      },
+      {
+        "label": "Maomao",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": [
+        "The Apothecary Diaries",
+        "Pharmacology Expert",
+        "Poison Immunity"
+      ],
+      "title": "Maomao",
+      "meta": "The Apothecary Diaries",
+      "bookmarkId": "char-anime-004"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Maomao"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "anime",
+        "franchise": "The Apothecary Diaries"
+      }
+    },
+    "relatedCharacters": ["char-anime-001", "char-anime-002", "char-anime-003"]
+  },
+  {
+    "id": "char-anime-005",
+    "category": "anime",
+    "franchise": "One Piece",
+    "series": "One Piece",
+    "name": "Monkey D. Luffy",
+    "role": "Captain of the Straw Hat Pirates",
+    "image": "https://cdn.myanimelist.net/images/characters/5/315343.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Toei Animation",
+    "imageSourceUrl": "https://myanimelist.net/character/294/Monkey_D_Luffy",
+    "biography": "A rubber-bodied pirate captain chasing the legendary One Piece treasure in order to become King of the Pirates. He is reckless, functionally incapable of strategy, and completely fearless, yet he inspires absolute loyalty because he will burn down the world for a crewmate. His Hito Hito no Mi, Model: Nika grants him cartoonish freedom over his own body.",
+    "traits": [
+      "Gum-Gum Fruit",
+      "Conqueror's Haki",
+      "Reckless",
+      "Fiercely Loyal",
+      "Never Gives Up"
+    ],
+    "slug": "monkey-d-luffy",
+    "href": "/characters/monkey-d-luffy",
+    "accent": "#A855F7",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Anime",
+        "href": "/category/anime",
+        "current": false
+      },
+      {
+        "label": "Monkey D. Luffy",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["One Piece", "Gum-Gum Fruit", "Conqueror's Haki"],
+      "title": "Monkey D. Luffy",
+      "meta": "One Piece",
+      "bookmarkId": "char-anime-005"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Monkey D. Luffy"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "anime",
+        "franchise": "One Piece"
+      }
+    },
+    "relatedCharacters": ["char-anime-001", "char-anime-002", "char-anime-003"]
+  },
+  {
+    "id": "char-gaming-001",
+    "category": "gaming",
+    "franchise": "God of War",
+    "series": "God of War",
+    "name": "Kratos",
+    "role": "Former Greek God of War",
+    "image": "https://i.pinimg.com/736x/4e/9b/50/4e9b504e3f29a00641ea2d165824d438.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Santa Monica Studio",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A Spartan warrior who killed the pantheon that made him and then fled to the Norse realms to raise a son in peace. His rage is legendary, but the modern games are about his long, grudging attempt to keep it leashed. He wields the Leviathan Axe and the Blades of Chaos, and treats fatherhood as the hardest fight he has ever taken on.",
+    "traits": [
+      "Leviathan Axe",
+      "Spartan Rage",
+      "Stoic",
+      "Protective Father",
+      "Unbreakable Will"
+    ],
+    "slug": "kratos",
+    "href": "/characters/kratos",
+    "accent": "#22D3EE",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Gaming",
+        "href": "/category/gaming",
+        "current": false
+      },
+      {
+        "label": "Kratos",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["God of War", "Leviathan Axe", "Spartan Rage"],
+      "title": "Kratos",
+      "meta": "God of War",
+      "bookmarkId": "char-gaming-001"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Kratos"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "gaming",
+        "franchise": "God of War"
+      }
+    },
+    "relatedCharacters": [
+      "char-gaming-002",
+      "char-gaming-003",
+      "char-gaming-004"
+    ]
+  },
+  {
+    "id": "char-gaming-002",
+    "category": "gaming",
+    "franchise": "League of Legends",
+    "series": "League of Legends / Arcane",
+    "name": "Jinx",
+    "role": "Zaunite Anarchist",
+    "image": "https://i.pinimg.com/736x/18/3f/bc/183fbc59efd79a339ffa32eee63715fc.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Riot Games / Fortiche",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A manic Zaunite marksman whose defining trait is treating destruction as a punchline. Once Powder, a frightened girl from the undercity, she was reshaped by the violence of Piltover's neglect and her sister's choices into a walking escalation. She builds her own weapons, laughs mid-firefight, and is in genuine pain under all of it.",
+    "traits": [
+      "Chaotic",
+      "Improvised Explosives",
+      "Marksman",
+      "Unstable",
+      "Ferociously Creative"
+    ],
+    "slug": "jinx",
+    "href": "/characters/jinx",
+    "accent": "#22D3EE",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Gaming",
+        "href": "/category/gaming",
+        "current": false
+      },
+      {
+        "label": "Jinx",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": [
+        "League of Legends / Arcane",
+        "Chaotic",
+        "Improvised Explosives"
+      ],
+      "title": "Jinx",
+      "meta": "League of Legends / Arcane",
+      "bookmarkId": "char-gaming-002"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Jinx"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "gaming",
+        "franchise": "League of Legends"
+      }
+    },
+    "relatedCharacters": [
+      "char-gaming-001",
+      "char-gaming-003",
+      "char-gaming-004"
+    ]
+  },
+  {
+    "id": "char-gaming-003",
+    "category": "gaming",
+    "franchise": "Red Dead Redemption",
+    "series": "Red Dead Redemption 2",
+    "name": "Arthur Morgan",
+    "role": "Senior Enforcer, Van der Linde Gang",
+    "image": "https://wallpapercave.com/wp/wp12688243.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Rockstar Games",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A career outlaw who has spent his whole life following one man and only starts questioning the plan when it is far too late. He is blunt, violent when the job requires it, and unexpectedly thoughtful in his journal. His late-game reckoning with what he has done is one of gaming's most complete character arcs.",
+    "traits": [
+      "Dead Eye",
+      "Enforcer",
+      "Gruff",
+      "Cynical Realist",
+      "Quietly Introspective"
+    ],
+    "slug": "arthur-morgan",
+    "href": "/characters/arthur-morgan",
+    "accent": "#22D3EE",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Gaming",
+        "href": "/category/gaming",
+        "current": false
+      },
+      {
+        "label": "Arthur Morgan",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Red Dead Redemption 2", "Dead Eye", "Enforcer"],
+      "title": "Arthur Morgan",
+      "meta": "Red Dead Redemption 2",
+      "bookmarkId": "char-gaming-003"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Arthur Morgan"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "gaming",
+        "franchise": "Red Dead Redemption"
+      }
+    },
+    "relatedCharacters": [
+      "char-gaming-001",
+      "char-gaming-002",
+      "char-gaming-004"
+    ]
+  },
+  {
+    "id": "char-gaming-004",
+    "category": "gaming",
+    "franchise": "Horizon",
+    "series": "Horizon Zero Dawn / Forbidden West",
+    "name": "Aloy",
+    "role": "Machine Hunter, Nora Outcast",
+    "image": "https://wallpapercave.com/wp/wp7747565.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Guerrilla Games",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "Raised as an outcast by a man named Rost after being found at a sealed mountain door, Aloy taught herself to hunt machines in a world that had reverted to tribal life. She becomes the only person able to face the rogue AI HADES and, later, to chase the far larger truth about what ended the old world.",
+    "traits": [
+      "Machine Override",
+      "Master Archer",
+      "Determined",
+      "Skeptical of Authority",
+      "Resourceful"
+    ],
+    "slug": "aloy",
+    "href": "/characters/aloy",
+    "accent": "#22D3EE",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Gaming",
+        "href": "/category/gaming",
+        "current": false
+      },
+      {
+        "label": "Aloy",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": [
+        "Horizon Zero Dawn / Forbidden West",
+        "Machine Override",
+        "Master Archer"
+      ],
+      "title": "Aloy",
+      "meta": "Horizon Zero Dawn / Forbidden West",
+      "bookmarkId": "char-gaming-004"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Aloy"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "gaming",
+        "franchise": "Horizon"
+      }
+    },
+    "relatedCharacters": [
+      "char-gaming-001",
+      "char-gaming-002",
+      "char-gaming-003"
+    ]
+  },
+  {
+    "id": "char-gaming-005",
+    "category": "gaming",
+    "franchise": "Final Fantasy",
+    "series": "Final Fantasy XVI",
+    "name": "Clive Rosfield",
+    "role": "Dominant of Ifrit",
+    "image": "https://i.pinimg.com/736x/d6/e6/74/d6e674da472ac39f976524228edebd7d.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Square Enix",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "The firstborn prince of Rosaria, denied the Phoenix's blessing and made his younger brother's sworn shield instead. When Ifrit awakens inside him and destroys everything he was meant to protect, Clive spends his life trying to work out whether he is the weapon or the hand that wields it.",
+    "traits": [
+      "Eikon of Fire",
+      "Sword of Rosaria",
+      "Burdened",
+      "Duty-Bound",
+      "Relentless Protector"
+    ],
+    "slug": "clive-rosfield",
+    "href": "/characters/clive-rosfield",
+    "accent": "#22D3EE",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Gaming",
+        "href": "/category/gaming",
+        "current": false
+      },
+      {
+        "label": "Clive Rosfield",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Final Fantasy XVI", "Eikon of Fire", "Sword of Rosaria"],
+      "title": "Clive Rosfield",
+      "meta": "Final Fantasy XVI",
+      "bookmarkId": "char-gaming-005"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Clive Rosfield"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "gaming",
+        "franchise": "Final Fantasy"
+      }
+    },
+    "relatedCharacters": [
+      "char-gaming-001",
+      "char-gaming-002",
+      "char-gaming-003"
+    ]
+  },
+  {
+    "id": "char-movies-001",
+    "category": "movies",
+    "franchise": "Spider-Man",
+    "series": "Spider-Man: Spider-Verse",
+    "name": "Miles Morales",
+    "role": "Spider-Man of Earth-1610",
+    "image": "https://i.pinimg.com/736x/58/eb/f8/58ebf8b47d80388aa6febbf322eb849c.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Sony Pictures Animation",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A Brooklyn teenager bitten by a genetically altered spider just as Peter Parker died in his dimension. His powers come with a venom strike and camouflage that Peter never had, but the harder lesson is deciding that the mask is his to wear on his own terms. He writes his own story rather than inheriting someone else's.",
+    "traits": [
+      "Venom Strike",
+      "Camouflage",
+      "Artistic",
+      "Big-Hearted",
+      "Refuses the Script"
+    ],
+    "slug": "miles-morales",
+    "href": "/characters/miles-morales",
+    "accent": "#F59E0B",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Movies",
+        "href": "/category/movies",
+        "current": false
+      },
+      {
+        "label": "Miles Morales",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Spider-Man: Spider-Verse", "Venom Strike", "Camouflage"],
+      "title": "Miles Morales",
+      "meta": "Spider-Man: Spider-Verse",
+      "bookmarkId": "char-movies-001"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Miles Morales"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "movies",
+        "franchise": "Spider-Man"
+      }
+    },
+    "relatedCharacters": [
+      "char-movies-002",
+      "char-movies-003",
+      "char-movies-004"
+    ]
+  },
+  {
+    "id": "char-movies-002",
+    "category": "movies",
+    "franchise": "Marvel Cinematic Universe",
+    "series": "Iron Man / Avengers",
+    "name": "Tony Stark",
+    "role": "Founding Avenger",
+    "image": "https://i.pinimg.com/736x/5b/70/70/5b7070a67355ca8a69bd4c33ffd8cffa.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Marvel Studios",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A billionaire weapons manufacturer who rebuilt himself as Iron Man after seeing where his own products ended up. His arc across the MCU runs from self-interested showman to the man who trades his life for everyone else's. Genius, guilt, and an inability to stop building things are his defining engine.",
+    "traits": [
+      "Powered Armor",
+      "Genius Inventor",
+      "Sarcastic",
+      "Guilt-Driven",
+      "Ultimate Sacrifice"
+    ],
+    "slug": "tony-stark",
+    "href": "/characters/tony-stark",
+    "accent": "#F59E0B",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Movies",
+        "href": "/category/movies",
+        "current": false
+      },
+      {
+        "label": "Tony Stark",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Iron Man / Avengers", "Powered Armor", "Genius Inventor"],
+      "title": "Tony Stark",
+      "meta": "Iron Man / Avengers",
+      "bookmarkId": "char-movies-002"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Tony Stark"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "movies",
+        "franchise": "Marvel Cinematic Universe"
+      }
+    },
+    "relatedCharacters": [
+      "char-movies-001",
+      "char-movies-003",
+      "char-movies-004"
+    ]
+  },
+  {
+    "id": "char-movies-003",
+    "category": "movies",
+    "franchise": "Dune",
+    "series": "Dune",
+    "name": "Paul Atreides",
+    "role": "Duke of House Atreides / Kwisatz Haderach",
+    "image": "https://i.pinimg.com/736x/ba/ff/46/baff4641a905ff07fe1ba60aaa95eba7.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Warner Bros / Legendary",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "The heir to House Atreides, trained in mentat logic, Bene Gesserit conditioning, and the weirding way. After his family is destroyed on Arrakis he escapes into the deep desert and is pulled, largely against his will, into the role of messiah. Prescience shows him exactly what becoming a legend costs, and he does it anyway.",
+    "traits": [
+      "Prescience",
+      "Voice of Command",
+      "Reluctant Messiah",
+      "Mentat Trained",
+      "Burdened by Fate"
+    ],
+    "slug": "paul-atreides",
+    "href": "/characters/paul-atreides",
+    "accent": "#F59E0B",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Movies",
+        "href": "/category/movies",
+        "current": false
+      },
+      {
+        "label": "Paul Atreides",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Dune", "Prescience", "Voice of Command"],
+      "title": "Paul Atreides",
+      "meta": "Dune",
+      "bookmarkId": "char-movies-003"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Paul Atreides"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "movies",
+        "franchise": "Dune"
+      }
+    },
+    "relatedCharacters": [
+      "char-movies-001",
+      "char-movies-002",
+      "char-movies-004"
+    ]
+  },
+  {
+    "id": "char-movies-004",
+    "category": "movies",
+    "franchise": "Alien",
+    "series": "Alien",
+    "name": "Ellen Ripley",
+    "role": "Warrant Officer, Nostromo",
+    "image": "https://i.pinimg.com/736x/29/24/99/2924992176d005ba59fd82845e5c5118.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "20th Century Studios",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "The flight officer who survives the Nostromo and then spends the rest of her life being ignored by the company that sent her there. Ripley is not a soldier; she is a competent professional who keeps making the correct call in rooms full of men who won't listen. Her refusal to leave anyone behind outlasts the ship, the colony, and her own life.",
+    "traits": [
+      "Survivor",
+      "Pragmatic",
+      "Protective",
+      "Defiant of Authority",
+      "Improviser"
+    ],
+    "slug": "ellen-ripley",
+    "href": "/characters/ellen-ripley",
+    "accent": "#F59E0B",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Movies",
+        "href": "/category/movies",
+        "current": false
+      },
+      {
+        "label": "Ellen Ripley",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Alien", "Survivor", "Pragmatic"],
+      "title": "Ellen Ripley",
+      "meta": "Alien",
+      "bookmarkId": "char-movies-004"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Ellen Ripley"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "movies",
+        "franchise": "Alien"
+      }
+    },
+    "relatedCharacters": [
+      "char-movies-001",
+      "char-movies-002",
+      "char-movies-003"
+    ]
+  },
+  {
+    "id": "char-movies-005",
+    "category": "movies",
+    "franchise": "Mad Max",
+    "series": "Mad Max / Furiosa",
+    "name": "Furiosa",
+    "role": "Imperator, Citadel War Rig",
+    "image": "https://wallpapercave.com/wp/wp13977964.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Warner Bros",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "Taken from the Green Place as a child and raised inside Immortan Joe's Citadel, she spends decades working toward one thing: getting home. She is a superb driver, a patient long-game strategist, and a woman who has learned to hide every emotion under grease and silence.",
+    "traits": [
+      "Expert Driver",
+      "Sharpshooter",
+      "Patient Strategist",
+      "Taciturn",
+      "Unbreakable Resolve"
+    ],
+    "slug": "furiosa",
+    "href": "/characters/furiosa",
+    "accent": "#F59E0B",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Movies",
+        "href": "/category/movies",
+        "current": false
+      },
+      {
+        "label": "Furiosa",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Mad Max / Furiosa", "Expert Driver", "Sharpshooter"],
+      "title": "Furiosa",
+      "meta": "Mad Max / Furiosa",
+      "bookmarkId": "char-movies-005"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Furiosa"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "movies",
+        "franchise": "Mad Max"
+      }
+    },
+    "relatedCharacters": [
+      "char-movies-001",
+      "char-movies-002",
+      "char-movies-003"
+    ]
+  },
+  {
+    "id": "char-tvshows-001",
+    "category": "tvshows",
+    "franchise": "BoJack Horseman",
+    "series": "BoJack Horseman",
+    "name": "BoJack Horseman",
+    "role": "Former Sitcom Star",
+    "image": "https://i.pinimg.com/1200x/bb/94/e8/bb94e8b34fc34d931fa4630ef8011b6d.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Netflix / Tornante",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "The star of a nineties family sitcom he never escaped, now an alcoholic in a Los Angeles where he is the only horse. The show refuses to let him reset between episodes: every cruelty accumulates and every apology is measured against whether he actually changes. He is a case study in how self-awareness without action is just another form of avoidance.",
+    "traits": [
+      "Self-Destructive",
+      "Witty",
+      "Deeply Insecure",
+      "Nostalgic",
+      "Capable of Growth"
+    ],
+    "slug": "bojack-horseman",
+    "href": "/characters/bojack-horseman",
+    "accent": "#FB7185",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "TV shows",
+        "href": "/category/tvshows",
+        "current": false
+      },
+      {
+        "label": "BoJack Horseman",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["BoJack Horseman", "Self-Destructive", "Witty"],
+      "title": "BoJack Horseman",
+      "meta": "BoJack Horseman",
+      "bookmarkId": "char-tvshows-001"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "BoJack Horseman"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "tvshows",
+        "franchise": "BoJack Horseman"
+      }
+    },
+    "relatedCharacters": [
+      "char-tvshows-002",
+      "char-tvshows-003",
+      "char-tvshows-004"
+    ]
+  },
+  {
+    "id": "char-tvshows-002",
+    "category": "tvshows",
+    "franchise": "Invincible",
+    "series": "Invincible",
+    "name": "Mark Grayson",
+    "role": "Teen Hero / Invincible",
+    "image": "https://i.pinimg.com/736x/04/53/94/0453945fb06395aefafdd383daf0ce9e.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Amazon Studios / Skybound",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "The half-Viltrumite son of Omni-Man who develops powers at seventeen and gets a much uglier version of the superhero origin than he expected. The series is largely about him absorbing one brutal loss after another and choosing, each time, to keep the suit on. He gets stronger, and he stops being a kid about it.",
+    "traits": [
+      "Viltrumite Physiology",
+      "Flight",
+      "Superhuman Strength",
+      "Idealistic",
+      "Learning to Be Ruthless"
+    ],
+    "slug": "mark-grayson",
+    "href": "/characters/mark-grayson",
+    "accent": "#FB7185",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "TV shows",
+        "href": "/category/tvshows",
+        "current": false
+      },
+      {
+        "label": "Mark Grayson",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Invincible", "Viltrumite Physiology", "Flight"],
+      "title": "Mark Grayson",
+      "meta": "Invincible",
+      "bookmarkId": "char-tvshows-002"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Mark Grayson"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "tvshows",
+        "franchise": "Invincible"
+      }
+    },
+    "relatedCharacters": [
+      "char-tvshows-001",
+      "char-tvshows-003",
+      "char-tvshows-004"
+    ]
+  },
+  {
+    "id": "char-tvshows-003",
+    "category": "tvshows",
+    "franchise": "Stranger Things",
+    "series": "Stranger Things",
+    "name": "Eleven",
+    "role": "Test Subject / Jane Hopper",
+    "image": "https://i.pinimg.com/736x/4a/3f/de/4a3fde0ee87fabd16c90cebbe12d7b8e.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Netflix",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A child raised as an experiment at Hawkins Lab, trained to reach into the Upside Down and given no vocabulary for ordinary life. Escaping into a friendship group is the first thing that ever went right for her. Her powers are enormous and cost her something every time she uses them.",
+    "traits": [
+      "Telekinesis",
+      "Psychic Projection",
+      "Limited Speech",
+      "Fiercely Protective",
+      "Learning to Be a Kid"
+    ],
+    "slug": "eleven",
+    "href": "/characters/eleven",
+    "accent": "#FB7185",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "TV shows",
+        "href": "/category/tvshows",
+        "current": false
+      },
+      {
+        "label": "Eleven",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Stranger Things", "Telekinesis", "Psychic Projection"],
+      "title": "Eleven",
+      "meta": "Stranger Things",
+      "bookmarkId": "char-tvshows-003"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Eleven"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "tvshows",
+        "franchise": "Stranger Things"
+      }
+    },
+    "relatedCharacters": [
+      "char-tvshows-001",
+      "char-tvshows-002",
+      "char-tvshows-004"
+    ]
+  },
+  {
+    "id": "char-tvshows-004",
+    "category": "tvshows",
+    "franchise": "The Bear",
+    "series": "The Bear",
+    "name": "Carmen 'Carmy' Berzatto",
+    "role": "Executive Chef",
+    "image": "https://i.pinimg.com/736x/ee/c4/20/eec4207ca669d7a3b5de7beeb3143524.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "FX / Hulu",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A fine-dining chef who comes home to run his late brother's sandwich shop and finds that Michelin technique is useless against grief and a broken walk-in. He is obsessive, exacting, and completely unable to accept help in a way that would make his life easier. The kitchen is where he can function and where he does the most damage.",
+    "traits": [
+      "Culinary Perfectionist",
+      "Workaholic",
+      "Anxious",
+      "Demanding Mentor",
+      "Grieving"
+    ],
+    "slug": "carmen-carmy-berzatto",
+    "href": "/characters/carmen-carmy-berzatto",
+    "accent": "#FB7185",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "TV shows",
+        "href": "/category/tvshows",
+        "current": false
+      },
+      {
+        "label": "Carmen 'Carmy' Berzatto",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["The Bear", "Culinary Perfectionist", "Workaholic"],
+      "title": "Carmen 'Carmy' Berzatto",
+      "meta": "The Bear",
+      "bookmarkId": "char-tvshows-004"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Carmen 'Carmy' Berzatto"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "tvshows",
+        "franchise": "The Bear"
+      }
+    },
+    "relatedCharacters": [
+      "char-tvshows-001",
+      "char-tvshows-002",
+      "char-tvshows-003"
+    ]
+  },
+  {
+    "id": "char-tvshows-005",
+    "category": "tvshows",
+    "franchise": "Succession",
+    "series": "Succession",
+    "name": "Kendall Roy",
+    "role": "Former Co-COO, Waystar Royco",
+    "image": "https://i.pinimg.com/736x/1a/b3/7d/1ab37da74553a275c57a486273be5829.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "HBO",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "The eldest son who has been promised his father's company for his entire adult life and is never once handed it. He is genuinely competent in brief flashes and catastrophically insecure the rest of the time, and the show tracks him oscillating between succession and patricide. He speaks entirely in corporate metaphor, including about his own children.",
+    "traits": [
+      "Heir Apparent",
+      "Volatile",
+      "Corporate Fluency",
+      "Self-Sabotaging",
+      "Desperate for Approval"
+    ],
+    "slug": "kendall-roy",
+    "href": "/characters/kendall-roy",
+    "accent": "#FB7185",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "TV shows",
+        "href": "/category/tvshows",
+        "current": false
+      },
+      {
+        "label": "Kendall Roy",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Succession", "Heir Apparent", "Volatile"],
+      "title": "Kendall Roy",
+      "meta": "Succession",
+      "bookmarkId": "char-tvshows-005"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Kendall Roy"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "tvshows",
+        "franchise": "Succession"
+      }
+    },
+    "relatedCharacters": [
+      "char-tvshows-001",
+      "char-tvshows-002",
+      "char-tvshows-003"
+    ]
+  },
+  {
+    "id": "char-kpop-001",
+    "category": "kpop",
+    "franchise": "BLACKPINK",
+    "series": "BLACKPINK",
+    "name": "Jennie Kim",
+    "role": "Rapper & Vocalist",
+    "image": "https://wallpapercave.com/uwp/uwp4985101.png",
+    "imageIsStandIn": false,
+    "imageCredit": "YG Entertainment",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A rapper and vocalist who debuted with BLACKPINK in 2016 under YG Entertainment after training in New Zealand and Seoul. Known for a distinct fashion presence and a low, unhurried delivery that became one of the group's signature sounds. She has also built a solo career alongside the group's releases.",
+    "traits": [
+      "Main Rapper",
+      "Fashion Icon",
+      "Versatile Vocalist",
+      "Composed Stage Presence",
+      "Global Ambassadorship"
+    ],
+    "slug": "jennie-kim",
+    "href": "/characters/jennie-kim",
+    "accent": "#EC4899",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "K-pop",
+        "href": "/category/kpop",
+        "current": false
+      },
+      {
+        "label": "Jennie Kim",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["BLACKPINK", "Main Rapper", "Fashion Icon"],
+      "title": "Jennie Kim",
+      "meta": "BLACKPINK",
+      "bookmarkId": "char-kpop-001"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Jennie Kim"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "kpop",
+        "franchise": "BLACKPINK"
+      }
+    },
+    "relatedCharacters": ["char-kpop-002"]
+  },
+  {
+    "id": "char-kpop-002",
+    "category": "kpop",
+    "franchise": "BLACKPINK",
+    "series": "BLACKPINK",
+    "name": "Lalisa Manobal",
+    "role": "Main Dancer & Rapper",
+    "image": "https://wallpapercave.com/wp/wp11893045.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "YG Entertainment",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "BLACKPINK's main dancer and lead rapper, and the group's Thai member, born in Buriram province. Her dance training background shows in choreography that gets built around her, and her solo releases have pushed a harder, more performance-forward sound. She is one of the most-followed K-pop artists on social platforms.",
+    "traits": [
+      "Main Dancer",
+      "Rapper",
+      "Multilingual",
+      "Performance-Driven",
+      "Solo Artist"
+    ],
+    "slug": "lalisa-manobal",
+    "href": "/characters/lalisa-manobal",
+    "accent": "#EC4899",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "K-pop",
+        "href": "/category/kpop",
+        "current": false
+      },
+      {
+        "label": "Lalisa Manobal",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["BLACKPINK", "Main Dancer", "Rapper"],
+      "title": "Lalisa Manobal",
+      "meta": "BLACKPINK",
+      "bookmarkId": "char-kpop-002"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Lalisa Manobal"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "kpop",
+        "franchise": "BLACKPINK"
+      }
+    },
+    "relatedCharacters": ["char-kpop-001"]
+  },
+  {
+    "id": "char-kpop-003",
+    "category": "kpop",
+    "franchise": "BTS",
+    "series": "BTS",
+    "name": "RM (Kim Namjoon)",
+    "role": "Leader & Main Rapper",
+    "image": "https://i.pinimg.com/1200x/a4/b0/38/a4b038f8b309a9d4a0368a5f0c3e69f5.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "HYBE / BIGHIT MUSIC",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "The leader of BTS, who joined the group as an underground rapper and grew into its primary lyricist and public voice. He carries the group's keynote speeches and much of its thematic direction, and his solo catalogue runs deliberately away from pop structure. His lyricism is the main reason BTS's early albums read as personal rather than manufactured.",
+    "traits": [
+      "Leader",
+      "Main Rapper",
+      "Lyricist",
+      "Public Speaker",
+      "Art-Focused Solo Work"
+    ],
+    "slug": "rm",
+    "href": "/characters/rm",
+    "accent": "#EC4899",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "K-pop",
+        "href": "/category/kpop",
+        "current": false
+      },
+      {
+        "label": "RM (Kim Namjoon)",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["BTS", "Leader", "Main Rapper"],
+      "title": "RM (Kim Namjoon)",
+      "meta": "BTS",
+      "bookmarkId": "char-kpop-003"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "RM (Kim Namjoon)"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "kpop",
+        "franchise": "BTS"
+      }
+    },
+    "relatedCharacters": ["char-kpop-001", "char-kpop-002", "char-kpop-004"]
+  },
+  {
+    "id": "char-kpop-004",
+    "category": "kpop",
+    "franchise": "Stray Kids",
+    "series": "Stray Kids",
+    "name": "Felix (Lee Felix)",
+    "role": "Dancer & Rapper",
+    "image": "https://i.pinimg.com/736x/a7/47/18/a7471826501b67c49c36e257d0b6abfe.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "JYP Entertainment",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A Sydney-born dancer and rapper in Stray Kids whose deep voice contrasts sharply with his stage visuals, a combination that became one of the group's most recognizable calling cards. He trained for a comparatively short time before debut and has since become central to the group's choreography and variety presence.",
+    "traits": [
+      "Deep-Voice Rap",
+      "Main Dancer",
+      "Australian Line",
+      "Stage Contrast",
+      "Variety Personality"
+    ],
+    "slug": "felix",
+    "href": "/characters/felix",
+    "accent": "#EC4899",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "K-pop",
+        "href": "/category/kpop",
+        "current": false
+      },
+      {
+        "label": "Felix (Lee Felix)",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Stray Kids", "Deep-Voice Rap", "Main Dancer"],
+      "title": "Felix (Lee Felix)",
+      "meta": "Stray Kids",
+      "bookmarkId": "char-kpop-004"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Felix (Lee Felix)"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "kpop",
+        "franchise": "Stray Kids"
+      }
+    },
+    "relatedCharacters": ["char-kpop-001", "char-kpop-002", "char-kpop-003"]
+  },
+  {
+    "id": "char-kpop-005",
+    "category": "kpop",
+    "franchise": "NewJeans",
+    "series": "NewJeans",
+    "name": "Hanni Pham",
+    "role": "Vocalist & Dancer",
+    "image": "https://wallpapercave.com/wp/wp12543884.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "ADOR / HYBE",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A Vietnamese-Australian vocalist and dancer who debuted with NewJeans in 2022 under ADOR. The group's stripped-back, Y2K-referencing presentation made her relaxed vocal tone and understated delivery a good fit for its sound. She is one of the members most associated with the group's visual identity.",
+    "traits": [
+      "Vocalist",
+      "Dancer",
+      "Y2K Aesthetic",
+      "Relaxed Tone",
+      "Multilingual"
+    ],
+    "slug": "hanni-pham",
+    "href": "/characters/hanni-pham",
+    "accent": "#EC4899",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "K-pop",
+        "href": "/category/kpop",
+        "current": false
+      },
+      {
+        "label": "Hanni Pham",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["NewJeans", "Vocalist", "Dancer"],
+      "title": "Hanni Pham",
+      "meta": "NewJeans",
+      "bookmarkId": "char-kpop-005"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Hanni Pham"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "kpop",
+        "franchise": "NewJeans"
+      }
+    },
+    "relatedCharacters": ["char-kpop-001", "char-kpop-002", "char-kpop-003"]
+  },
+  {
+    "id": "char-comics-001",
+    "category": "comics",
+    "franchise": "DC Comics",
+    "series": "Batman / Detective Comics",
+    "name": "Bruce Wayne",
+    "role": "Batman",
+    "image": "https://wallpapercave.com/wp/wp15301396.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "DC Comics",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "Gotham's billionaire orphan turned vigilante, driven by a mugging in an alley and an obsession he has never seriously tried to cure. He is the world's greatest detective, a martial artist across a dozen disciplines, and a man who has turned preparation into a personality. Different runs disagree about whether he is a hero holding a city together or a very expensive symptom of it.",
+    "traits": [
+      "World's Greatest Detective",
+      "Master Martial Artist",
+      "Prep Obsessed",
+      "No Killing Rule",
+      "Emotionally Guarded"
+    ],
+    "slug": "bruce-wayne",
+    "href": "/characters/bruce-wayne",
+    "accent": "#EF4444",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Comics",
+        "href": "/category/comics",
+        "current": false
+      },
+      {
+        "label": "Bruce Wayne",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": [
+        "Batman / Detective Comics",
+        "World's Greatest Detective",
+        "Master Martial Artist"
+      ],
+      "title": "Bruce Wayne",
+      "meta": "Batman / Detective Comics",
+      "bookmarkId": "char-comics-001"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Bruce Wayne"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "comics",
+        "franchise": "DC Comics"
+      }
+    },
+    "relatedCharacters": ["char-comics-003", "char-comics-005"]
+  },
+  {
+    "id": "char-comics-002",
+    "category": "comics",
+    "franchise": "Marvel Comics",
+    "series": "X-Men / Wolverine",
+    "name": "Logan",
+    "role": "Wolverine",
+    "image": "https://i.pinimg.com/736x/37/8e/81/378e8120850e0537a79148c83146af11.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Marvel Comics",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A Canadian mutant with an accelerated healing factor, a skeleton laced with adamantium, and roughly a century of memory he mostly does not have access to. He is the best there is at what he does and has spent decades trying to be something other than that. His long life is mostly a list of people he outlived.",
+    "traits": [
+      "Healing Factor",
+      "Adamantium Claws",
+      "Enhanced Senses",
+      "Berserker",
+      "Reluctant Mentor"
+    ],
+    "slug": "logan",
+    "href": "/characters/logan",
+    "accent": "#EF4444",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Comics",
+        "href": "/category/comics",
+        "current": false
+      },
+      {
+        "label": "Logan",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["X-Men / Wolverine", "Healing Factor", "Adamantium Claws"],
+      "title": "Logan",
+      "meta": "X-Men / Wolverine",
+      "bookmarkId": "char-comics-002"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Logan"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "comics",
+        "franchise": "Marvel Comics"
+      }
+    },
+    "relatedCharacters": ["char-comics-004"]
+  },
+  {
+    "id": "char-comics-003",
+    "category": "comics",
+    "franchise": "DC Comics",
+    "series": "Wonder Woman",
+    "name": "Diana Prince",
+    "role": "Wonder Woman",
+    "image": "https://i.pinimg.com/736x/87/8b/b7/878bb720612144144be865c2ea76ae57.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "DC Comics",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "Princess of Themyscira and an Amazon sculpted from clay and given life by the gods, depending on which origin you're reading. She leaves Paradise Island for Man's World carrying a lasso that compels truth and a mandate to change the world rather than merely police it. She is the DC trinity's moral centre and the one most willing to extend compassion to an enemy.",
+    "traits": [
+      "Lasso of Truth",
+      "Amazonian Strength",
+      "Diplomat",
+      "Compassionate",
+      "Born of the Gods"
+    ],
+    "slug": "diana-prince",
+    "href": "/characters/diana-prince",
+    "accent": "#EF4444",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Comics",
+        "href": "/category/comics",
+        "current": false
+      },
+      {
+        "label": "Diana Prince",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Wonder Woman", "Lasso of Truth", "Amazonian Strength"],
+      "title": "Diana Prince",
+      "meta": "Wonder Woman",
+      "bookmarkId": "char-comics-003"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Diana Prince"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "comics",
+        "franchise": "DC Comics"
+      }
+    },
+    "relatedCharacters": ["char-comics-001", "char-comics-005"]
+  },
+  {
+    "id": "char-comics-004",
+    "category": "comics",
+    "franchise": "Marvel Comics",
+    "series": "The Amazing Spider-Man",
+    "name": "Peter Parker",
+    "role": "Spider-Man",
+    "image": "https://i.pinimg.com/736x/07/fe/54/07fe549138b63c220633b8f256e32651.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Marvel Comics",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A Queens science student bitten by a radioactive spider who learned responsibility the hard way, through an uncle who died for a mistake Peter made. He is strong enough to hold up a building, broke enough to miss rent, and constitutionally incapable of walking past a problem. His life is the most sustained argument in comics that being a good person is expensive.",
+    "traits": [
+      "Wall-Crawling",
+      "Spider-Sense",
+      "Web-Shooters",
+      "Guilt-Driven",
+      "Quick-Witted"
+    ],
+    "slug": "peter-parker",
+    "href": "/characters/peter-parker",
+    "accent": "#EF4444",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Comics",
+        "href": "/category/comics",
+        "current": false
+      },
+      {
+        "label": "Peter Parker",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["The Amazing Spider-Man", "Wall-Crawling", "Spider-Sense"],
+      "title": "Peter Parker",
+      "meta": "The Amazing Spider-Man",
+      "bookmarkId": "char-comics-004"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Peter Parker"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "comics",
+        "franchise": "Marvel Comics"
+      }
+    },
+    "relatedCharacters": ["char-comics-002"]
+  },
+  {
+    "id": "char-comics-005",
+    "category": "comics",
+    "franchise": "DC Comics",
+    "series": "Catwoman",
+    "name": "Selina Kyle",
+    "role": "Catwoman",
+    "image": "https://i.pinimg.com/736x/b0/76/fc/b076fc558eeb9e1dff3e2979f68f915e.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "DC Comics",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "Gotham's premier cat burglar, raised in the city's foster system and trained in the same brutal school of hard knocks as Batman, without the money. She operates on the wrong side of the law and the right side of most arguments, and she is the person most able to tell Bruce Wayne exactly what he is doing. Her ethics are consistent; they just are not the city's.",
+    "traits": [
+      "Master Thief",
+      "Acrobat",
+      "Moral Wildcard",
+      "Whip Expert",
+      "Gotham Insider"
+    ],
+    "slug": "selina-kyle",
+    "href": "/characters/selina-kyle",
+    "accent": "#EF4444",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Comics",
+        "href": "/category/comics",
+        "current": false
+      },
+      {
+        "label": "Selina Kyle",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Catwoman", "Master Thief", "Acrobat"],
+      "title": "Selina Kyle",
+      "meta": "Catwoman",
+      "bookmarkId": "char-comics-005"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Selina Kyle"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "comics",
+        "franchise": "DC Comics"
+      }
+    },
+    "relatedCharacters": ["char-comics-001", "char-comics-003"]
+  },
+  {
+    "id": "char-manga-001",
+    "category": "manga",
+    "franchise": "Berserk",
+    "series": "Berserk",
+    "name": "Guts",
+    "role": "The Black Swordsman",
+    "image": "https://i.pinimg.com/736x/c6/d0/27/c6d0270396dc4d4883d404138cbcb4f2.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Kentaro Miura / Hakusensha",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A mercenary born from a corpse and raised by the man who found him, who survived the Eclipse and lost nearly everyone in it. He carries the Brand of Sacrifice, which draws spirits to him every night, and wields a sword too large for anyone else to lift. His entire story is about whether a person defined by violence can choose anything else.",
+    "traits": [
+      "Brand of Sacrifice",
+      "Dragonslayer",
+      "Berserker Armor",
+      "Survivor",
+      "Deeply Traumatised"
+    ],
+    "slug": "guts",
+    "href": "/characters/guts",
+    "accent": "#E5E5E5",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Manga",
+        "href": "/category/manga",
+        "current": false
+      },
+      {
+        "label": "Guts",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Berserk", "Brand of Sacrifice", "Dragonslayer"],
+      "title": "Guts",
+      "meta": "Berserk",
+      "bookmarkId": "char-manga-001"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Guts"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "manga",
+        "franchise": "Berserk"
+      }
+    },
+    "relatedCharacters": ["char-manga-002", "char-manga-003", "char-manga-004"]
+  },
+  {
+    "id": "char-manga-002",
+    "category": "manga",
+    "franchise": "Chainsaw Man",
+    "series": "Chainsaw Man",
+    "name": "Denji",
+    "role": "Chainsaw Man",
+    "image": "https://i.pinimg.com/736x/a1/92/c5/a192c5c1a7eab186dbd7b4be62c3b171.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Tatsuki Fujimoto / Shueisha",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A teenager who spent his childhood hunting devils to pay off his father's debt and was murdered by the yakuza for it, then resurrected by his chainsaw devil dog Pochita. His dreams are aggressively mundane — bread, jam, a girlfriend — and Fujimoto uses that smallness to make the horror land harder. He is the only shonen protagonist whose ambition is a normal life.",
+    "traits": [
+      "Devil Hybrid",
+      "Chainsaw Transformation",
+      "Blunt",
+      "Touch-Starved",
+      "Ridiculously Durable"
+    ],
+    "slug": "denji",
+    "href": "/characters/denji",
+    "accent": "#E5E5E5",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Manga",
+        "href": "/category/manga",
+        "current": false
+      },
+      {
+        "label": "Denji",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Chainsaw Man", "Devil Hybrid", "Chainsaw Transformation"],
+      "title": "Denji",
+      "meta": "Chainsaw Man",
+      "bookmarkId": "char-manga-002"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Denji"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "manga",
+        "franchise": "Chainsaw Man"
+      }
+    },
+    "relatedCharacters": ["char-manga-001", "char-manga-003", "char-manga-004"]
+  },
+  {
+    "id": "char-manga-003",
+    "category": "manga",
+    "franchise": "Kagurabachi",
+    "series": "Kagurabachi",
+    "name": "Chihiro Rokuhira",
+    "role": "Blade Wielder",
+    "image": "https://i.pinimg.com/736x/9a/32/81/9a32812dff582f9d45fbb07d829e3aee.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Takeru Hokazono / Shueisha",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "The son of a legendary swordsmith, driven to recover the six enchanted blades his father forged after a sorcery syndicate murders his family. He wields Enten, a blade whose power runs on accumulated spiritual energy and leaves him drained. He is a revenge protagonist who is already tired of revenge and does not have the option to stop.",
+    "traits": [
+      "Enchanted Blade Enten",
+      "Swordsmanship",
+      "Vengeful",
+      "Exhausted",
+      "Pragmatic"
+    ],
+    "slug": "chihiro-rokuhira",
+    "href": "/characters/chihiro-rokuhira",
+    "accent": "#E5E5E5",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Manga",
+        "href": "/category/manga",
+        "current": false
+      },
+      {
+        "label": "Chihiro Rokuhira",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Kagurabachi", "Enchanted Blade Enten", "Swordsmanship"],
+      "title": "Chihiro Rokuhira",
+      "meta": "Kagurabachi",
+      "bookmarkId": "char-manga-003"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Chihiro Rokuhira"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "manga",
+        "franchise": "Kagurabachi"
+      }
+    },
+    "relatedCharacters": ["char-manga-001", "char-manga-002", "char-manga-004"]
+  },
+  {
+    "id": "char-manga-004",
+    "category": "manga",
+    "franchise": "Vinland Saga",
+    "series": "Vinland Saga",
+    "name": "Thorfinn",
+    "role": "Former Viking / Pacifist",
+    "image": "https://i.pinimg.com/736x/a6/b7/98/a6b798c04805ab2594c60ed86346a8bc.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Makoto Yukimura / Kodansha",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "A Viking prodigy raised on revenge who gets everything he wanted and finds it hollow, then renounces violence entirely in a world built on it. His arc from killer to pacifist is one of manga's clearest anti-war arguments. He wants to build a land with no slaves and no war, and he has no idea how.",
+    "traits": [
+      "Reformed Warrior",
+      "Pacifist",
+      "Expert Navigator",
+      "Guilt-Ridden",
+      "Reformist Dreamer"
+    ],
+    "slug": "thorfinn",
+    "href": "/characters/thorfinn",
+    "accent": "#E5E5E5",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Manga",
+        "href": "/category/manga",
+        "current": false
+      },
+      {
+        "label": "Thorfinn",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Vinland Saga", "Reformed Warrior", "Pacifist"],
+      "title": "Thorfinn",
+      "meta": "Vinland Saga",
+      "bookmarkId": "char-manga-004"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Thorfinn"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "manga",
+        "franchise": "Vinland Saga"
+      }
+    },
+    "relatedCharacters": ["char-manga-001", "char-manga-002", "char-manga-003"]
+  },
+  {
+    "id": "char-manga-005",
+    "category": "manga",
+    "franchise": "Death Note",
+    "series": "Death Note",
+    "name": "Light Yagami",
+    "role": "Kira / Owner of the Death Note",
+    "image": "https://i.pinimg.com/736x/60/e2/be/60e2be325278ec359d283ee2af77c85f.jpg",
+    "imageIsStandIn": false,
+    "imageCredit": "Tsugumi Ohba / Takeshi Obata / Shueisha",
+    "imageSourceUrl": "https://www.pinterest.com/",
+    "biography": "An exceptional student who finds a notebook that kills anyone whose name is written in it and decides, within about a week, that he should rule the world. He starts as an argument about justice and becomes a study in how quickly a utilitarian premise collapses into pure ego. Half the fun of the series is watching him lose arguments with himself.",
+    "traits": [
+      "Death Note Owner",
+      "Master Manipulator",
+      "Genius Strategist",
+      "Delusions of Godhood",
+      "Grandiose"
+    ],
+    "slug": "light-yagami",
+    "href": "/characters/light-yagami",
+    "accent": "#E5E5E5",
+    "accentToken": "var(--accent)",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Manga",
+        "href": "/category/manga",
+        "current": false
+      },
+      {
+        "label": "Light Yagami",
+        "href": null,
+        "current": true
+      }
+    ],
+    "card": {
+      "recipe": "hubSearchBookmarks",
+      "thumbAspect": "1:1",
+      "tagRow": ["Death Note", "Death Note Owner", "Master Manipulator"],
+      "title": "Light Yagami",
+      "meta": "Death Note",
+      "bookmarkId": "char-manga-005"
+    },
+    "imageAspect": "1:1",
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Light Yagami"
+    },
+    "sectionOrder": [
+      "header",
+      "biography",
+      "traits",
+      "relatedCharacters",
+      "gallery",
+      "media"
+    ],
+    "gallery": [],
+    "mediaFilter": {
+      "file": "videos.json",
+      "filter": {
+        "category": "manga",
+        "franchise": "Death Note"
+      }
+    },
+    "relatedCharacters": ["char-manga-001", "char-manga-002", "char-manga-003"]
+  }
+]
+}
