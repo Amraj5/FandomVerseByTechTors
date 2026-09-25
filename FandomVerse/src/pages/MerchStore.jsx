@@ -20,7 +20,7 @@ export default function StorePage() {
     return data.merchandise
       .map((p) => p.category)
       .filter((c) => (seen.has(c) ? false : (seen.add(c), true)))
-      .map((slug) => ({ slug, name: slug.charAt(0).toUpperCase() + slug.slice(1) }));
+      .map((id) => ({ id, name: id.charAt(0).toUpperCase() + id.slice(1) }));
   }, []);
 
   const filteredProducts = useMemo(() => {
@@ -77,12 +77,12 @@ export default function StorePage() {
               </button>
               {categories.map((cat) => (
                 <button
-                  key={cat.slug}
+                  key={cat.id}
                   type="button"
                   role="tab"
-                  aria-selected={selectedCategory === cat.slug}
-                  className={`sp-pill ${selectedCategory === cat.slug ? "active" : ""}`}
-                  onClick={() => setSelectedCategory(cat.slug)}
+                  aria-selected={selectedCategory === cat.id}
+                  className={`sp-pill ${selectedCategory === cat.id ? "active" : ""}`}
+                  onClick={() => setSelectedCategory(cat.id)}
                 >
                   {cat.name}
                 </button>
@@ -136,51 +136,24 @@ export default function StorePage() {
                           <span className="sp-card-price">{product.price}</span>
 
                           {!product.inStock ? (
-                            <button
-                              type="button"
-                              className="sp-btn"
-                              disabled
-                              onClick={(e) => e.preventDefault()}
-                            >
-                              Out of stock
-                            </button>
-                          ) : !inCart ? (
-                            <button
-                              type="button"
-                              className="sp-btn primary"
-                              onClick={(e) => {
+                            <button type="button" className="sp-btn" disabled onClick={(e) => e.preventDefault()}> Out of stock </button>) : !inCart ? (
+                            <button type="button" className="sp-btn primary" onClick={(e) => {
                                 e.preventDefault();
                                 e.stopPropagation();
-                                addItems(product);
-                              }}
-                            >
-                              Add
-                            </button>
-                          ) : (
+                                addItems(product);}}>Add</button>) : (
                             <div className="sp-qty-stepper" onClick={(e) => e.preventDefault()}>
-                              <button
-                                type="button"
-                                className="sp-step"
-                                aria-label="Decrease quantity"
-                                onClick={(e) => {
+                              <button type="button" className="sp-step" aria-label="Decrease quantity" onClick={(e) => {
                                   e.preventDefault();
                                   e.stopPropagation();
-                                  handleDecrement(product.id);
-                                }}
-                              >
+                                  handleDecrement(product.id);}}>
                                 −
                               </button>
                               <span className="sp-qty">{qty}</span>
-                              <button
-                                type="button"
-                                className="sp-step"
-                                aria-label="Increase quantity"
-                                onClick={(e) => {
+                              <button type="button" className="sp-step" aria-label="Increase quantity" onClick={(e) => {
                                   e.preventDefault();
                                   e.stopPropagation();
                                   increment(product.id);
-                                }}
-                              >
+                                }}>
                                 +
                               </button>
                             </div>
@@ -194,10 +167,7 @@ export default function StorePage() {
             ) : (
               <div className="sp-empty">
                 <p>No merchandise items match your filter.</p>
-                <button
-                  type="button"
-                  className="sp-reset-btn"
-                  onClick={() => {
+                <button type="button" className="sp-reset-btn" onClick={() => {
                     setSelectedCategory("all");
                     setSearchQuery("");
                   }}
