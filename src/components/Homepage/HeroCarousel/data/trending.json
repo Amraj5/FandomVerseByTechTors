@@ -1,0 +1,130 @@
+[
+  {
+    "id": "tr-01",
+    "title": "Solo Leveling",
+    "category": "anime",
+    "categoryLabel": "anime",
+    "color": "#E5A988",
+    "rating": "4.8",
+    "image": "https://static.kinoafisha.info/upload/articles/720517852125.jpg"
+  },
+  {
+    "id": "tr-02",
+    "title": "Honkai: Star Rail",
+    "category": "gaming",
+    "categoryLabel": "gaming",
+    "color": "#4B92E5",
+    "rating": "4.6",
+    "image": "https://4kwallpapers.com/images/walls/thumbs_3t/26270.jpg"
+  },
+  {
+    "id": "tr-03",
+    "title": "Avengers: Endgame",
+    "category": "movies",
+    "categoryLabel": "movies",
+    "color": "#F3B23A",
+    "rating": "4.9",
+    "image": "https://avatars.mds.yandex.net/i?id=ec1aa6b8bc090f3a9afe8d6d50e19a32fb0246d6-5499519-images-thumbs&n=13"
+  },
+  {
+    "id": "tr-04",
+    "title": "Stranger Things S4",
+    "category": "tvshows",
+    "categoryLabel": "tv shows",
+    "color": "#E54B62",
+    "rating": "4.7",
+    "image":"https://4kwallpapers.com/images/walls/thumbs_3t/25730.jpg"
+  },
+  {
+    "id": "tr-05",
+    "title": "NewJeans - Get Up",
+    "category": "kpop",
+    "categoryLabel": "K-pop",
+    "color": "#C85BD6",
+    "rating": "4.9",
+    "image":"https://wallpapercave.com/wp/wp11772340.jpg"
+  },
+  {
+    "id": "tr-06",
+    "title": "Spider-Man: Beyond",
+    "category": "comics",
+    "categoryLabel": "comics",
+    "color": "#EA7349",
+    "rating": "4.8",
+    "image":"https://4kwallpapers.com/images/walls/thumbs_3t/22574.png"
+  },
+  {
+    "id": "tr-07",
+    "title": "Chainsaw Man",
+    "category": "manga",
+    "categoryLabel": "manga",
+    "color": "#8C929E",
+    "rating": "4.8",
+    "image":"https://4kwallpapers.com/images/walls/thumbs_3t/23013.jpg"
+  },
+  {
+    "id": "tr-08",
+    "title": "Invincible S3",
+    "category": "tvshows",
+    "categoryLabel": "tv shows",
+    "color": "#E54B62",
+    "rating": "4.9",
+     "image": "https://wallpapercave.com/wp/wp16127499.jpg"
+  },
+  {
+    "id": "tr-09",
+    "title": "Attack on Titan",
+    "category": "anime",
+    "categoryLabel": "anime",
+    "color": "#E5A988",
+    "rating": "4.9",
+    "image": "https://4kwallpapers.com/images/walls/thumbs_3t/26601.jpg"
+  },
+  {
+    "id": "tr-10",
+    "title": "Marvel Rivals",
+    "category": "gaming",
+    "categoryLabel": "gaming",
+    "color": "#4B92E5",
+    "rating": "4.3",
+    "image": "https://4kwallpapers.com/images/walls/thumbs_3t/21371.jpg"
+    
+  },
+  {
+    "id": "tr-11",
+    "title": "Jujutsu Kaisen",
+    "category": "manga",
+    "categoryLabel": "manga",
+    "color": "#8C929E",
+    "rating": "4.7",
+    "image":"https://4kwallpapers.com/images/walls/thumbs_3t/26047.jpg"
+  },
+  {
+    "id": "tr-12",
+    "title": "Dune: Part Two",
+    "category": "movies",
+    "categoryLabel": "movies",
+    "color": "#F3B23A",
+    "rating": "4.8",
+    "image":"https://4kwallpapers.com/images/walls/thumbs_3t/15783.jpg"
+  },
+  {
+    "id": "tr-13",
+    "title": "Stray Kids - ATE",
+    "category": "kpop",
+    "categoryLabel": "K-pop",
+    "color": "#C85BD6",
+    "rating": "4.8",
+    "image":"https://4kwallpapers.com/images/walls/thumbs_2t/25145.jpg"
+  },
+  {
+    "id": "tr-14",
+    "title": "Gargoyle of Gotham",
+    "category": "comics",
+    "categoryLabel": "comics",
+    "color": "#EA7349",
+    "rating": "4.6",
+    "image":"https://wallpapercave.com/wp/wp7935045.jpg"
+    
+  }
+]

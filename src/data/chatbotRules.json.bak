@@ -1,0 +1,230 @@
+{
+  "quickReplies": [
+    { "label": "Explore Anime", "trigger": "anime" },
+    { "label": "Explore Gaming", "trigger": "gaming" },
+    { "label": "Movies & TV", "trigger": "movies" },
+    { "label": "K-Pop", "trigger": "k-pop" },
+    { "label": "Recommend me something", "trigger": "recommend" },
+    { "label": "Character Profiles", "trigger": "characters" },
+    { "label": "Site Navigation", "trigger": "navigation" }
+  ],
+  "rules": [
+    {
+      "keywords": [
+        "anime",
+        "demon slayer",
+        "kimetsu no yaiba",
+        "hashira",
+        "ufotable",
+        "episode reviews"
+      ],
+      "response": "Anime is one of our biggest hubs — latest updates, character breakdowns and episode reviews. Our current featured story is the Demon Slayer: Infinity Castle Arc breakdown.",
+      "linkText": "Go to Anime Hub",
+      "linkUrl": "/category/anime"
+    },
+    {
+      "keywords": [
+        "gaming",
+        "game",
+        "games",
+        "elden ring",
+        "fromsoftware",
+        "ps5",
+        "playstation",
+        "xbox",
+        "game news"
+      ],
+      "response": "The Gaming hub covers game news, lore analysis and community guides. Start with the Elden Ring: Shadow of the Erdtree lore deep dive.",
+      "linkText": "Explore Gaming",
+      "linkUrl": "/category/gaming"
+    },
+    {
+      "keywords": [
+        "movies",
+        "movie",
+        "film",
+        "films",
+        "cinema",
+        "spider-verse",
+        "spider verse",
+        "blockbuster",
+        "fan theories"
+      ],
+      "response": "Movies has blockbuster coverage, fan theories and cinematic updates. The Spider-Man: Beyond the Spider-Verse speculation piece is a good place to start.",
+      "linkText": "Go to Movies Hub",
+      "linkUrl": "/category/movies"
+    },
+    {
+      "keywords": [
+        "tv",
+        "tv shows",
+        "tv show",
+        "series",
+        "shows",
+        "show",
+        "binge",
+        "recaps"
+      ],
+      "response": "TV Shows is where the binge-worthy series discussions, recaps and insights live.",
+      "linkText": "Go to TV Hub",
+      "linkUrl": "/category/tv-shows"
+    },
+    {
+      "keywords": [
+        "k-pop",
+        "kpop",
+        "k pop",
+        "comeback",
+        "idol",
+        "bias",
+        "member spotlight"
+      ],
+      "response": "K-Pop covers comeback analysis, group lore and member spotlights.",
+      "linkText": "Go to K-Pop Hub",
+      "linkUrl": "/category/k-pop"
+    },
+    {
+      "keywords": [
+        "comics",
+        "comic",
+        "comic book",
+        "graphic novel",
+        "crossover",
+        "dc",
+        "marvel comics"
+      ],
+      "response": "Comics covers comic book runs, crossover arcs and graphic novel lore.",
+      "linkText": "Go to Comics Hub",
+      "linkUrl": "/category/comics"
+    },
+    {
+      "keywords": [
+        "manga",
+        "jjk",
+        "jujutsu kaisen",
+        "gojo",
+        "gege akutami",
+        "chapter leaks",
+        "manga panels",
+        "shonen jump"
+      ],
+      "response": "Manga has chapter leaks, manga panels and creator spotlights. Our Jujutsu Kaisen: The Legacy of Satoru Gojo piece is in that hub.",
+      "linkText": "Go to Manga Hub",
+      "linkUrl": "/category/manga"
+    },
+    {
+      "keywords": [
+        "character",
+        "characters",
+        "character profiles",
+        "profiles",
+        "profile",
+        "bio"
+      ],
+      "response": "Character profiles are single-column editorial pages dedicated to iconic fandom figures — a quieter layout built for reading.",
+      "linkText": "Browse Characters",
+      "linkUrl": "/characters"
+    },
+    {
+      "keywords": [
+        "recommend",
+        "recommendation",
+        "recommendations",
+        "what should i read",
+        "trending",
+        "popular",
+        "top stories",
+        "featured"
+      ],
+      "response": "If you only read one thing: the Demon Slayer: Infinity Castle Arc breakdown is our featured story. Otherwise the Bento Grid on the landing page ranks everything by importance, so the biggest cells are the ones worth your time.",
+      "linkText": "View the Bento Grid",
+      "linkUrl": "/"
+    },
+    {
+      "keywords": [
+        "search",
+        "find",
+        "looking for",
+        "filter",
+        "bento",
+        "bento grid"
+      ],
+      "response": "There's a global search that works across every category. You can also filter by category from the top navigation, or scroll the Bento Grid on the landing page.",
+      "linkText": "Search the site",
+      "linkUrl": "/search"
+    },
+    {
+      "keywords": [
+        "navigation",
+        "navigate",
+        "help",
+        "how to use",
+        "where do i start",
+        "guide",
+        "lost"
+      ],
+      "response": "Start at the Bento Grid on the landing page — cell size ranks importance, so the biggest cells are the top stories. The top navigation filters by category, and global search works across everything.",
+      "linkText": "View the Bento Grid",
+      "linkUrl": "/"
+    },
+    {
+      "keywords": [
+        "bookmark",
+        "bookmarks",
+        "save",
+        "saved",
+        "favourite",
+        "favorite",
+        "reading list"
+      ],
+      "response": "You can bookmark anything you want to come back to — no account needed. Bookmarks are stored in your browser, so they stay on this device.",
+      "linkText": null,
+      "linkUrl": null
+    },
+    {
+      "keywords": [
+        "account",
+        "login",
+        "log in",
+        "sign in",
+        "signin",
+        "signup",
+        "sign up",
+        "register",
+        "password"
+      ],
+      "response": "You don't need an account to browse, search or bookmark — everything is open. The login and signup buttons are UI-only for this build, so they won't ask you for anything.",
+      "linkText": null,
+      "linkUrl": null
+    },
+    {
+      "keywords": [
+        "merch",
+        "merchandise",
+        "cart",
+        "shop",
+        "store",
+        "buy",
+        "purchase",
+        "checkout"
+      ],
+      "response": "The merch showcase is browse-only — you can add things to the cart and see a running total, but there's no real checkout or payment step.",
+      "linkText": "View the Merch Showcase",
+      "linkUrl": "/cart"
+    },
+    {
+      "keywords": [
+        "about",
+        "contact",
+        "team",
+        "who made",
+        "techwiz",
+        "feedback"
+      ],
+      "response": "FandomVerse was built by Team TechTors for Techwiz 7 — Web Innovation Unleashed. All content lives in local JSON files, with no backend or database.",
+      "linkText": "About the project",
+      "linkUrl": "/about"
+    }
+  ],
+  "defaultResponse": "I'm not sure about that one yet! Try one of the quick options below, or ask me about Anime, Gaming, Movies, TV Shows, K-Pop, Comics or Manga."
+}

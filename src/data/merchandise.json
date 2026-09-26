@@ -1,0 +1,124 @@
+{
+"merchandise":[
+  {
+    "id": "merch-001",
+    "category": "anime",
+    "badge": "pre-order · official drop",
+    "title": "Demon Slayer: Infinity Castle Premium Scale Figures",
+    "price": "$189.99",
+    "rating": "4.9",
+    "inStock": true,
+    "summary": "Limited run 1/7 scale figures featuring Tanjiro and Akaza with reactive LED base display accents.",
+    "imageUrl": "https://m.media-amazon.com/images/I/51iT7MjwyHL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "shopUrl": "/store/demon-slayer-scale-figures"
+  },
+  {
+    "id": "merch-003",
+    "category": "kpop",
+    "badge": "official md · tour exclusive",
+    "title": "BlackPink 10th Anniversary World Tour Light Stick Ver. 3",
+    "price": "$58.00",
+    "rating": "5.0",
+    "inStock": true,
+    "summary": "Official light stick with Bluetooth stage synchronization, customizable silicone grips, and exclusive photocard sets.",
+    "imageUrl": "https://m.media-amazon.com/images/I/31Xt36mvARL._AC_UL450_SY450_QL70_.jpg",
+    "shopUrl": "/store/blackpink-ver3-lightstick"
+  },
+  {
+    "id": "merch-004",
+    "category": "comics",
+    "badge": "collector item · print art",
+    "title": "Absolute Batman Vol. 1 Deluxe Foil Variant Slipcase",
+    "price": "$49.99",
+    "rating": "4.7",
+    "inStock": false,
+    "summary": "Hardcover compilation collecting the introductory arc with foil-stamped artwork and author signed bookplates.",
+    "imageUrl": "https://m.media-amazon.com/images/I/419k4iMVPGL._SY445_SX342_FMwebp_.jpg",
+    "shopUrl": "/store/absolute-batman-slipcase"
+  },
+  {
+    "id": "merch-005",
+    "category": "manga",
+    "badge": "exclusive · apparel",
+    "title": "Kagurabachi Enten Sword Silhouette XL Desk Mat",
+    "price": "$29.99",
+    "rating": "4.9",
+    "inStock": true,
+    "summary": "Water-resistant 900x400mm gaming desk pad with stitched anti-fray edges and high-contrast panel print.",
+    "imageUrl": "https://i.etsystatic.com/37142032/r/il/3d792b/8135603479/il_794xN.8135603479_5gnm.jpg",
+    "shopUrl": "/store/kagurabachi-desk-mat"
+  },
+  {
+    "id": "merch-006",
+    "category": "gaming",
+    "badge": "official esports · limited drop",
+    "title": "VALORANT Champions Shanghai 'Frag or Die' Heavyweight Hoodie",
+    "price": "$98.00",
+    "rating": "4.9",
+    "inStock": true,
+    "summary": "Official 440GSM cotton fleece tournament hoodie featuring embroidered Shanghai venue branding and custom sleeve typography.",
+    "imageUrl": "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products_live%2Ff1586de98e19a701586a36a0e3356590b26e0b36-2560x2560.png%3FaccountingTag%3Dconsumer_products&w=828&q=75",
+    "shopUrl": "/store/vct-shanghai-frag-or-die-hoodie"
+  },
+  {
+    "id": "merch-007",
+    "category": "gaming",
+    "badge": "pre-order · 1/6 scale",
+    "title": "McFarlane Marvel Rivals Black Panther 10-Inch Collectible Statue",
+    "price": "$49.99",
+    "rating": "4.8",
+    "inStock": true,
+    "summary": "High-detail posed figure inspired by the game's King in Black skin line, bundled with exclusive comic art variant cards.",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-hlbgbzrg7y/images/stencil/640w/products/3422/33490/Black_Panther__54703.1781825833.jpg?c=1",
+    "shopUrl": "/store/marvel-rivals-black-panther-figure"
+  },
+  {
+    "id": "merch-009",
+    "category": "kpop",
+    "badge": "pop-up store · limited",
+    "title": "NewJeans 'How Sweet' CD Case Acrylic Keyring (Full Set)",
+    "price": "$85.00",
+    "rating": "5.0",
+    "inStock": true,
+    "summary": "Official Line Friends pop-up collab featuring miniature clear CD jewel cases with interchangeable member photocard inserts.",
+    "imageUrl": "https://linefriendssquare.us/cdn/shop/files/NJ_24_CD__HI_8800251560603_1200x1200_001.jpg?v=1753079681&width=1200",
+    "shopUrl": "/store/newjeans-cd-keyring-set"
+  },
+  {
+    "id": "merch-010",
+    "category": "movies",
+    "badge": "pre-order · vinyl release",
+    "title": "Spider-Man: Beyond the Spider-Verse Picture Disc Vinyl OST",
+    "price": "$42.00",
+    "rating": "4.9",
+    "inStock": true,
+    "summary": "Double LP picture disc pressing featuring original orchestral score compositions and film concept art gatefold sleeve.",
+    "imageUrl": "https://i.ebayimg.com/images/g/w88AAOSwzhBm-U~c/s-l1600.webp",
+    "shopUrl": "/store/beyond-spider-verse-ost-vinyl"
+  },
+  {
+    "id": "merch-011",
+    "category": "anime",
+    "badge": "replica · collector agrade",
+    "title": "Chainsaw Man Reze Bomb Devil Pull-Cord Pendant Replica",
+    "price": "$34.99",
+    "rating": "4.6",
+    "inStock": false,
+    "summary": "Solid stainless steel choker necklace featuring the iconic neck-ring pull-pin motif from the Reze Arc theatrical film.",
+    "imageUrl": "https://i.etsystatic.com/67892777/r/il/4cb5d4/8594461435/il_794xN.8594461435_ghml.jpg",
+    "shopUrl": "/store/csm-reze-pull-cord-necklace"
+  },
+  {
+    "id": "merch-012",
+    "category": "comics",
+    "badge": "official print · variant",
+    "title": "Absolute Batman #1 Foil Stamp Screenprinted Art Poster",
+    "price": "$55.00",
+    "rating": "4.8",
+    "inStock": true,
+    "summary": "Hand-numbered 18x24 screenprint on heavy cardstock finished with metallic red foil embellishments.",
+    "imageUrl": "https://mondoshop.com/cdn/shop/files/Ian.Bertram_Absolute.Batman.No.1.Reprolarge.jpg?v=1752011838&width=570",
+    "shopUrl": "/store/absolute-batman-foil-poster"
+  }
+]
+}

@@ -1,0 +1,634 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap");
+
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f3f4f6;
+    --bg: #16171d;
+    --border: #2e303a;
+    --code-bg: #1f2028;
+    --accent: #c084fc;
+    --accent-bg: rgba(192, 132, 252, 0.15);
+    --accent-border: rgba(192, 132, 252, 0.5);
+    --social-bg: rgba(47, 48, 58, 0.5);
+    --shadow:
+      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  }
+
+  #social .button-icon {
+    filter: invert(1) brightness(2);
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}
+
+/* Container Layout */
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+/* Category Badge */
+.badge {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.2rem;
+  color: #94a3b8;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+/* Dynamic Article Content Spacing */
+.article-content {
+  margin-top: 2rem;
+}
+
+.article-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #cbd5e1;
+}
+
+.article-content h2 {
+  font-size: 1.75rem;
+  margin: 2rem 0 1rem;
+  color: #f8fafc;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 0.5rem;
+}
+
+/* Images & Figures */
+.article-content figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.article-content img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.article-content figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #64748b;
+  font-style: italic;
+}
+
+/* Blockquotes */
+.article-content blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #3b82f6;
+  background-color: #1e293b;
+  border-radius: 0 8px 8px 0;
+}
+
+.article-content blockquote p {
+  margin: 0;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #f1f5f9;
+}
+
+.article-content cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #94a3b8;
+  font-style: normal;
+  text-align: right;
+}
+
+/* Category Accent Scoping */
+[data-category="anime"] {
+  --accent: #a855f7;
+}
+[data-category="gaming"] {
+  --accent: #22d3ee;
+}
+[data-category="movies"] {
+  --accent: #f59e0b;
+}
+[data-category="tvshows"] {
+  --accent: #fb7185;
+}
+[data-category="kpop"] {
+  --accent: #ec4899;
+}
+[data-category="comics"] {
+  --accent: #ef4444;
+}
+[data-category="manga"] {
+  --accent: #e5e5e5;
+}
+
+/* Global Base */
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: "Space Grotesk", sans-serif;
+  color: var(--text-primary);
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* 4.5 Category Tag Chips */
+.tag-chip {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background-color: color-mix(in srgb, var(--accent) 18%, transparent);
+  color: var(--accent);
+  display: inline-block;
+  width: fit-content;
+}
+
+/* --------------------------------------------------
+   2. ARTICLE EDITORIAL STYLES (src/pages/ArticlePage.jsx)
+-------------------------------------------------- */
+.article-container {
+  max-width: 720px; /* Editorial body constraint */
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.article-header {
+  margin-bottom: 32px;
+}
+
+.article-header h1 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+  margin: 12px 0 8px 0;
+}
+
+.article-subtitle {
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--text-secondary);
+}
+
+.article-content p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.article-content h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  margin: 32px 0 16px 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+}
+
+.article-content figure {
+  margin: 24px 0;
+}
+
+.article-content img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.article-content figcaption {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  text-align: center;
+}
+
+.article-content blockquote {
+  margin: 24px 0;
+  padding: 12px 20px;
+  border-left: 3px solid var(--accent);
+  background-color: var(--surface);
+  border-radius: 0 8px 8px 0;
+}
+
+.article-content blockquote p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.article-content cite {
+  display: block;
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  font-style: normal;
+}
+
+/* --------------------------------------------------
+   4.4 CARD STYLES & GRID (For Home / Hub Feed)
+-------------------------------------------------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 16px;
+  grid-auto-rows: 1fr;
+}
+
+.content-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition:
+    transform var(--t-fast) var(--ease-out),
+    border-color var(--t-fast) var(--ease-out),
+    box-shadow var(--t-fast) var(--ease-out);
+}
+
+.content-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.card-thumb {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* Character Card Styles */
+.character-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 150ms, box-shadow 150ms, transform 150ms;
+}
+
+.character-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.character-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.character-card-thumb {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  overflow: hidden;
+  background: var(--border);
+}
+
+.character-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 300ms ease;
+}
+
+.character-card:hover .character-card-thumb img {
+  transform: scale(1.05);
+}
+
+.character-card-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--border);
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.character-card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.character-card-franchise {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  width: fit-content;
+}
+
+.character-card-name {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.character-card-role {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.character-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.character-card-tag {
+  font-size: 0.65rem;
+  padding: 0.1rem 0.4rem;
+  background: var(--bg-tertiary);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+
+.character-card-bookmark {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 150ms, background 150ms;
+  z-index: 10;
+}
+.character-card:hover .character-card-bookmark { opacity: 1; }
+.character-card-bookmark:hover { background: var(--accent); }
+.character-card-bookmark.active { opacity: 1; background: var(--accent); }
+
+/* Article Card Compact (for category hub) */
+.article-card-compact {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 150ms, box-shadow 150ms, transform 150ms;
+  position: relative;
+}
+
+.article-card-compact:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.article-card-thumb {
+  aspect-ratio: 16 / 9;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--border);
+}
+
+.article-card-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.article-card-category {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  width: fit-content;
+}
+
+.article-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.article-card-meta {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin: 0;
+  margin-top: auto;
+}
+
+.article-bookmark {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 150ms, background 150ms;
+  z-index: 10;
+}
+.article-card-compact:hover .article-bookmark { opacity: 1; }
+.article-bookmark:hover { background: var(--accent); }
+.article-bookmark.active { opacity: 1; background: var(--accent); }
+
+/* Character Grid - make cards wider */
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .character-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+  .article-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
+
+.card-title {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin: 8px 0 4px 0;
+}
+
+.card-meta {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text-secondary);
+  margin-top: auto;
+}

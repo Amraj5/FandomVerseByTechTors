@@ -1,0 +1,608 @@
+:root {
+    --bg: #0D0D14;
+    --surface: #16161F;
+    --surface-elevated: #1E1E2A;
+    --surface-overlay: rgba(13, 13, 20, 0.72);
+    --text-primary: #F2F2F7;
+    --text-secondary: #A0A0B0;
+    --border: #262635;
+    --anime: #A855F7;
+    --gaming: #22D3EE;
+    --movies: #F59E0B;
+    --tv-shows: #FB7185;
+    --k-pop: #EC4899;
+    --comics: #EF4444;
+    --manga: #E5E5E5;
+}
+
+body {
+    background-color: var(--bg);
+    margin: 0;
+}
+
+.hero-container {
+    display: grid;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 0;
+}
+
+/* ===== HERO CAROUSEL ===== */
+.hero-carousel {
+    width: 100%;
+    position: relative;
+    border-radius: 0;
+    overflow: hidden;
+    background: var(--surface);
+}
+
+.hero-slide {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    max-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3rem 4rem;
+}
+
+.hero-slide::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+   
+    z-index: 1;
+}
+
+.hero-info {
+    position: relative;
+    z-index: 2;
+    max-width: 720px;
+    width: 100%;
+    color: var(--text-primary);
+    animation: heroTextIn 0.8s ease-out;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+@keyframes heroTextIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding: 0.35rem 0.85rem;
+    background: var(--anime);
+    color: #0D0D14;
+    border-radius: 999px;
+    width: fit-content;
+}
+
+.hero-info h2 {
+    text-align: left;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin: 0;
+    text-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.hero-summary {
+    text-align: left;
+    font-size: clamp(0.5rem, 1rem);
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 580px;
+    margin: 0;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.hero-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875rem 1.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.button1 {
+    background: var(--anime);
+    color: #0D0D14;
+    border-color: var(--anime);
+}
+
+.button1:hover {
+    background: transparent;
+    border-color: white;
+    color: white;
+}
+
+.button2 {
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+.button2:hover {
+    background: white;
+    color: #0D0D14;
+}
+
+.hero-counter {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: "Space Grotesk", monospace;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero-nav-buttons {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 3;
+}
+
+.hero-nav-buttons button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    transition: all 0.2s ease;
+}
+
+.hero-nav-buttons button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+/* ===== TRENDS SECTION ===== */
+.hero-trends {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.trends-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.trends-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.view-all-link {
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.view-all-link:hover {
+    border-color: var(--anime);
+    color: var(--anime);
+}
+
+.trend-carousel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.trend-arrow {
+    flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--surface-elevated);
+    border: 1px solid var(--border);
+    color: var(--anime);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.trend-arrow:hover {
+    background: var(--anime);
+    border-color: var(--anime);
+    color: #0D0D14;
+}
+
+.trend-arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.trend-list {
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    padding: 0.5rem 0;
+    -ms-overflow-style: none;
+}
+
+.trend-list::-webkit-scrollbar {
+    display: none;
+}
+
+.trend-card {
+    flex: 0 0 auto;
+    width: 280px;
+    max-width: 100%;
+    min-width: 240px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #08090d;
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.trend-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 400px;
+    background: linear-gradient(
+        to top,
+        rgba(8, 9, 13, 0) 0%,
+        rgba(8, 9, 13, 0) 55%,
+        rgba(8, 9, 13, 0.05) 100%
+    );
+    z-index: 1;
+}
+
+.trend-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.trend-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.trend-card:hover img {
+    transform: scale(1.05);
+}
+
+.trend-info {
+    position: relative;
+    z-index: 2;
+    padding: 1.25rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.trend-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: fit-content;
+}
+
+.trend-label svg {
+    font-size: 0.6rem;
+}
+
+.trend-info h3 {
+    margin: 0;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.trend-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+}
+
+.trend-info p svg {
+    color: #facc15;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .hero-container {
+        gap: 1.25rem;
+        padding: 0;
+    }
+
+    .hero-slide {
+        min-height: 55vh;
+        max-height: 600px;
+        padding: 3rem 2rem;
+    }
+
+    .hero-info {
+        max-width: 100%;
+        padding-right: 4rem;
+    }
+
+    .hero-info h2 {
+        font-size: clamp(1.75rem, 4.5vw, 2.75rem);
+    }
+
+    .hero-nav-buttons {
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .hero-counter {
+        left: 1.5rem;
+        bottom: 1.5rem;
+    }
+
+    .trend-card {
+        width: 260px;
+        min-width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .hero-carousel {
+        border-radius: 0;
+    }
+
+    .hero-slide {
+        min-height: 50vh;
+        max-height: 500px;
+        padding: 2.5rem 1.5rem;
+    }
+
+    .hero-info {
+        gap: 0.75rem;
+        align-items: flex-start;
+    }
+
+    .hero-badge {
+        font-size: 0.6rem;
+        padding: 0.25rem 0.6rem;
+    }
+
+    .hero-info h2 {
+        font-size: clamp(1.5rem, 5vw, 2rem);
+        line-height: 1.2;
+    }
+
+    .hero-summary {
+        font-size: 0.9rem;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-button {
+        width: 100%;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .hero-nav-buttons {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        width: 100%;
+    }
+
+    .hero-counter {
+        display: none;
+    }
+
+    .trends-header {
+        padding: 1.25rem 1.25rem;
+    }
+
+    .trends-header h2 {
+        font-size: 1.25rem;
+    }
+
+    .view-all-link {
+        display: none;
+    }
+
+    .trend-carousel {
+        padding: 1rem 0.75rem;
+    }
+
+    .trend-arrow {
+        width: 36px;
+        height: 36px;
+    }
+
+    .trend-list {
+        gap: 0.75rem;
+        padding: 0.25rem 0;
+    }
+
+    .trend-card {
+        width: 240px;
+        min-width: 200px;
+    }
+
+    .trend-card img {
+        height: 160px;
+    }
+
+    .trend-info {
+        padding: 1rem 0.875rem 0.875rem;
+    }
+
+    .trend-info h3 {
+        font-size: 1rem;
+    }
+
+    .trend-info p {
+        font-size: 0.75rem;
+    }
+
+    .trends-header h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-slide {
+        min-height: 45vh;
+        max-height: 420px;
+        padding: 2rem 1rem;
+    }
+
+    .hero-info h2 {
+        font-size: clamp(1.25rem, 6vw, 1.75rem);
+    }
+
+    .hero-summary {
+        font-size: 0.85rem;
+    }
+
+    .hero-button {
+        padding: 0.875rem 1.25rem;
+        font-size: 0.9rem;
+    }
+
+    .trend-card {
+        width: 220px;
+        min-width: 180px;
+    }
+
+    .trend-card img {
+        height: 140px;
+    }
+
+    .trend-info h3 {
+        font-size: 0.95rem;
+    }
+}
+
+/* Touch device improvements */
+@media (hover: none) and (pointer: coarse) {
+    .hero-nav-buttons button:hover,
+    .trend-arrow:hover,
+    .trend-card:hover {
+        transform: none;
+    }
+
+    .trend-card:active {
+        transform: translateY(-4px);
+    }
+
+    .hero-nav-buttons button:active {
+        background: rgba(255, 255, 255, 0.25);
+    }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .hero-info {
+        animation: none;
+    }
+
+    .trend-card,
+    .hero-nav-buttons button,
+    .trend-arrow {
+        transition: none;
+    }
+
+    .trend-list {
+        scroll-behavior: auto;
+    }
+}

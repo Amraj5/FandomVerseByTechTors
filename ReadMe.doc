@@ -1,0 +1,66 @@
+# FandomVerse — ReadMe
+
+## Project Overview
+A React-based fandom hub aggregating Characters, Articles, and Polls across 7 categories (Anime, Gaming, Movies, TV Shows, K-pop, Comics, Manga). Built with Vite, React Router, and static JSON data.
+
+## Quick Start
+```bash
+npm install
+npm run dev
+# Opens http://localhost:5173
+```
+
+## Project Structure
+```
+src/
+├── components/       # Reusable UI (Card, FilterBar, etc.)
+├── pages/            # Route-level views (Hub, Detail, Bookmarks)
+├── hooks/            # useFilters, useBookmarks
+├── data/             # JSON datasets (characters, articles, polls)
+├── styles/           # Global + component CSS (custom properties)
+├── App.jsx           # Home + global nav
+├── main.jsx          # Router + entry
+└── index.css         # Theme tokens, fonts, base styles
+```
+
+## Key Features
+- **Category hubs** with tabbed sections (Characters / Articles / Polls)
+- **Unified FilterBar** — search, category, sort, time-range, bookmarked-only
+- **Bookmarks** persisted in localStorage, accessible via `/bookmarks`
+- **Per-category theming** via `--accent` CSS variable
+- **Editorial article layout** with sections, pull quotes, responsive typography
+- **Poll visualization** with ranked bars and percentages
+
+## Data Model
+- **Characters**: 30 entries, linked by `id`, `slug`, `category`, `franchise`
+- **Articles**: 7 entries, linked by `slug`, `category`, `publishedDate`
+- **Polls**: 14 entries, linked by `id`, `category`, `totalVotes`
+
+## Assumptions
+1. No backend/auth — bookmarks use localStorage only
+2. Static JSON content — no CMS
+3. Images hosted externally (MyAnimeList, TMDB, CDN)
+4. Client-side filtering — suitable for <500 items per type
+5. Modern browsers only (CSS `color-mix()`, custom properties)
+6. English-only, no i18n
+7. SPA — React Router, no SSR
+
+## Scripts
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server (HMR) |
+| `npm run build` | Production build to `/dist` |
+| `npm run preview` | Preview production build |
+
+## Deployment
+Static output in `/dist` — deploy to Vercel, Netlify, GitHub Pages, or any static host.
+
+## Team Distribution (Original)
+- Member A: Datasets, chatbot, articles, characters, quick guides, bookmarks
+- Member B: Navbar, footer, auth (dummy), universal layout
+- Member C: Single-use pages (contact, about, merchandise, cart)
+- Member D: Hero carousel + home page assembly
+- Member E: Article/merchandise card modules, individual merchandise page
+
+## License
+MIT — free for educational and portfolio use.

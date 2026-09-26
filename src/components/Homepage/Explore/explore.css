@@ -1,0 +1,323 @@
+.explore-verse {
+    position: relative;
+    min-height: 400px;
+    padding: 67px 20px;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.explore-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter:
+        brightness(0.35)
+        saturate(0.75);
+}
+.explore-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background:
+        linear-gradient(
+        90deg,
+        rgba(5, 5, 10, 0.183),
+        rgba(9, 9, 235, 0),
+        rgba(5, 5, 10, 0.65)
+        );
+
+    backdrop-filter: blur(2px);
+}
+.explore-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.explore-header {
+    text-align: center;
+    margin-bottom: 75px;
+}
+.explore-header p {
+    margin: 0 0 10px;
+    color: #C084FC;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.explore-header h2 {
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+.explore-orbits {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 180px);
+    column-gap: 50px;
+    row-gap: 4px;
+    justify-items: center;
+    align-items: center;
+}
+.explore-orbit {
+    --category-color: #A855F7;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    isolation: isolate;
+    transition:
+        transform 0.4s ease;
+}
+.explore-orbit.anime {
+    --category-color: #E5A988;
+}
+
+.explore-orbit.gaming {
+    --category-color: #4B92E5;
+}
+
+.explore-orbit.movies {
+    --category-color: #F3B23A;
+}
+
+.explore-orbit.tvshows {
+    --category-color: #E54B62;
+}
+
+.explore-orbit.kpop {
+    --category-color: #C85BD6;
+}
+
+.explore-orbit.manga {
+    --category-color: #8C929E;
+}
+.explore-orbit::before {
+    content: "";
+    position: absolute;
+    inset: -13px;
+    border-radius: 50%;
+    border: 1px solid
+        color-mix(
+            in srgb,
+            var(--category-color) 55%,
+            transparent
+        );
+    box-shadow:
+        0 0 18px
+        color-mix(
+            in srgb,
+            var(--category-color) 15%,
+            transparent
+        );
+    opacity: 0.65;
+    z-index: -1;
+    transition:
+        transform 0.5s ease,
+        opacity 0.4s ease,
+        box-shadow 0.4s ease;
+}
+.explore-orbit::after {
+    content: "";
+    position: absolute;
+    width: 185px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px dashed
+        color-mix(
+            in srgb,
+            var(--category-color) 35%,
+            transparent
+        );
+    transform: rotate(-25deg);
+    opacity: 0.4;
+    z-index: -1;
+    transition:
+        transform 0.6s ease,
+        opacity 0.4s ease;
+}
+.orbit-image {
+    position: relative;
+    width: 105px;
+    height: 105px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid
+        color-mix(
+            in srgb,
+            var(--category-color) 45%,
+            white
+        );
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow:
+        0 0 20px
+        color-mix(
+            in srgb,
+            var(--category-color) 22%,
+            transparent
+        );
+    z-index: 2;
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+.orbit-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition:
+    transform 0.5s ease;
+}
+.explore-orbit span {
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.9);
+    transition:
+        color 0.4s ease,
+        text-shadow 0.4s ease;
+}
+.explore-orbit:hover {
+    transform: scale(1.08);
+}
+.explore-orbit:hover::before {
+    opacity: 1;
+    box-shadow:
+        0 0 25px
+        color-mix(
+            in srgb,
+            var(--category-color) 35%,
+            transparent
+        );
+    transform: scale(1.08);
+}
+
+
+.explore-orbit:hover::after {
+    opacity: 0.8;
+    transform:
+        rotate(35deg)
+        scale(1.08);
+}
+
+
+.explore-orbit:hover .orbit-image {
+    border-color: var(--category-color);
+    box-shadow:
+        0 0 20px
+        color-mix(
+            in srgb,
+            var(--category-color) 55%,
+            transparent
+        ),
+        0 0 45px
+        color-mix(
+            in srgb,
+            var(--category-color) 20%,
+            transparent
+        );
+    transform: scale(1.05);
+}
+
+
+.explore-orbit:hover .orbit-image img {
+    transform: scale(1.1);
+}
+
+
+.explore-orbit:hover span {
+    color: var(--category-color);
+    text-shadow:
+        0 0 12px
+        color-mix(
+            in srgb,
+            var(--category-color) 55%,
+            transparent
+        );
+}
+@media (max-width: 700px) {
+    .explore-verse {
+        min-height: 700px;
+        padding: 70px 20px;
+    }
+
+
+    .explore-header {
+        margin-bottom: 65px;
+    }
+
+
+    .explore-header h2 {
+        font-size: 1.8rem;
+    }
+
+
+    .explore-orbits {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 155px);
+        column-gap: 35px;
+        row-gap: 5px;
+    }
+    .explore-orbit {
+        width: 120px;
+        height: 120px;
+    }
+    .orbit-image {
+        width: 82px;
+        height: 82px;
+    }
+   .explore-orbit::before {
+        inset: -10px;
+    }
+   .explore-orbit::after {
+        width: 145px;
+        height: 100px;
+    }
+
+
+    .explore-orbit span {
+        bottom: -28px;
+
+        font-size: 0.76rem;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+
+    .explore-orbit,
+    .explore-orbit::before,
+    .explore-orbit::after,
+    .orbit-image,
+    .orbit-image img,
+    .explore-orbit span {
+        transition: none;
+    }
+}

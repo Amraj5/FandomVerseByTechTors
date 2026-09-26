@@ -1,0 +1,138 @@
+.card {
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #16161F;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    margin-bottom: 50px;
+
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card.anime:hover {
+    box-shadow: 0 0 25px #A855F7;
+}
+
+.card.gaming:hover {
+    box-shadow: 0 0 25px #22D3EE ;
+}
+
+.card.movies:hover {
+    box-shadow: 0 0 25px #F59E0B;
+}
+
+.card.tv-shows:hover {
+    box-shadow: 0 0 25px #FB7185;
+}
+
+.card.k-pop:hover {
+    box-shadow: 0 0 25px #EC4899;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #EF4444;
+    cursor: pointer;
+}
+
+.card-image {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card:hover .card-image img {
+    transform: scale(1.05);
+}
+
+.card-content {
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: #16161F;
+}
+
+.card-category {
+    margin: 0 0 10px;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F2F2F7;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.card-content h3 {
+    margin: 0;
+    color: #F2F2F7;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.read-more {
+    margin-top: auto;
+    color: var(--anime);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.featured-articles {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.art-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.cardHeader {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+.card-content h3{
+  font-size: 0.8rem;
+}
+
+.articles-header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  padding: 0 1.5rem;
+  flex-wrap: wrap;
+}
+
+.articles-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  text-align: left;
+}

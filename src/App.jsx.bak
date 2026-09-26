@@ -1,0 +1,12 @@
+import Chatbot from "./components/Chatbot";
+import "./App.css";
+
+export default function App() {
+  return (
+    <div style={{ padding: "2rem", color: "#fff" }}>
+      <h1>FandomVerse Portal</h1>
+      <p>Welcome to the main hub.</p>
+      <Chatbot />
+    </div>
+  );
+}

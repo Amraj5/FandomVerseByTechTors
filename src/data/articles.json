@@ -1,0 +1,514 @@
+{
+"articles":[
+
+  {
+    "id": "art-bojack-retrospective",
+    "slug": "bojack-horseman-retrospective",
+    "category": "tvshows",
+    "topicHubId": "hub-bojack-horseman",
+    "title": "10 Years Later: Why BoJack Horseman Remains Unmatched",
+    "subtitle": "How a satirical cartoon about a washed-up sitcom horse became the definitive modern character study on trauma and responsibility.",
+    "author": {
+      "name": "BIWB Editorial",
+      "avatar": "/assets/avatars/editor.jpg"
+    },
+    "publishedDate": "2026-08-14",
+    "readTime": "8 min read",
+    "heroImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+    "tags": ["BoJack Horseman", "Retrospective", "Adult Animation", "Netflix"],
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "When BoJack Horseman first debuted, critics initially dismissed it as another cynical adult animated comedy relying on Hollywood puns and talking animals. However, as the series progressed through the mid-2010s, it transformed into one of the most structurally ambitious and emotionally devastating shows in television history."
+      },
+      {
+        "type": "heading",
+        "content": "Subverting the Sitcom Formula"
+      },
+      {
+        "type": "paragraph",
+        "content": "Unlike traditional episodic television where character actions reset by the next episode, BoJack enforced real consequences. Trauma lingered, relationships eroded permanently, and self-destructive behavior was never sanitized for laugh tracks."
+      },
+      {
+        "type": "image",
+        "url": "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
+        "caption": "The View from Halfway Down remains one of animation's most haunting episodes."
+      },
+      {
+        "type": "quote",
+        "quoteText": "You can't keep doing shitty things, and then feel bad about yourself like that makes it okay. You need to be better.",
+        "author": "Todd Chavez"
+      },
+      {
+        "type": "heading",
+        "content": "Legacy & Cultural Impact"
+      },
+      {
+        "type": "paragraph",
+        "content": "A decade after its premiere, the series continues to drive online discourse, TikTok visual essays, and screenwriting analyses regarding how to write flawed, irredeemable characters without glorifying their toxic traits."
+      }
+    ],
+    "accent": "#FB7185",
+    "href": "/articles/bojack-horseman-retrospective",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "TV shows",
+        "href": "/category/tvshows",
+        "current": false
+      },
+      {
+        "label": "10 Years Later: Why BoJack Horseman Remains Unmatched",
+        "href": null,
+        "current": true
+      }
+    ],
+    "heroAspect": "16:9",
+    "editorialBody": {
+      "maxWidth": 720,
+      "fontSize": 17,
+      "lineHeight": 1.7,
+      "paragraphSpacing": 16,
+      "h2": "h2 24/32 500",
+      "pullQuote": "pullquote 20/30 500, 3px left border var(--accent)"
+    },
+    "imagePlaceholder": null,
+    "relatedArticles": []
+  },
+  {
+    "id": "art-kagurabachi-milestone",
+    "slug": "kagurabachi-new-arc-recap",
+    "category": "manga",
+    "topicHubId": "hub-kagurabachi",
+    "title": "Kagurabachi Hits Major Milestone with New Arc & Anime Rumors",
+    "subtitle": "Takeru Hokazono's revenge saga surpasses sales records while major animation studios circle the IP.",
+    "author": {
+      "name": "BIWB Editorial",
+      "avatar": "/assets/avatars/editor.jpg"
+    },
+    "publishedDate": "2026-09-02",
+    "readTime": "5 min read",
+    "heroImage": "https://i.pinimg.com/1200x/75/eb/e9/75ebe92b4ee7d45e3be0e4fee175cd72.jpg",
+    "tags": ["Kagurabachi", "Shonen Jump", "Manga", "Anime Adaptations"],
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "What started as an internet meme prior to its debut has solidified itself as one of Weekly Shonen Jump's powerhouse flagship series. Chihiro's quest to reclaim his father's enchanted blades has captured international readership with cinematic paneling and brutal swordplay."
+      },
+      {
+        "type": "image",
+        "url": "https://i.pinimg.com/736x/60/9a/32/609a32ebc9e9a996d745464cf378dfb9.jpg",
+        "caption": "Chihiro Rokuhira wielding Enten in Chapter 48."
+      },
+      {
+        "type": "heading",
+        "content": "Studio Leaks & What's Next"
+      },
+      {
+        "type": "paragraph",
+        "content": "Industry insiders suggest an official anime production announcement is slated for the upcoming Jump Festa showcase, with high-budget fight choreography being prioritized."
+      }
+    ],
+    "accent": "#E5E5E5",
+    "href": "/articles/kagurabachi-new-arc-recap",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Manga",
+        "href": "/category/manga",
+        "current": false
+      },
+      {
+        "label": "Kagurabachi Hits Major Milestone with New Arc & Anime Rumors",
+        "href": null,
+        "current": true
+      }
+    ],
+    "heroAspect": "16:9",
+    "editorialBody": {
+      "maxWidth": 720,
+      "fontSize": 17,
+      "lineHeight": 1.7,
+      "paragraphSpacing": 16,
+      "h2": "h2 24/32 500",
+      "pullQuote": "pullquote 20/30 500, 3px left border var(--accent)"
+    },
+    "imagePlaceholder": null,
+    "relatedArticles": []
+  },
+  {
+    "id": "art-shibuya-incident-explained",
+    "slug": "shibuya-incident-explained",
+    "category": "anime",
+    "topicHubId": "hub-jujutsu-kaisen",
+    "title": "The Shibuya Incident, Explained Without Spoiling the Aftermath",
+    "subtitle": "How one night in Tokyo reorganised the entire power structure of Jujutsu Kaisen, and why the series never resets afterwards.",
+    "author": {
+      "name": "BIWB Editorial",
+      "avatar": "/assets/avatars/editor.jpg"
+    },
+    "publishedDate": "2026-08-29",
+    "readTime": "9 min read",
+    "heroImage": "https://wallpapercave.com/wp/wp13223666.png",
+    "tags": ["Jujutsu Kaisen", "Shibuya Incident", "MAPPA", "Analysis"],
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "The Shibuya Incident is the point where Jujutsu Kaisen stops being a series about students learning to fight curses and becomes a series about what happens when the institutions protecting them are the actual problem. It is a single night, told across dozens of chapters, and it permanently removes almost every safety net the cast had been relying on."
+      },
+      {
+        "type": "heading",
+        "content": "The Trap Was Bureaucratic, Not Magical"
+      },
+      {
+        "type": "paragraph",
+        "content": "The plan works because the good guys follow procedure. A curtain goes up, civilians are sealed inside a station, and the sorcerers walk into a prepared kill box because the alternative is abandoning people. Kenjaku's real weapon is not a cursed technique, it is the certainty that the Jujutsu Higher-Ups will make the predictable, self-protective decision."
+      },
+      {
+        "type": "quote",
+        "quoteText": "Throughout heaven and earth, he alone is the honoured one.",
+        "author": "Narrator, on Gojo Satoru"
+      },
+      {
+        "type": "heading",
+        "content": "Why It Cannot Be Undone"
+      },
+      {
+        "type": "paragraph",
+        "content": "Most long-running shonen arcs end with the status quo restored and the stakes reset. Shibuya does the opposite. Key characters are dead or maimed, the prison realm holds the strongest sorcerer in the world, and the surviving cast spend the rest of the series operating as fugitives. Every arc after it is coloured by what was lost in one night."
+      }
+    ],
+    "accent": "#A855F7",
+    "href": "/articles/shibuya-incident-explained",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Anime",
+        "href": "/category/anime",
+        "current": false
+      },
+      {
+        "label": "The Shibuya Incident, Explained Without Spoiling the Aftermath",
+        "href": null,
+        "current": true
+      }
+    ],
+    "heroAspect": "16:9",
+    "editorialBody": {
+      "maxWidth": 720,
+      "fontSize": 17,
+      "lineHeight": 1.7,
+      "paragraphSpacing": 16,
+      "h2": "h2 24/32 500",
+      "pullQuote": "pullquote 20/30 500, 3px left border var(--accent)"
+    },
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "The Shibuya Incident, Explained Without Spoiling the Aftermath"
+    },
+    "relatedArticles": []
+  },
+  {
+    "id": "art-gta-vi-gameplay-breakdown",
+    "slug": "gta-vi-gameplay-breakdown",
+    "category": "gaming",
+    "topicHubId": "hub-gta-vi",
+    "title": "GTA VI Drops Final Gameplay Deep-Dive Ahead of Fall 2026 Launch",
+    "subtitle": "Rockstar's last pre-launch breakdown confirms dynamic weather systems, a reworked water engine, and the biggest map the studio has ever shipped.",
+    "author": {
+      "name": "BIWB Editorial",
+      "avatar": "/assets/avatars/editor.jpg"
+    },
+    "publishedDate": "2026-09-11",
+    "readTime": "7 min read",
+    "heroImage": "https://wallpapercave.com/uwp/uwp5060528.jpeg",
+    "tags": ["GTA VI", "Rockstar Games", "Open World", "Preview"],
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "After years of teases, Rockstar has put out a final gameplay deep-dive that functions as a proper systems tour rather than a trailer. Two minutes of uninterrupted in-engine footage covers Leonida's weather model, the rebuilt water simulation, and how NPC schedules react when a storm rolls in off the coast."
+      },
+      {
+        "type": "heading",
+        "content": "Weather as a Systems Driver"
+      },
+      {
+        "type": "paragraph",
+        "content": "Storms do not just change the lighting. The footage shows traffic thinning as conditions worsen, boats rerouting to shelter, and outdoor events cancelling on their own. This is the same design instinct that made Red Dead Redemption 2's world feel authored rather than decorated, applied to a setting with far more density."
+      },
+      {
+        "type": "heading",
+        "content": "The Water Engine Is the Real Headline"
+      },
+      {
+        "type": "paragraph",
+        "url": "https://wallpapercave.com/uwp/uwp4864476.jpeg",
+        "content": "Leonida is surrounded by water and built on top of it, so swimming, diving, and boating are all rebuilt from the ground up. Wake physics propagate between vessels, currents push swimmers off course, and the underwater layer is fully modelled rather than treated as a boundary."
+      },
+      {
+        "type": "quote",
+        "quoteText": "We wanted the map to feel like somewhere people already live, not somewhere built for the player to arrive in.",
+        "author": "Rockstar Games, design team"
+      }
+    ],
+    "accent": "#22D3EE",
+    "href": "/articles/gta-vi-gameplay-breakdown",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Gaming",
+        "href": "/category/gaming",
+        "current": false
+      },
+      {
+        "label": "GTA VI Drops Final Gameplay Deep-Dive Ahead of Fall 2026 Launch",
+        "href": null,
+        "current": true
+      }
+    ],
+    "heroAspect": "16:9",
+    "editorialBody": {
+      "maxWidth": 720,
+      "fontSize": 17,
+      "lineHeight": 1.7,
+      "paragraphSpacing": 16,
+      "h2": "h2 24/32 500",
+      "pullQuote": "pullquote 20/30 500, 3px left border var(--accent)"
+    },
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "GTA VI Drops Final Gameplay Deep-Dive Ahead of Fall 2026 Launch"
+    },
+    "relatedArticles": []
+  },
+  {
+    "id": "art-beyond-spider-verse-update",
+    "slug": "beyond-spider-verse-update",
+    "category": "movies",
+    "topicHubId": "hub-spider-verse",
+    "title": "Spider-Man: Beyond the Spider-Verse Receives Production Update",
+    "subtitle": "Lord and Miller on rendering the multiverse, the score, and why the final chapter is taking as long as it is.",
+    "author": {
+      "name": "BIWB Editorial",
+      "avatar": "/assets/avatars/editor.jpg"
+    },
+    "publishedDate": "2026-09-04",
+    "readTime": "6 min read",
+    "heroImage": "https://wallpapercave.com/wp/wp11971220.jpg",
+    "tags": ["Spider-Man", "Sony Animation", "Spider-Verse", "Production"],
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "The Spider-Verse films are the most technically ambitious mainstream animation in production, and the producers have been unusually candid about why the third entry is moving at the pace it is. Each dimension runs on its own visual rules, and those rules multiply the work rather than sharing it."
+      },
+      {
+        "type": "heading",
+        "content": "Every Universe Is a Separate Pipeline"
+      },
+      {
+        "type": "paragraph",
+        "content": "Gwen's Earth runs on watercolour washes, Miguel's on hard-edged noir shading, and Miles' own world sits between the two. Because the films cut between them mid-action, the transition frames have to be animated more than once, and the studio has described that overlap as the single largest cost in the production."
+      },
+      {
+        "type": "heading",
+        "content": "The Score Is Being Written Before the Edit Locks"
+      },
+      {
+        "type": "paragraph",
+        "content": "Rather than scoring to a finished cut, the music team has been working from animatics so the action can be cut to the score. It is the same approach that made the previous film's chase sequences feel rhythmically locked to the frame, and it means the soundtrack leaks will be unusually revealing."
+      }
+    ],
+    "accent": "#F59E0B",
+    "href": "/articles/beyond-spider-verse-update",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Movies",
+        "href": "/category/movies",
+        "current": false
+      },
+      {
+        "label": "Spider-Man: Beyond the Spider-Verse Receives Production Update",
+        "href": null,
+        "current": true
+      }
+    ],
+    "heroAspect": "16:9",
+    "editorialBody": {
+      "maxWidth": 720,
+      "fontSize": 17,
+      "lineHeight": 1.7,
+      "paragraphSpacing": 16,
+      "h2": "h2 24/32 500",
+      "pullQuote": "pullquote 20/30 500, 3px left border var(--accent)"
+    },
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Spider-Man: Beyond the Spider-Verse Receives Production Update"
+    },
+    "relatedArticles": []
+  },
+  {
+    "id": "art-blackpink-10th-anniversary-tour",
+    "slug": "blackpink-10th-anniversary-tour",
+    "category": "kpop",
+    "topicHubId": "hub-blackpink",
+    "title": "BlackPink Confirms 10th Anniversary World Tour & Album Details",
+    "subtitle": "YG confirms stadium routing, a full-group comeback album, and the release window for the anniversary photobook.",
+    "author": {
+      "name": "BIWB Editorial",
+      "avatar": "/assets/avatars/editor.jpg"
+    },
+    "publishedDate": "2026-09-09",
+    "readTime": "5 min read",
+    "heroImage": "https://wallpapercave.com/wp/wp4895718.jpg",
+    "tags": ["BLACKPINK", "World Tour", "Anniversary", "K-Pop"],
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "Ten years after debut, BLACKPINK have confirmed the tour that the fandom has been speculating about since the last stadium run closed. The routing is heavier on stadiums than arenas this time, and the announcement pairs the tour with a full-group album rather than a single."
+      },
+      {
+        "type": "heading",
+        "content": "What the Routing Tells Us"
+      },
+      {
+        "type": "paragraph",
+        "content": "The dates skew toward multi-night stadium stops in the same cities rather than single nights in more cities. That pattern usually signals a production too large to move quickly, which lines up with the light stick version three launch and the stage-design leaks that circulated earlier this year."
+      },
+      {
+        "type": "heading",
+        "content": "The Album Is the Bigger Story"
+      },
+      {
+        "type": "paragraph",
+        "content": "The group's solo careers have been running in parallel for years, and an anniversary record is the first full-group release in a while. YG has confirmed new material rather than a compilation, which makes this the most consequential release on the group's calendar since debut."
+      }
+    ],
+    "accent": "#EC4899",
+    "href": "/articles/blackpink-10th-anniversary-tour",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "K-pop",
+        "href": "/category/kpop",
+        "current": false
+      },
+      {
+        "label": "BlackPink Confirms 10th Anniversary World Tour & Album Details",
+        "href": null,
+        "current": true
+      }
+    ],
+    "heroAspect": "16:9",
+    "editorialBody": {
+      "maxWidth": 720,
+      "fontSize": 17,
+      "lineHeight": 1.7,
+      "paragraphSpacing": 16,
+      "h2": "h2 24/32 500",
+      "pullQuote": "pullquote 20/30 500, 3px left border var(--accent)"
+    },
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "BlackPink Confirms 10th Anniversary World Tour & Album Details"
+    },
+    "relatedArticles": []
+  },
+  {
+    "id": "art-x-men-crossover-announcement",
+    "slug": "x-men-crossover-announcement",
+    "category": "comics",
+    "topicHubId": "hub-x-men",
+    "title": "Marvel Announces Next Major X-Men Crossover Event",
+    "subtitle": "The From the Ashes era builds toward a line-wide mutant event that pulls the Krakoan legacy characters back into the foreground.",
+    "author": {
+      "name": "BIWB Editorial",
+      "avatar": "/assets/avatars/editor.jpg"
+    },
+    "publishedDate": "2026-09-17",
+    "readTime": "6 min read",
+    "heroImage": "https://wallpapercave.com/uwp/uwp4549969.jpeg",
+    "tags": ["Marvel Comics", "X-Men", "Crossover", "Solicitations"],
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "Marvel's solicitation cycle has confirmed what the last few months of X-Men titles have been quietly building toward: a line-wide crossover that reunites threads left dangling since the Krakoan era ended. The event spans the flagship book plus at least four tie-ins, with a prelude issue landing first."
+      },
+      {
+        "type": "heading",
+        "content": "From the Ashes Was Setup, Not a Reset"
+      },
+      {
+        "type": "paragraph",
+        "content": "The post-Krakoa relaunch read to a lot of readers as a deliberate step back to a more familiar status quo. The solicitation copy suggests otherwise: characters who lost their nation are now being positioned as the only people who understand what is coming, which reframes the entire era as a regrouping rather than a retreat."
+      },
+      {
+        "type": "heading",
+        "content": "Where to Start Reading"
+      },
+      {
+        "type": "paragraph",
+        "content": "New readers can pick up the prelude one-shot without prior context, and the flagship run's first arc is a reasonable on-ramp for anyone who wants the full picture. Back-issues of the Krakoan era are the deep end, and the crossover is written so they are optional rather than required."
+      }
+    ],
+    "accent": "#EF4444",
+    "href": "/articles/x-men-crossover-announcement",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/",
+        "current": false
+      },
+      {
+        "label": "Comics",
+        "href": "/category/comics",
+        "current": false
+      },
+      {
+        "label": "Marvel Announces Next Major X-Men Crossover Event",
+        "href": null,
+        "current": true
+      }
+    ],
+    "heroAspect": "16:9",
+    "editorialBody": {
+      "maxWidth": 720,
+      "fontSize": 17,
+      "lineHeight": 1.7,
+      "paragraphSpacing": 16,
+      "h2": "h2 24/32 500",
+      "pullQuote": "pullquote 20/30 500, 3px left border var(--accent)"
+    },
+    "imagePlaceholder": {
+      "bg": "color-mix(in srgb, var(--accent) 12%, transparent)",
+      "label": "Marvel Announces Next Major X-Men Crossover Event"
+    },
+    "relatedArticles": []
+  }
+]
+}   

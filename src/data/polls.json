@@ -1,0 +1,328 @@
+{
+  "polls":
+
+[
+  {
+    "id": "poll-001",
+    "category": "anime",
+    "question": "Which Fall 2026 release are you seated for on day one?",
+    "totalVotes": 14230,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "The Apothecary Diaries Season 3",
+        "votes": 6820
+      },
+      {
+        "id": "opt-2",
+        "label": "Chainsaw Man: Reze Arc Movie",
+        "votes": 5110
+      },
+      {
+        "id": "opt-3",
+        "label": "Black Clover Return Arc",
+        "votes": 2300
+      }
+    ]
+  },
+  {
+    "id": "poll-002",
+    "category": "gaming",
+    "question": "Which game is taking Game of the Year?",
+    "totalVotes": 28910,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "GTA VI",
+        "votes": 18400
+      },
+      {
+        "id": "opt-2",
+        "label": "Marvel Rivals",
+        "votes": 6210
+      },
+      {
+        "id": "opt-3",
+        "label": "Monster Hunter Wilds",
+        "votes": 4300
+      }
+    ]
+  },
+  {
+    "id": "poll-003",
+    "category": "movies",
+    "question": "Which superhero release is your most anticipated for the 2026/2027 slate?",
+    "totalVotes": 34120,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Avengers: Doomsday",
+        "votes": 17850
+      },
+      {
+        "id": "opt-2",
+        "label": "Spider-Man: Beyond the Spider-Verse",
+        "votes": 11200
+      },
+      {
+        "id": "opt-3",
+        "label": "DC's The Batman Part II",
+        "votes": 5070
+      }
+    ]
+  },
+  {
+    "id": "poll-004",
+    "category": "kpop",
+    "question": "Which concert experience are you clearing your savings account for?",
+    "totalVotes": 21890,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "BlackPink 10th Anniversary Tour",
+        "votes": 10420
+      },
+      {
+        "id": "opt-2",
+        "label": "LE SSERAFIM Dome Tour",
+        "votes": 7150
+      },
+      {
+        "id": "opt-3",
+        "label": "BTS 2026 World Tour",
+        "votes": 4320
+      }
+    ]
+  },
+  {
+    "id": "poll-005",
+    "category": "manga",
+    "question": "Which new-gen Shonen Jump manga deserves an immediate high-budget anime treatment?",
+    "totalVotes": 18940,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Kagurabachi",
+        "votes": 11300
+      },
+      {
+        "id": "opt-2",
+        "label": "Sakamoto Days",
+        "votes": 5210
+      },
+      {
+        "id": "opt-3",
+        "label": "Akane-banashi",
+        "votes": 2430
+      }
+    ]
+  },
+  {
+    "id": "poll-006",
+    "category": "tvshows",
+    "question": "Which recently finished series actually stuck the landing?",
+    "totalVotes": 16740,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "BoJack Horseman",
+        "votes": 8120
+      },
+      {
+        "id": "opt-2",
+        "label": "The Bear",
+        "votes": 5340
+      },
+      {
+        "id": "opt-3",
+        "label": "Succession",
+        "votes": 3280
+      }
+    ]
+  },
+  {
+    "id": "poll-007",
+    "category": "comics",
+    "question": "Which Absolute Universe launch title are you pulling monthly?",
+    "totalVotes": 13480,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Absolute Batman",
+        "votes": 7210
+      },
+      {
+        "id": "opt-2",
+        "label": "Absolute Wonder Woman",
+        "votes": 3820
+      },
+      {
+        "id": "opt-3",
+        "label": "Absolute Superman",
+        "votes": 2450
+      }
+    ]
+  },
+  {
+    "id": "poll-008",
+    "category": "anime",
+    "question": "Which studio's animation is carrying this season?",
+    "totalVotes": 19560,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "MAPPA",
+        "votes": 8940
+      },
+      {
+        "id": "opt-2",
+        "label": "Ufotable",
+        "votes": 6480
+      },
+      {
+        "id": "opt-3",
+        "label": "OLM",
+        "votes": 4140
+      }
+    ]
+  },
+  {
+    "id": "poll-009",
+    "category": "gaming",
+    "question": "What are you actually playing while waiting for the fall releases?",
+    "totalVotes": 24870,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Marvel Rivals",
+        "votes": 11240
+      },
+      {
+        "id": "opt-2",
+        "label": "Monster Hunter Wilds",
+        "votes": 8110
+      },
+      {
+        "id": "opt-3",
+        "label": "Honkai: Star Rail",
+        "votes": 5520
+      }
+    ]
+  },
+  {
+    "id": "poll-010",
+    "category": "movies",
+    "question": "Best animated film of the decade so far?",
+    "totalVotes": 27650,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Spider-Man: Across the Spider-Verse",
+        "votes": 14680
+      },
+      {
+        "id": "opt-2",
+        "label": "The Wild Robot",
+        "votes": 7930
+      },
+      {
+        "id": "opt-3",
+        "label": "Inside Out 2",
+        "votes": 5040
+      }
+    ]
+  },
+  {
+    "id": "poll-011",
+    "category": "kpop",
+    "question": "Which comeback concept worked best this year?",
+    "totalVotes": 17320,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Y2K Nostalgia",
+        "votes": 7420
+      },
+      {
+        "id": "opt-2",
+        "label": "Dark Cinematic",
+        "votes": 6180
+      },
+      {
+        "id": "opt-3",
+        "label": "Bright Summer",
+        "votes": 3720
+      }
+    ]
+  },
+  {
+    "id": "poll-012",
+    "category": "manga",
+    "question": "Which ongoing series has the best art on the shelf right now?",
+    "totalVotes": 15290,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Berserk",
+        "votes": 6940
+      },
+      {
+        "id": "opt-2",
+        "label": "Kagurabachi",
+        "votes": 5210
+      },
+      {
+        "id": "opt-3",
+        "label": "Vinland Saga",
+        "votes": 3140
+      }
+    ]
+  },
+  {
+    "id": "poll-013",
+    "category": "tvshows",
+    "question": "Binge the whole season or one episode a week?",
+    "totalVotes": 21030,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "Binge it in a weekend",
+        "votes": 11840
+      },
+      {
+        "id": "opt-2",
+        "label": "One a week, no spoilers",
+        "votes": 6740
+      },
+      {
+        "id": "opt-3",
+        "label": "Whichever the platform forces",
+        "votes": 2450
+      }
+    ]
+  },
+  {
+    "id": "poll-014",
+    "category": "comics",
+    "question": "What actually gets you into a shop on new comic day?",
+    "totalVotes": 11260,
+    "options": [
+      {
+        "id": "opt-1",
+        "label": "A specific writer or artist",
+        "votes": 4980
+      },
+      {
+        "id": "opt-2",
+        "label": "A crossover event",
+        "votes": 3720
+      },
+      {
+        "id": "opt-3",
+        "label": "The variant cover",
+        "votes": 2560
+      }
+    ]
+  }
+]
+}

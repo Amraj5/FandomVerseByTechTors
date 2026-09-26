@@ -1,0 +1,165 @@
+.merch-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.merch-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.section-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--anime);
+    margin-bottom: 0.5rem;
+}
+
+.merch-title-main {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+.view-all-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.view-all-link:hover {
+    color: var(--anime);
+}
+
+.merch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.merch-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.MerchCard {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    overflow: hidden;
+    --category-color: #8C929E;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* =========================
+   CATEGORY COLORS
+========================= */
+.MerchCard:hover {
+    transform: translateY(-6px);
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.35),
+        0 0 22px color-mix(
+            in srgb,
+            var(--category-color) 45%,
+            transparent
+        );
+}
+
+.MerchCard.anime { --category-color: #E5A988; }
+.MerchCard.gaming { --category-color: #4B92E5; }
+.MerchCard.movies { --category-color: #F3B23A; }
+.MerchCard.tvshows { --category-color: #E54B62; }
+.MerchCard.kpop { --category-color: #C85BD6; }
+.MerchCard.comics { --category-color: #EA7349; }
+.MerchCard.manga { --category-color: #8C929E; }
+
+.MerchCard::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(8, 9, 13, 0.95),
+        rgba(8, 9, 13, 0.35) 55%,
+        rgba(8, 9, 13, 0.05)
+    );
+    pointer-events: none;
+}
+
+.merch-overlay {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
+    z-index: 1;
+}
+
+.merch-title {
+    margin: 0 0 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.payment p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+}
+
+.payment button {
+    padding: 7px 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.payment button:hover {
+    background: color-mix(
+        in srgb,
+        var(--category-color) 25%,
+        transparent
+    );
+}
+
+@media (max-width: 768px) {
+    .merch-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    .merch-title-main {
+        font-size: 1.5rem;
+    }
+}

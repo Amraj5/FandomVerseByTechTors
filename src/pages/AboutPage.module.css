@@ -1,0 +1,144 @@
+/* AboutPage.module.css */
+.aboutPage {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-primary, #F2F2F7);
+}
+
+.pageHeader {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.pageHeader h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+  color: var(--text-primary, #F2F2F7);
+  margin: 0 0 12px;
+}
+
+.pageSubtitle {
+  color: var(--text-secondary, #A0A0B0);
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.aboutSection {
+  margin-bottom: 48px;
+}
+
+.aboutSection h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  margin: 0 0 16px;
+  color: var(--text-primary, #F2F2F7);
+}
+
+.aboutSection p {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-secondary, #A0A0B0);
+  margin: 0 0 16px;
+}
+
+.aboutSection strong {
+  color: var(--text-primary, #F2F2F7);
+}
+
+.featuresGrid,
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  grid-auto-rows: 1fr;
+}
+
+.featureCard,
+.teamMember {
+  background: var(--surface, #16161F);
+  border: 1px solid var(--border, #262635);
+  border-radius: 12px;
+  padding: 16px;
+  transition: transform 200ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 200ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.featureCard:hover,
+.teamMember:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent, #A855F7);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent, #A855F7) 15%, transparent);
+}
+
+.featureCard h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  margin: 0 0 8px;
+  color: var(--text-primary, #F2F2F7);
+}
+
+.featureCard p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-secondary, #A0A0B0);
+  margin: 0;
+}
+
+.teamMember {
+  text-align: center;
+}
+
+.memberAvatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent, #A855F7) 18%, transparent);
+  color: var(--accent, #A855F7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.teamMember h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  margin: 0 0 4px;
+  color: var(--text-primary, #F2F2F7);
+}
+
+.teamMember p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-secondary, #A0A0B0);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .aboutPage {
+    padding: 16px;
+  }
+  .pageHeader {
+    margin-bottom: 32px;
+  }
+  .aboutSection {
+    margin-bottom: 32px;
+  }
+  .featuresGrid,
+  .teamGrid {
+    gap: 12px;
+  }
+}

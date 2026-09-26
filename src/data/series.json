@@ -1,0 +1,340 @@
+{
+  "series": [
+    {
+      "id": "tv-shows",
+      "slug": "tv-shows",
+      "name": "TV Shows",
+      "tagline": "Binge-worthy narratives, prestige dramas, and cult hits.",
+      "featuredSeries": [
+        {
+          "id": "tv-001",
+          "slug": "the-boys",
+          "title": "The Boys",
+          "genre": ["Action", "Satire", "Superhero"],
+          "seasons": 4,
+          "status": "Ongoing",
+          "description": "A dark, satirical take on superhero culture where corrupted 'Supes' are managed by the ruthless Vought International corporation.",
+          "detailedDescription": "Set in a universe where individuals with superpowers are recognized as heroes by the general public and owned by a powerful conglomerate named Vought International, *The Boys* follows a vigilante crew led by Billy Butcher. Driven by personal tragedy and hatred for corrupt Supes, the team works to expose the dark reality behind Vought's clean corporate facade. The series contrasts brutal action with biting social commentary on corporate greed, celebrity worship, and absolute power.",
+          "themes": [
+            "Corporate Corruption",
+            "Vigilantism",
+            "Celebrity Culture"
+          ],
+          "rating": 8.7
+        },
+        {
+          "id": "tv-002",
+          "slug": "severance",
+          "title": "Severance",
+          "genre": ["Sci-Fi", "Psychological Thriller"],
+          "seasons": 2,
+          "status": "Ongoing",
+          "description": "Office workers undergo a medical procedure to split their personal memories from their work memories.",
+          "detailedDescription": "Lumon Industries uses a medical procedure known as 'severance' to separate the non-work memories of its employees from their work memories. When a severed employee named Mark is at work, he has no recollection of his outside life; when he leaves, he remembers nothing of his workday. This psychological thriller explores corporate dystopia, personal identity, grief, and the sinister lengths a company will go to maintain complete control over its workers.",
+          "themes": ["Workplace Dystopia", "Identity", "Corporate Secrets"],
+          "rating": 8.7
+        },
+        {
+          "id": "tv-003",
+          "slug": "stranger-things",
+          "title": "Stranger Things",
+          "genre": ["Sci-Fi", "Horror", "Drama"],
+          "seasons": 5,
+          "status": "Completed",
+          "description": "A small Midwestern town in the 1980s becomes the focal point of supernatural horrors and government conspiracy.",
+          "detailedDescription": "In the quiet town of Hawkins, Indiana, during the early 1980s, the sudden disappearance of young Will Byers sets off a chain of inexplicable events. Will's friends and family uncover a secret government laboratory conducting interdimensional experiments, leading to the discovery of a telekinetic girl named Eleven and an alternate dimension known as the 'Upside Down'. Across its seasons, the show blends retro 1980s pop culture nostalgia with horror and coming-of-age drama.",
+          "themes": ["Nostalgia", "Small-Town Horror", "Parallel Dimensions"],
+          "rating": 8.7
+        }
+      ]
+    },
+    {
+      "id": "anime",
+      "slug": "anime",
+      "name": "Anime",
+      "tagline": "Peak animation, high-stakes battles, and emotional storytelling.",
+      "featuredSeries": [
+        {
+          "id": "anim-001",
+          "slug": "chainsaw-man",
+          "title": "Chainsaw Man",
+          "genre": ["Dark Fantasy", "Action", "Supernatural"],
+          "seasons": 1,
+          "status": "Ongoing",
+          "description": "Denji escapes poverty by making a contract with a chainsaw devil, turning him into a hybrid devil hunter.",
+          "detailedDescription": "Living in extreme poverty to clear his deceased father's debts, Denji hunts low-tier devils alongside his canine companion, Pochita, the Chainsaw Devil. After being betrayed and killed by his mob handlers, Pochita merges with Denji's heart to revive him as a human-devil hybrid. Recruited by the enigmatic Makima into the Public Safety Devil Hunter agency, Denji navigates brutal battles, personal loss, and simple human desires in a world overrun by horrific physical manifestations of human fear.",
+          "themes": ["Survival", "Human Connection", "Chaotic Action"],
+          "rating": 8.5
+        },
+        {
+          "id": "anim-002",
+          "slug": "the-apothecary-diaries",
+          "title": "The Apothecary Diaries",
+          "genre": ["Mystery", "Historical", "Drama"],
+          "seasons": 2,
+          "status": "Ongoing",
+          "description": "An intelligent apothecary's daughter solves high-stakes medical and political mysteries in an imperial palace.",
+          "detailedDescription": "Maomao, a young woman trained as an apothecary in a red-light district, is kidnapped and sold into servant labor at the Emperor's rear palace. Initially trying to remain unobtrusive, her vast medical knowledge and analytical mind force her into the spotlight when she secretly diagnoses an illness afflicting the royal heirs. Noticing her talent, a high-ranking official named Jinshi pulls her into solving various poisonings, political intrigues, and medical anomalies across the court.",
+          "themes": ["Palace Intrigue", "Medicine", "Deduction"],
+          "rating": 8.8
+        },
+        {
+          "id": "anim-003",
+          "slug": "solo-leveling",
+          "title": "Solo Leveling",
+          "genre": ["Action", "Fantasy", "Supernatural"],
+          "seasons": 1,
+          "status": "Ongoing",
+          "description": "The weakest hunter in humanity gains a unique quest interface that allows him to level up without limits.",
+          "detailedDescription": "In a modern world where dimensional gates bring deadly monsters to Earth, humans known as 'hunters' manifest supernatural abilities to fight back. Sung Jinwoo is infamously known as the 'Weakest Hunter of All Humanity'. During a fatal raid in a hidden double dungeon, Jinwoo is chosen by a mysterious program called 'The System'. Uniquely granted the ability to level up his stats, learn skills, and raise defeated enemies as shadow soldiers, he transforms into a global power.",
+          "themes": ["Zero-to-Hero", "System Progression", "Shadow Army"],
+          "rating": 8.5
+        },
+        {
+          "id": "anim-004",
+          "slug": "attack-on-titan",
+          "title": "Attack on Titan",
+          "genre": ["Dark Fantasy", "Action", "Mystery"],
+          "seasons": 4,
+          "status": "Completed",
+          "description": "Humanity's last survivors fight for their existence inside giant walled cities against maneating Titans.",
+          "detailedDescription": "For over a century, the remnants of humanity have lived inside three colossal concentric walls to shield themselves from gigantic, human-devouring humanoid creatures known as Titans. When a 60-meter Colossal Titan smashes through the outermost wall, young Eren Yeager witnesses his mother's death and vows to eradicate every Titan on Earth. Joining the military alongside Mikasa and Armin, Eren uncovers deep conspiracies regarding the origins of the Titans and the true nature of their isolated nation.",
+          "themes": [
+            "Freedom vs Warfare",
+            "Political Intrigue",
+            "Existential Dread"
+          ],
+          "rating": 9.1
+        },
+        {
+          "id": "anim-005",
+          "slug": "jujutsu-kaisen",
+          "title": "Jujutsu Kaisen",
+          "genre": ["Dark Fantasy", "Supernatural", "Action"],
+          "seasons": 2,
+          "status": "Ongoing",
+          "description": "High school student Yuji Itadori enters the dangerous world of Jujutsu Sorcerers after swallowing a legendary cursed object.",
+          "detailedDescription": "Yuji Itadori is an unnaturally athletic high school student who gets caught up in a supernatural incident involving cursed spirits born from negative human emotion. To save his friends from a deadly curse, Yuji swallows a dried finger belonging to Ryomen Sukuna, the undisputed 'King of Curses'. Exorcists at Tokyo Jujutsu High intend to execute Yuji, but agree to postpone his execution under the guidance of Satoru Gojo so Yuji can consume all 20 of Sukuna's fingers before dying.",
+          "themes": ["Cursed Energy", "Tragic Destiny", "High-Octane Combat"],
+          "rating": 8.6
+        }
+      ]
+    },
+    {
+      "id": "manga",
+      "slug": "manga",
+      "name": "Manga",
+      "tagline": "Masterpiece sequential art straight from Japanese creators.",
+      "featuredSeries": [
+        {
+          "id": "mng-001",
+          "slug": "berserk",
+          "title": "Berserk",
+          "genre": ["Dark Fantasy", "Epic", "Tragedy"],
+          "volumes": 42,
+          "status": "Ongoing",
+          "description": "The tragic journey of a lone mercenary battling demonic apostles and his former comrade in a brutal medieval world.",
+          "detailedDescription": "Guts, a mercenary known as the 'Black Swordsman', travels through a dark medieval landscape marked by conflict and demonic monsters. Marked with a sacrificial brand that attracts evil spirits every night, Guts seeks vengeance against Griffith, his former commander and friend who sacrificed their mercenary group—the Band of the Hawk—to achieve godhood. *Berserk* is celebrated for its intricate artwork, emotional depth, and uncompromising exploration of human endurance.",
+          "themes": ["Fate vs Free Will", "Trauma", "Comradeship"],
+          "rating": 9.4
+        },
+        {
+          "id": "mng-002",
+          "slug": "dandadan",
+          "title": "Dandadan",
+          "genre": ["Action", "Comedy", "Supernatural"],
+          "volumes": 16,
+          "status": "Ongoing",
+          "description": "Two high schoolers who disagree on ghosts versus aliens uncover that both supernatural forces are real and dangerous.",
+          "detailedDescription": "Momo Ayase is a high school girl who strongly believes in ghosts but rejects aliens, while her classmate Ken 'Okarun' Takakura believes in aliens but dismisses ghosts. To prove each other wrong, they visit separate paranormal hotspots: an abandoned hospital and a haunted tunnel. Both turn out to be right, as Momo awakens latent psychic powers and Okarun becomes cursed by a powerful spirit, thrusting them into rapid-fire battles against cosmic and demonic entities.",
+          "themes": ["Occult", "Urban Legends", "Unlikely Alliance"],
+          "rating": 8.6
+        }
+      ]
+    },
+    {
+      "id": "games",
+      "slug": "games",
+      "name": "Gaming",
+      "tagline": "Immersive worlds, competitive arenas, and interactive epics.",
+      "featuredSeries": [
+        {
+          "id": "gm-001",
+          "slug": "elden-ring",
+          "title": "Elden Ring",
+          "genre": ["Action RPG", "Open World", "Dark Fantasy"],
+          "platforms": ["PC", "PS5", "Xbox Series X/S"],
+          "status": "Released",
+          "description": "Explore the Lands Between to claim the shattered fragments of the Elden Ring and rise as the Elden Lord.",
+          "detailedDescription": "Created through a collaboration between FromSoftware director Hidetaka Miyazaki and fantasy author George R.R. Martin, *Elden Ring* drops players into the vast, decaying realm of the Lands Between. As a 'Tarnished' exile, players traverse open plains, subterranean cities, and massive legacy dungeons. Featuring deep build customization, challenging boss encounters, and enigmatic lore, players seek to defeat demigod warlords and claim the power of the shattered Elden Ring.",
+          "themes": ["Exploration", "High Difficulty", "Fragmented Lore"],
+          "rating": 9.6
+        },
+        {
+          "id": "gm-002",
+          "slug": "persona-5-royal",
+          "title": "Persona 5 Royal",
+          "genre": ["JRPG", "Turn-Based", "Social Sim"],
+          "platforms": ["PC", "PS5", "Switch", "Xbox"],
+          "status": "Released",
+          "description": "High school students live double lives as vigilantes who infiltrate cognitive dungeons to change corrupt hearts.",
+          "detailedDescription": "Transferring to Tokyo after a wrongfully received criminal record, high schooler Joker awakens to a supernatural power called a 'Persona'. Alongside a group of misunderstood fellow students, he forms the 'Phantom Thieves of Hearts'. By day, players manage Tokyo school life, part-time jobs, and friendships. By night, they enter the 'Palaces'—cognitive manifestations of corrupt adults' desires—to steal their treasure and force a change of heart.",
+          "themes": ["Rebellion", "Double Life", "Stylized Combat"],
+          "rating": 9.5
+        },
+        {
+          "id": "gm-003",
+          "slug": "marvel-rivals",
+          "title": "Marvel Rivals",
+          "genre": ["Hero Shooter", "Third-Person", "Action"],
+          "platforms": ["PC", "PS5", "Xbox Series X/S"],
+          "status": "Released",
+          "description": "A 6v6 team shooter featuring Marvel superheroes and villains fighting in destructible multiversal arenas.",
+          "detailedDescription": "*Marvel Rivals* pits two teams of six against each other using an expanding roster of iconic Marvel heroes and villains ranging from Spider-Man and Magneto to Doctor Strange and Rocket Raccoon. A temporal collision caused by Doctor Doom and his future counterpart forces universes to merge, creating dynamic battlefields with fully destructible structures. Players combine powers through team-up skills to alter map geometry and secure strategic objectives.",
+          "themes": [
+            "Multiverse Collisions",
+            "Team Synergy",
+            "Destructible Environments"
+          ],
+          "rating": 8.3
+        },
+        {
+          "id": "gm-004",
+          "slug": "honkai-star-rail",
+          "title": "Honkai: Star Rail",
+          "genre": ["Turn-Based RPG", "Space Fantasy", "Gacha"],
+          "platforms": ["PC", "PS5", "iOS", "Android"],
+          "status": "Released",
+          "description": "A space-fantasy turn-based RPG following the crew of the Astral Express across galactic worlds.",
+          "detailedDescription": "Players awaken as the 'Trailblazer', a central figure implanted with a destructive cosmic entity called a Stellaron. Boarding the Astral Express, a train capable of traveling between stars along pathlines created by cosmic gods known as Aeons, the Trailblazer visits diverse worlds—such as the frozen planet of Jarilo-VI and the spacefaring flagship Xianzhou Luofu. Battles feature tactical turn-based combat built around element vulnerabilities and ultimate skill timing.",
+          "themes": [
+            "Space Exploration",
+            "Cosmic Mythology",
+            "Tactical Turn Combat"
+          ],
+          "rating": 8.7
+        }
+      ]
+    },
+    {
+      "id": "kpop",
+      "slug": "kpop",
+      "name": "K-Pop",
+      "tagline": "Global pop icons, high-energy choreography, and fandom culture.",
+      "featuredSeries": [
+        {
+          "id": "kp-001",
+          "slug": "newjeans",
+          "title": "NewJeans",
+          "type": "Girl Group",
+          "agency": "ADOR",
+          "concept": "Y2K Retro / Easy Listening Pop",
+          "description": "A 5-member girl group celebrated for reviving late 1990s and early 2000s R&B pop aesthetics.",
+          "detailedDescription": "Debuting unannounced in July 2022 under ADOR, NewJeans—comprising Minji, Hanni, Danielle, Haerin, and Hyein—redefined early 5th-generation K-Pop trends. Departing from high-concept, aggressive production, their sound prioritizes smooth 2000s R&B, UK garage beats, and effortless vocal delivery. Combined with nostalgia-infused Y2K art direction, street fashion visual concepts, and natural choreography, they achieved rapid global chart dominance with hits like 'Hype Boy' and 'Ditto'.",
+          "keyTracks": ["Hype Boy", "Ditto", "Super Shy"],
+          "status": "Active"
+        },
+        {
+          "id": "kp-002",
+          "slug": "stray-kids",
+          "title": "Stray Kids",
+          "type": "Boy Group",
+          "agency": "JYP Entertainment",
+          "concept": "Self-Producing / Experimental Noise Pop",
+          "description": "A self-producing boy group known for intense choreography and hard-hitting hip-hop soundscapes.",
+          "detailedDescription": "Formed through a 2017 survival show under JYP Entertainment, Stray Kids is a global powerhouse group led by Bang Chan. Distinct from many industry peers, the group's internal production sub-unit, 3RACHA (Bang Chan, Changbin, and Han), writes and produces the vast majority of their discography. Characterized by aggressive electronic hip-hop beats, layered rap flows, and theatrical stage presence, their musical identity embraces a self-confident 'noise music' style.",
+          "keyTracks": ["Maniac", "S-Class", "God's Menu"],
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "id": "comics",
+      "slug": "comics",
+      "name": "Comics",
+      "tagline": "Western graphic novels, superhero sagas, and indie masterpieces.",
+      "featuredSeries": [
+        {
+          "id": "cmc-001",
+          "slug": "invincible",
+          "title": "Invincible",
+          "publisher": "Image Comics",
+          "genre": ["Superhero", "Coming-of-Age", "Gore"],
+          "status": "Completed",
+          "description": "Mark Grayson discovers his alien superhero heritage while uncovering terrible truths about his father.",
+          "detailedDescription": "Created by Robert Kirkman and Cory Walker, *Invincible* follows teenager Mark Grayson, son of Omni-Man—the world's most powerful superhero. When Mark finally develops his own superhuman strength and flight, he takes on the hero moniker 'Invincible'. However, his world shatters when he discovers that his father's alien species, the Viltrumites, are not peaceful protectors, but conquerors who subjugate worlds, forcing Mark into intergalactic conflicts.",
+          "themes": ["Legacy", "Morality", "Cosmic Warfare"],
+          "rating": 9.1
+        },
+        {
+          "id": "cmc-002",
+          "slug": "saga",
+          "title": "Saga",
+          "publisher": "Image Comics",
+          "genre": ["Space Opera", "Fantasy", "Romance"],
+          "status": "Ongoing",
+          "description": "Two star-crossed soldiers from warring alien races fight to raise their daughter amidst a galactic war.",
+          "detailedDescription": "Written by Brian K. Vaughan and illustrated by Fiona Staples, *Saga* is an epic space fantasy following Alana and Marko, two soldiers from long-warring extraterrestrial races (the technologically advanced Landfall and the magic-wielding moon Wreath). After falling in love, they desert the war to protect their newborn daughter, Hazel. Tracked across planets by bounty hunters, military commanders, and royals, the family seeks refuge in an unforgiving universe.",
+          "themes": ["Family", "War", "Diversity"],
+          "rating": 9.3
+        },
+        {
+          "id": "cmc-003",
+          "slug": "batman-gargoyle-of-gotham",
+          "title": "Batman: Gargoyle of Gotham",
+          "publisher": "DC Black Label",
+          "genre": ["Superhero", "Noir", "Psychological Horror"],
+          "status": "Ongoing",
+          "description": "Batman makes the extreme decision to kill off his identity as Bruce Wayne to hunt a sinister killer.",
+          "detailedDescription": "Created by writer and artist Rafael Grampá for DC's prestige Black Label line, this dark iteration sees a young Batman make a radical choice: to permanently abandon his persona as Bruce Wayne and operate solely as the Dark Knight. As a terrifying new rogue's gallery emerges in Gotham City, Batman descends into a noir psychological nightmare, discovering that the mysterious serial killer he is tracking shares a sinister connection to his family's past.",
+          "themes": ["Identity", "Obsession", "Urban Decay"],
+          "rating": 8.8
+        },
+        {
+          "id": "cmc-004",
+          "slug": "spider-man",
+          "title": "Spider-Man",
+          "publisher": "Marvel Comics",
+          "genre": ["Superhero", "Action", "Drama"],
+          "status": "Ongoing",
+          "description": "Peter Parker balances personal obligations with his duties as New York City's web-slinging hero.",
+          "detailedDescription": "First created by Stan Lee and Steve Ditko in 1962, Spider-Man remains Marvel Comics' flagship hero. High school student Peter Parker gains arachnid-like abilities after being bitten by a radioactive spider. Learning the hard way that 'with great power there must also come great responsibility', Peter uses his web-shooters and spider-sense to defend New York City while constantly struggling to pay rent, hold down jobs, and protect his personal relationships.",
+          "themes": ["Responsibility", "Dual Identity", "Sacrifice"],
+          "rating": 9.2
+        }
+      ]
+    },
+    {
+      "id": "movies",
+      "slug": "movies",
+      "name": "Movies",
+      "tagline": "Cinematic blockbusters, sci-fi epics, and theatrical milestones.",
+      "featuredSeries": [
+        {
+          "id": "mv-001",
+          "slug": "avengers-endgame",
+          "title": "Avengers: Endgame",
+          "studio": "Marvel Studios",
+          "genre": ["Superhero", "Sci-Fi", "Action"],
+          "status": "Released",
+          "description": "The surviving Avengers attempt a dangerous quantum time-travel heist to undo Thanos's snap.",
+          "detailedDescription": "Following the devastating snap by Thanos that erased half of all life in the universe, the surviving members of the Avengers are left broken. Five years later, Ant-Man's return from the Quantum Realm offers a ray of hope: utilizing quantum energy, the heroes can travel back through time to collect the Infinity Stones before Thanos ever possessed them. Directed by the Russo brothers, *Endgame* serves as the culmination of 22 films across the Marvel Cinematic Universe.",
+          "themes": ["Sacrifice", "Legacy", "Time Travel"],
+          "rating": 8.4
+        },
+        {
+          "id": "mv-002",
+          "slug": "dune-part-two",
+          "title": "Dune: Part Two",
+          "studio": "Legendary Pictures / Warner Bros.",
+          "genre": ["Sci-Fi", "Epic", "Adventure"],
+          "status": "Released",
+          "description": "Paul Atreides unites with the Fremen on Arrakis to wage war against House Harkonnen and the Emperor.",
+          "detailedDescription": "Directed by Denis Villeneuve, this adaptation of the second half of Frank Herbert's classic 1965 novel follows Paul Atreides as he integrates into Fremen culture on the desert planet Arrakis alongside Chani and Stilgar. Driven by a desire for revenge against those who destroyed his family, Paul embraces his tactical genius and spiritual standing, rising as the long-prophesied messiah, 'Lisan al-Gaib', while struggling against a terrible vision of a galactic holy war waged in his name.",
+          "themes": ["Prophecy", "Messiah Complex", "Desert Survival"],
+          "rating": 8.6
+        }
+      ]
+    }
+  ]
+}

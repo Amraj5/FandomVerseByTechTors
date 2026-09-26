@@ -1,0 +1,255 @@
+import { useState, useRef, useEffect } from "react";
+import chatbotData from "../data/chatbotRules.json";
+import "./Chatbot.css";
+
+export default function Chatbot() {
+  const [isOpen, setIsOpen] = useState(false);
+  // True while the bot is "thinking" — shows the bouncing dots bubble
+  const [isTyping, setIsTyping] = useState(false);
+  const [messages, setMessages] = useState([
+    {
+      id: "initial-msg",
+      sender: "bot",
+      text: "Welcome to FandomVerse! How can I help you explore today?",
+      linkText: null,
+      linkUrl: null,
+    },
+  ]);
+  const [input, setInput] = useState("");
+  const chatEndRef = useRef(null);
+  const inputRef = useRef(null);
+
+  const scrollToBottom = () => {
+    chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    if (isOpen) scrollToBottom();
+  }, [messages, isOpen, isTyping]);
+
+  // Put the cursor in the text box as soon as the panel opens
+  useEffect(() => {
+    if (isOpen) inputRef.current?.focus();
+  }, [isOpen]);
+
+  // Let the Esc key close the panel, like a real modal
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") setIsOpen(false);
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isOpen]);
+
+  // Evaluates the user's query against the JSON knowledge base.
+  // Rather than taking the first rule that hits, we score every rule and keep
+  // the best one — so a specific match like "jujutsu kaisen" beats a broad one
+  // like "gaming", no matter what order the rules sit in the JSON file.
+  const processQuery = (userInput) => {
+    const escapeRegex = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+    const scoreRule = (rule) =>
+      rule.keywords.reduce((score, keyword) => {
+        // \b marks a word boundary, so "show" won't match inside "showcase"
+        const pattern = new RegExp(`\\b${escapeRegex(keyword)}\\b`, "i");
+        // Longer keywords are more specific, so they're worth more points
+        return pattern.test(userInput) ? score + keyword.length : score;
+      }, 0);
+
+    let bestRule = null;
+    let bestScore = 0;
+
+    for (const rule of chatbotData.rules) {
+      const score = scoreRule(rule);
+      if (score > bestScore) {
+        bestScore = score;
+        bestRule = rule;
+      }
+    }
+
+    if (bestRule) {
+      return {
+        text: bestRule.response,
+        linkText: bestRule.linkText,
+        linkUrl: bestRule.linkUrl,
+      };
+    }
+
+    return {
+      text: chatbotData.defaultResponse,
+      linkText: null,
+      linkUrl: null,
+    };
+  };
+
+  const handleSendMessage = (textToSend) => {
+    const query = textToSend || input;
+    if (!query.trim()) return;
+
+    // Add user message using a unique string ID
+    const userMsg = {
+      id: crypto.randomUUID(),
+      sender: "user",
+      text: query,
+    };
+
+    setMessages((prev) => [...prev, userMsg]);
+    if (!textToSend) setInput("");
+
+    // Show the typing dots, then swap them for the bot's reply
+    setIsTyping(true);
+
+    setTimeout(() => {
+      const botResult = processQuery(query);
+      const botMsg = {
+        id: crypto.randomUUID(),
+        sender: "bot",
+        text: botResult.text,
+        linkText: botResult.linkText,
+        linkUrl: botResult.linkUrl,
+      };
+      setMessages((prev) => [...prev, botMsg]);
+      setIsTyping(false);
+    }, 600);
+  };
+
+  return (
+    /* `is-open` on the wrapper drives the panel's open/close animation */
+    <div className={`chatbot-wrapper ${isOpen ? "is-open" : ""}`}>
+      {/* Floating Toggle Button */}
+      <button
+        type="button"
+        className="chatbot-toggle"
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label={isOpen ? "Close chat" : "Open chat"}
+        aria-expanded={isOpen}
+      >
+        {isOpen ? (
+          /* Close icon (an X) */
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            aria-hidden="true"
+          >
+            <path d="M18 6 6 18M6 6l12 12" />
+          </svg>
+        ) : (
+          /* Chat bubble icon */
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z" />
+          </svg>
+        )}
+      </button>
+
+      {/* Chat Window Panel — always rendered so it can animate closed too */}
+      <div className="chatbot-panel" aria-hidden={!isOpen}>
+        <div className="chatbot-header">
+          <span className="bot-status-dot"></span>
+          <div className="chatbot-header-text">
+            <h4>FandomVerse Assistant</h4>
+          </div>
+          <button
+            type="button"
+            className="chatbot-close"
+            onClick={() => setIsOpen(false)}
+            aria-label="Close chat"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              aria-hidden="true"
+            >
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <div className="chatbot-messages" role="log" aria-live="polite">
+          {messages.map((msg) => (
+            <div key={msg.id} className={`chat-bubble ${msg.sender}`}>
+              <p>{msg.text}</p>
+              {msg.linkUrl && (
+                <a href={msg.linkUrl} className="chatbot-recommendation-link">
+                  {msg.linkText} →
+                </a>
+              )}
+            </div>
+          ))}
+
+          {isTyping && (
+            <div className="chat-bubble bot typing-dots" aria-label="Assistant is typing">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          )}
+
+          <div ref={chatEndRef} />
+        </div>
+
+        {/* Quick Reply Prompts */}
+        <div className="chatbot-quick-replies">
+          {chatbotData.quickReplies.map((qr, idx) => (
+            <button
+              type="button"
+              key={idx}
+              className="quick-reply-btn"
+              onClick={() => handleSendMessage(qr.trigger)}
+            >
+              {qr.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Input Form */}
+        <form
+          className="chatbot-input-form"
+          onSubmit={(e) => {
+            e.preventDefault();
+            handleSendMessage();
+          }}
+        >
+          <input
+            ref={inputRef}
+            type="text"
+            placeholder="Type a question or category..."
+            aria-label="Type your message"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+          />
+          <button type="submit" aria-label="Send message" disabled={!input.trim()}>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="m22 2-7 20-4-9-9-4Z" />
+              <path d="M22 2 11 13" />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}

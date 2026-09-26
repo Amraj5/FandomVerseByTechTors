@@ -1,0 +1,117 @@
+{
+"trending":
+[
+  {
+    "id": "tr-01",
+    "title": "Solo Leveling",
+    "category": "anime",
+    "categoryLabel": "anime",
+    "color": "#A855F7",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-02",
+    "title": "Honkai: Star Rail",
+    "category": "gaming",
+    "categoryLabel": "gaming",
+    "color": "#22D3EE",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-03",
+    "title": "Avengers: Endgame",
+    "category": "movies",
+    "categoryLabel": "movies",
+    "color": "#F59E0B",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-04",
+    "title": "Stranger Things S4",
+    "category": "tvshows",
+    "categoryLabel": "tv shows",
+    "color": "#FB7185",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-05",
+    "title": "NewJeans - Get Up",
+    "category": "kpop",
+    "categoryLabel": "K-pop",
+    "color": "#EC4899",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-06",
+    "title": "Spider-Man: Beyond",
+    "category": "comics",
+    "categoryLabel": "comics",
+    "color": "#EF4444",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-07",
+    "title": "Chainsaw Man",
+    "category": "manga",
+    "categoryLabel": "manga",
+    "color": "#E5E5E5",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-08",
+    "title": "Invincible S3",
+    "category": "tvshows",
+    "categoryLabel": "tv shows",
+    "color": "#FB7185",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-09",
+    "title": "Attack on Titan",
+    "category": "anime",
+    "categoryLabel": "anime",
+    "color": "#A855F7",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-10",
+    "title": "Marvel Rivals",
+    "category": "gaming",
+    "categoryLabel": "gaming",
+    "color": "#22D3EE",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-11",
+    "title": "Jujutsu Kaisen",
+    "category": "manga",
+    "categoryLabel": "manga",
+    "color": "#E5E5E5",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-12",
+    "title": "Dune: Part Two",
+    "category": "movies",
+    "categoryLabel": "movies",
+    "color": "#F59E0B",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-13",
+    "title": "Stray Kids - ATE",
+    "category": "kpop",
+    "categoryLabel": "K-pop",
+    "color": "#EC4899",
+    "accentToken": "var(--accent)"
+  },
+  {
+    "id": "tr-14",
+    "title": "Gargoyle of Gotham",
+    "category": "comics",
+    "categoryLabel": "comics",
+    "color": "#EF4444",
+    "accentToken": "var(--accent)"
+  }
+]
+}

@@ -1,0 +1,473 @@
+/* ==========================================================================
+   FandomVerse Chatbot
+   Classic website chat widget: round button pinned to the bottom-right,
+   chat panel that slides up above it.
+   Colours come from the theme variables in src/index.css, with fallbacks
+   so the widget still looks right if a variable is missing.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Wrapper — this is the piece that anchors everything to the screen.
+   `position: fixed` pulls it out of the page flow and pins it to the
+   bottom-right corner, so it floats above the page while you scroll.
+   -------------------------------------------------------------------------- */
+.chatbot-wrapper {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9999; /* sit above the navbar and page content */
+
+  /* #root is centered on the page — undo that inside the widget */
+  text-align: left;
+  font-family: var(--sans, system-ui, "Segoe UI", Roboto, sans-serif);
+}
+
+/* --------------------------------------------------------------------------
+   2. The round floating button (the "FAB")
+   -------------------------------------------------------------------------- */
+.chatbot-toggle {
+  position: relative; /* so the pulse ring below can sit on top of it */
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  font-size: 26px;
+  line-height: 1;
+  color: #fff;
+  background: linear-gradient(135deg, #aa3bff 0%, #22d3ee 100%);
+  box-shadow:
+    0 10px 24px rgba(170, 59, 255, 0.4),
+    0 2px 6px rgba(0, 0, 0, 0.25);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.chatbot-toggle:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow:
+    0 14px 30px rgba(170, 59, 255, 0.5),
+    0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.chatbot-toggle:active {
+  transform: scale(0.95);
+}
+
+.chatbot-toggle:focus-visible {
+  outline: 2px solid var(--accent, #aa3bff);
+  outline-offset: 3px;
+}
+
+/* Soft ring that pulses outward — only while the panel is closed,
+   to catch the eye without being annoying once you've opened it. */
+.chatbot-toggle::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid var(--accent, #aa3bff);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.chatbot-wrapper:not(.is-open) .chatbot-toggle::after {
+  animation: chatbot-pulse 2.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes chatbot-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.65;
+  }
+  70%,
+  100% {
+    transform: scale(1.55);
+    opacity: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. The chat panel
+   It is always in the DOM (so it can animate both ways), but hidden with
+   `visibility: hidden` when closed — that also keeps its buttons out of
+   the keyboard tab order. `.is-open` on the wrapper reveals it.
+   -------------------------------------------------------------------------- */
+.chatbot-panel {
+  position: absolute;
+  right: 0;
+  bottom: 76px; /* clears the 60px button + a 16px gap */
+  width: 370px;
+  height: min(560px, calc(100vh - 140px));
+  height: min(560px, calc(100dvh - 140px)); /* dvh accounts for mobile browser bars */
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  border-radius: 18px;
+  border: 1px solid var(--border, #2e303a);
+  background: var(--bg, #16171d);
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.35),
+    0 8px 20px rgba(0, 0, 0, 0.22);
+
+  color: var(--text, #9ca3af);
+  font-size: 14px;
+  line-height: 1.45;
+
+  /* closed state — slides down and fades out */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(16px) scale(0.96);
+  transform-origin: bottom right;
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease,
+    visibility 0.22s ease;
+}
+
+.chatbot-wrapper.is-open .chatbot-panel {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+/* --------------------------------------------------------------------------
+   4. Header — brand gradient, status dot, close button
+   -------------------------------------------------------------------------- */
+.chatbot-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding: 14px 16px;
+
+  color: #fff;
+  background: linear-gradient(135deg, #aa3bff 0%, #22d3ee 100%);
+}
+
+.chatbot-header h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.chatbot-header-text {
+  flex: 1; /* pushes the close button to the far right */
+  min-width: 0;
+}
+
+/* Green "we're online" dot with a soft glow */
+.bot-status-dot {
+  width: 9px;
+  height: 9px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.3);
+}
+
+/* Subtitle in Header */
+.bot-subtitle {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 2px;
+}
+
+.chatbot-close {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 13px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  transition: background 0.15s ease;
+}
+
+.chatbot-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* --------------------------------------------------------------------------
+   5. Message list
+   `flex: 1` makes it eat all the leftover height, and `overflow-y: auto`
+   turns it into the scrollable area between header and input.
+   -------------------------------------------------------------------------- */
+.chatbot-messages {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background: var(--bg, #16171d);
+  scrollbar-width: thin;
+  scrollbar-color: var(--border, #2e303a) transparent;
+}
+
+.chatbot-messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatbot-messages::-webkit-scrollbar-thumb {
+  background: var(--border, #2e303a);
+  border-radius: 3px;
+}
+
+/* Chat bubbles: bot on the left, user on the right */
+.chat-bubble {
+  max-width: 82%;
+  padding: 10px 13px;
+  border-radius: 14px;
+  font-size: 13.5px;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  animation: chatbot-bubble-in 0.22s ease;
+}
+
+.chat-bubble p {
+  margin: 0;
+}
+
+.chat-bubble.bot {
+  align-self: flex-start;
+  color: var(--text-h, #f3f4f6);
+  background: var(--code-bg, #1f2028);
+  border: 1px solid var(--border, #2e303a);
+  border-bottom-left-radius: 4px; /* classic "tail" corner */
+}
+
+.chat-bubble.user {
+  align-self: flex-end;
+  color: #fff;
+  background: linear-gradient(135deg, #aa3bff 0%, #7c3aed 100%);
+  border-bottom-right-radius: 4px;
+}
+
+@keyframes chatbot-bubble-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Clickable Recommendation Link in Bot Bubble */
+.chatbot-recommendation-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #22d3ee;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.chatbot-recommendation-link:hover {
+  text-decoration: underline;
+}
+
+/* The three bouncing dots shown while the bot "types" */
+.typing-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 14px;
+}
+
+.typing-dots span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text, #9ca3af);
+  animation: chatbot-typing 1.2s infinite ease-in-out;
+}
+
+.typing-dots span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.typing-dots span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes chatbot-typing {
+  0%,
+  60%,
+  100% {
+    opacity: 0.35;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. Quick Replies Container
+   -------------------------------------------------------------------------- */
+.chatbot-quick-replies {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+  padding: 8px 12px;
+  overflow-x: auto;
+  background: var(--code-bg, rgba(13, 13, 20, 0.4));
+  border-top: 1px solid var(--border, rgba(255, 255, 255, 0.05));
+  scrollbar-width: none; /* Hide scrollbar for Chrome/Firefox */
+}
+
+.chatbot-quick-replies::-webkit-scrollbar {
+  display: none;
+}
+
+.quick-reply-btn {
+  white-space: nowrap;
+  background: var(--bg, #1e1e2a);
+  color: var(--text-h, #f2f2f7);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  padding: 5px 11px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.quick-reply-btn:hover {
+  border-color: #a855f7;
+  color: #a855f7;
+  background: var(--accent-bg, rgba(170, 59, 255, 0.1));
+}
+
+/* --------------------------------------------------------------------------
+   7. Input row
+   -------------------------------------------------------------------------- */
+.chatbot-input-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding: 10px 12px;
+  border-top: 1px solid var(--border, rgba(255, 255, 255, 0.05));
+  background: var(--bg, #16171d);
+}
+
+.chatbot-input-form input {
+  flex: 1;
+  min-width: 0; /* lets the input shrink instead of overflowing */
+  padding: 10px 14px;
+
+  border: 1px solid var(--border, #2e303a);
+  border-radius: 999px;
+  background: var(--code-bg, #1f2028);
+  color: var(--text-h, #f3f4f6);
+
+  font: inherit;
+  font-size: 13px;
+  outline: none;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.chatbot-input-form input::placeholder {
+  color: var(--text, #9ca3af);
+  opacity: 0.8;
+}
+
+.chatbot-input-form input:focus {
+  border-color: var(--accent, #aa3bff);
+  box-shadow: 0 0 0 3px var(--accent-bg, rgba(170, 59, 255, 0.15));
+}
+
+.chatbot-input-form button {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(135deg, #aa3bff 0%, #22d3ee 100%);
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.chatbot-input-form button:hover:not(:disabled) {
+  transform: scale(1.08);
+}
+
+.chatbot-input-form button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* --------------------------------------------------------------------------
+   8. Phones — the panel becomes a near-fullscreen sheet
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .chatbot-wrapper {
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .chatbot-toggle {
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+  }
+
+  .chatbot-panel {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: 84px;
+    width: auto;
+    height: min(520px, calc(100vh - 108px));
+    height: min(520px, calc(100dvh - 108px));
+    transform-origin: bottom center;
+  }
+
+  .chat-bubble {
+    max-width: 88%;
+  }
+}
+
+/* Respect the OS "reduce motion" setting */
+@media (prefers-reduced-motion: reduce) {
+  .chatbot-toggle,
+  .chatbot-panel,
+  .chatbot-toggle::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

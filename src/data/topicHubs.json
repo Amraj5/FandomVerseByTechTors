@@ -1,0 +1,276 @@
+{
+  "topicHubs":
+[
+  {
+    "id": "hub-jujutsu-kaisen",
+    "slug": "jujutsu-kaisen",
+    "category": "anime",
+    "title": "The Jujutsu Kaisen Universe",
+    "subtitle": "Complete guide to the Jujutsu Kaisen universe - characters, timeline, watch order, explanations, and everything you need to know.",
+    "bannerImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+    "overview": "Jujutsu Kaisen is a dark fantasy anime series created by Gege Akutami. The story follows Yuji Itadori, a high school student who becomes the vessel of the powerful cursed spirit Sukuna. The series explores themes of death, morality, and the nature of curses.",
+    "quickStats": {
+      "episodes": "47 (ongoing)",
+      "mangaChapters": "271 (completed)",
+      "studio": "MAPPA",
+      "creator": "Gege Akutami",
+      "genres": [
+        "Action",
+        "Dark Fantasy",
+        "Supernatural"
+      ],
+      "releaseYear": 2020
+    },
+    "storySummary": "The story begins when Yuji Itadori, a high school student with incredible physical abilities, encounters a cursed object - a rotting finger belonging to the powerful curse Sukuna. When his friends are attacked by curses, Yuji consumes the finger to gain power and save them. This makes him the vessel of Sukuna, and he joins the Tokyo Metropolitan Jujutsu High School to learn how to control this power while hunting down curses.",
+    "navigationTabs": [
+      {
+        "label": "Characters",
+        "targetId": "sec-characters",
+        "icon": "👥"
+      },
+      {
+        "label": "Timelines",
+        "targetId": "sec-timeline",
+        "icon": "📅"
+      },
+      {
+        "label": "Watch Orders",
+        "targetId": "sec-watch-order",
+        "icon": "📺"
+      },
+      {
+        "label": "Articles",
+        "targetId": "sec-articles",
+        "icon": "📝"
+      },
+      {
+        "label": "Explained",
+        "targetId": "sec-explained",
+        "icon": "❓"
+      },
+      {
+        "label": "Comparisons",
+        "targetId": "sec-comparisons",
+        "icon": "⚔️"
+      }
+    ],
+    "keyCharacters": [
+      {
+        "name": "Gojo Satoru",
+        "role": "The strongest sorcerer in the world"
+      },
+      {
+        "name": "Yuji Itadori",
+        "role": "The protagonist and Sukuna's vessel"
+      },
+      {
+        "name": "Sukuna",
+        "role": "The King of Curses"
+      },
+      {
+        "name": "Megumi Fushiguro",
+        "role": "A prodigy who uses shadow techniques"
+      },
+      {
+        "name": "Nobara Kugisaki",
+        "role": "A fierce sorcerer from the countryside"
+      },
+      {
+        "name": "Geto Suguru",
+        "role": "Gojo's former best friend turned enemy"
+      },
+      {
+        "name": "Toji Fushiguro",
+        "role": "The Sorcerer Killer"
+      },
+      {
+        "name": "Mahito",
+        "role": "The curse of humanity"
+      },
+      {
+        "name": "Kenjaku",
+        "role": "The mastermind"
+      }
+    ],
+    "gallery": [
+      "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+      "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg",
+      "https://i.pinimg.com/736x/06/8f/a0/068fa09f4763b3848ae87aa3893f79ca.jpg",
+      "https://i.pinimg.com/736x/38/59/44/3859440c27cd6d23309060e7b12a58d4.jpg"
+    ],
+    "explanations": [
+      "Why does Gojo cover his eyes?",
+      "What is Domain Expansion?",
+      "How does Sukuna's power work?"
+    ],
+    "relatedArticles": [
+      "art-jjk-s2-review",
+      "art-jjk-opening-details",
+      "art-shibuya-incident-explained"
+    ]
+  },
+  {
+    "id": "hub-bojack-horseman",
+    "slug": "bojack-horseman",
+    "category": "tvshows",
+    "title": "BoJack Horseman",
+    "subtitle": "Hollywoo Retrospectives, Character Guides, and Cultural Impact",
+    "bannerImage": "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+    "overview": "Created by Raphael Bob-Waksberg, BoJack Horseman stands as one of television's most groundbreaking explorations of mental health, celebrity culture, and existential dread.",
+    "quickStats": {
+      "seasons": 6,
+      "episodes": 77,
+      "studio": "ShadowMachine / Netflix",
+      "creator": "Raphael Bob-Waksberg"
+    },
+    "gallery": [
+      "https://i.pinimg.com/736x/29/2c/29/292c2971d596d39c9774b19cddd0bc5e.jpg",
+      "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
+      "https://i.pinimg.com/1200x/51/54/76/5154760c80878e4e2ae4f20c9a981086.jpg"
+    ],
+    "relatedArticles": [
+      "art-bojack-retrospective"
+    ]
+  },
+  {
+    "id": "hub-demon-slayer",
+    "slug": "demon-slayer",
+    "category": "anime",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "subtitle": "Breathing Styles, Upper Ranks, and Theatrical Release Guides",
+    "bannerImage": "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+    "overview": "Follow Tanjiro Kamado through the Demon Slayer Corps as Ufotable adapts Koyoharu Gotouge's record-breaking manga series into high-octane animation.",
+    "quickStats": {
+      "seasons": 4,
+      "studio": "Ufotable",
+      "author": "Koyoharu Gotouge",
+      "latestArc": "Infinity Castle Film Trilogy"
+    },
+    "gallery": [
+      "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg"
+    ],
+    "relatedArticles": [
+      "art-demon-slayer-infinity-castle"
+    ]
+  },
+  {
+    "id": "hub-kagurabachi",
+    "slug": "kagurabachi",
+    "category": "manga",
+    "title": "Kagurabachi",
+    "subtitle": "Enchanted Blades, the Rokuhira Legacy, and Arc-by-Arc Breakdowns",
+    "bannerImage": null,
+    "overview": "Takeru Hokazono's revenge saga follows Chihiro Rokuhira as he hunts the sorcery syndicate that destroyed his family and reclaims the six enchanted blades his father forged.",
+    "quickStats": {
+      "author": "Takeru Hokazono",
+      "magazine": "Weekly Shonen Jump",
+      "status": "Ongoing",
+      "genres": [
+        "Action",
+        "Dark Fantasy",
+        "Revenge"
+      ]
+    },
+    "gallery": [],
+    "relatedArticles": [
+      "art-kagurabachi-milestone"
+    ]
+  },
+  {
+    "id": "hub-gta-vi",
+    "slug": "gta-vi",
+    "category": "gaming",
+    "title": "Grand Theft Auto VI",
+    "subtitle": "Leonida Map Analysis, Character Breakdowns, and Pre-Launch Coverage",
+    "bannerImage": null,
+    "overview": "Rockstar's return to Vice City, set across the state of Leonida with two leads, a rebuilt water engine, and the largest map the studio has shipped.",
+    "quickStats": {
+      "developer": "Rockstar Games",
+      "publisher": "Rockstar Games",
+      "status": "Upcoming",
+      "genres": [
+        "Action-Adventure",
+        "Open World"
+      ]
+    },
+    "gallery": [],
+    "relatedArticles": [
+      "art-gta-vi-gameplay-breakdown"
+    ]
+  },
+  {
+    "id": "hub-spider-verse",
+    "slug": "spider-verse",
+    "category": "movies",
+    "title": "The Spider-Verse Films",
+    "subtitle": "Animation Breakdowns, Multiverse Rules, and Production Coverage",
+    "bannerImage": null,
+    "overview": "Sony Animation's Spider-Verse trilogy rebuilt what mainstream animated action could look like, giving every dimension its own visual language and cutting between them mid-frame.",
+    "quickStats": {
+      "studio": "Sony Pictures Animation",
+      "producers": "Phil Lord & Christopher Miller",
+      "status": "In Production",
+      "genres": [
+        "Animation",
+        "Superhero",
+        "Multiverse"
+      ]
+    },
+    "gallery": [],
+    "relatedArticles": [
+      "art-beyond-spider-verse-update"
+    ]
+  },
+  {
+    "id": "hub-blackpink",
+    "slug": "blackpink",
+    "category": "kpop",
+    "title": "BLACKPINK",
+    "subtitle": "Discography Guides, Tour Coverage, and 10th Anniversary Tracking",
+    "bannerImage": null,
+    "overview": "Four members, a decade of releases, and the largest global touring footprint of any K-pop girl group, with a solo career for each member running alongside the group's calendar.",
+    "quickStats": {
+      "label": "YG Entertainment",
+      "debutYear": 2016,
+      "members": [
+        "Jennie",
+        "Lisa",
+        "Jisoo",
+        "Rosé"
+      ],
+      "genres": [
+        "K-Pop",
+        "Dance Pop",
+        "Hip-Hop"
+      ]
+    },
+    "gallery": [],
+    "relatedArticles": [
+      "art-blackpink-10th-anniversary-tour"
+    ]
+  },
+  {
+    "id": "hub-x-men",
+    "slug": "x-men",
+    "category": "comics",
+    "title": "X-Men",
+    "subtitle": "Krakoan Legacy, From the Ashes Reading Orders, and Crossover Tracking",
+    "bannerImage": null,
+    "overview": "Marvel's mutant line from the founding issues through the Krakoan era and into From the Ashes, where a nationless mutant population rebuilds without the safety net it had for five years.",
+    "quickStats": {
+      "publisher": "Marvel Comics",
+      "firstAppearance": 1963,
+      "currentEra": "From the Ashes",
+      "genres": [
+        "Superhero",
+        "Ensemble",
+        "Sci-Fi"
+      ]
+    },
+    "gallery": [],
+    "relatedArticles": [
+      "art-x-men-crossover-announcement"
+    ]
+  }
+]
+}

@@ -1,0 +1,227 @@
+{
+  "carousel":
+
+[
+  {
+    "id": "card-001",
+    "category": "gaming",
+    "badge": "featured · gaming news",
+    "title": "Xbox Reveals 'Mythic' Achievements with 15-Second Unlock Sound",
+    "summary": "Microsoft introduces its long-awaited tier of Mythic Achievements to rival PlayStation Platinum Trophies, complete with an extravagant new unlock fanfare.",
+    "ctaText": "Read Article",
+    "ctaUrl": "/articles/xbox-mythic-achievements",
+    "imageUrl": [
+      "https://i.pinimg.com/236x/7c/df/ea/7cdfea4a243bc810dbdf1f3ef150428d.jpg",
+      "https://i.pinimg.com/236x/7c/df/ea/7cdfea4a243bc810dbdf1f3ef150428d.jpg"
+    ]
+  },
+  {
+    "id": "card-002",
+    "category": "gaming",
+    "badge": "featured · controversy",
+    "title": "Marvel Rivals Sparks Backlash Over In-Game Moderation & Report System",
+    "summary": "NetEase faces intense player backlash following recent reporting tool adjustments and ongoing community debates around player moderation and character cosmetics.",
+    "ctaText": "Read Coverage",
+    "ctaUrl": "/articles/marvel-rivals-moderation-controversy",
+    "imageUrl": [
+      "https://i.pinimg.com/1200x/55/33/0a/55330abe188d55a205002bd9889367b2.jpg",
+      "https://i.pinimg.com/736x/58/c9/15/58c91537b258aa3e89040ae2b4f6aff1.jpg"
+    ]
+  },
+  {
+    "id": "card-003",
+    "category": "anime",
+    "badge": "featured · anime trailer",
+    "title": "Demon Slayer: Swordsmith Village Arc Official Showcase",
+    "summary": "Tanjiro and his allies navigate perilous encounters with Upper Rank demons on their quest to forge new blades.",
+    "ctaText": "Watch Trailer",
+    "ctaUrl": "https://www.youtube.com/embed/example_ds",
+    "imageUrl": [
+      "https://i.pinimg.com/1200x/5b/9d/60/5b9d60b0509616a8f15ec8910739be6c.jpg",
+      "https://i.pinimg.com/1200x/6d/83/a3/6d83a3df9845895cd07e5e2b87dbe76e.jpg"
+    ]
+  },
+  {
+    "id": "card-004",
+    "category": "tvshows",
+    "badge": "featured · retrospective",
+    "title": "10 Years Later: Why BoJack Horseman Remains Unmatched",
+    "summary": "A deep-dive retrospective analyzing how a satirical animated comedy became one of TV's most profound character studies.",
+    "ctaText": "Read Retrospective",
+    "ctaUrl": "/articles/bojack-horseman-retrospective",
+    "imageUrl": [
+      "https://i.pinimg.com/1200x/02/1c/05/021c05a24609fb16165be74cb592a865.jpg",
+      "https://i.pinimg.com/736x/29/2c/29/292c2971d596d39c9774b19cddd0bc5e.jpg",
+      "https://i.pinimg.com/1200x/3c/2b/04/3c2b04123c15f8724e4d6abdf86b42ae.jpg",
+      "https://i.pinimg.com/1200x/51/54/76/5154760c80878e4e2ae4f20c9a981086.jpg"
+    ]
+  },
+  {
+    "id": "card-005",
+    "category": "gaming",
+    "badge": "featured · esports breakdown",
+    "title": "Valorant Champions Tour 2026: Tactical Meta Shifts & Roster Shuffles",
+    "summary": "Analyzing the dramatic Sentinel utility rebalances and surprise roster changes ahead of the upcoming international stage finals.",
+    "ctaText": "Read Analysis",
+    "ctaUrl": "/articles/vct-2026-meta-analysis",
+    "imageUrl": [
+      "https://i.pinimg.com/1200x/8d/54/f5/8d54f5cec7f6dd96cbc1dd88e1df5033.jpg",
+      "https://i.pinimg.com/1200x/aa/f0/d9/aaf0d98e293730571aeb589a68eca76a.jpg"
+    ]
+  },
+  {
+    "id": "card-006",
+    "category": "anime",
+    "badge": "featured · movie release",
+    "title": "Chainsaw Man: Reze Arc Movie Sets Global Theatrical Dates",
+    "summary": "MAPPA confirms IMAX rollout details and releases an extended teaser featuring Denji and Reze's explosive bomb-devil encounter.",
+    "ctaText": "Watch Teaser",
+    "ctaUrl": "https://www.youtube.com/embed/example_csm",
+    "imageUrl": [
+      "https://i.pinimg.com/736x/06/8f/a0/068fa09f4763b3848ae87aa3893f79ca.jpg",
+      "https://i.pinimg.com/736x/38/59/44/3859440c27cd6d23309060e7b12a58d4.jpg",
+      "https://i.pinimg.com/736x/67/4d/52/674d52d3db06d0245657f2bf4165dfb8.jpg",
+      "https://i.pinimg.com/1200x/91/6e/dd/916edd7d8a19d60dff77e630341ad709.jpg"
+    ]
+  },
+  {
+    "id": "card-008",
+    "category": "movies",
+    "badge": "featured · sci-fi news",
+    "title": "Spider-Man: Beyond the Spider-Verse Receives Production Update",
+    "summary": "Producers Phil Lord and Christopher Miller open up about animation rendering challenges, multiverse variants, and score compositions.",
+    "ctaText": "Read Update",
+    "ctaUrl": "/articles/beyond-spider-verse-update",
+    "imageUrl": [
+      "https://i.pinimg.com/1200x/de/0b/27/de0b2709017d4b54d9ca32192fc80560.jpg",
+      "https://i.pinimg.com/1200x/f9/dc/ef/f9dcef57febb39eb2659c93c973b1e62.jpg",
+      "https://i.pinimg.com/736x/51/60/8e/51608e0c16212b8df8d6bb30674f4efa.jpg"
+    ]
+  },
+  {
+    "id": "card-009",
+    "category": "kpop",
+    "badge": "featured · comeback spotlight",
+    "title": " Announces Multi-City Dome Tour for LE SSERAFIM",
+    "summary": "Following chart-topping global streaming numbers, the girl group unveils concept photos and ticket drop dates for their upcoming tour.",
+    "ctaText": "View Concept Photos",
+    "ctaUrl": "/articles/le-sserafim-dome-tour",
+    "imageUrl": [
+      "https://i.pinimg.com/736x/ca/2b/3e/ca2b3e0e30e3e92d91436f269ba8a67d.jpg",
+      "https://i.pinimg.com/736x/0a/14/56/0a1456a79a39920bfd62fa846d57f7d3.jpg"
+    ]
+  },
+  {
+    "id": "card-010",
+    "category": "manga",
+    "badge": "featured · milestone anniversary",
+    "title": "Berserk Celebrates Legacy with Limited Art Exhibition & Collector Run",
+    "summary": "Studio Gaga showcases never-before-seen original manuscripts and high-definition canvas prints in a special Tokyo tribute gallery.",
+    "ctaText": "Explore Gallery Details",
+    "ctaUrl": "/articles/berserk-exhibition-recap",
+    "imageUrl": [
+      "https://i.pinimg.com/1200x/33/90/11/339011a007b812f84b67e3321ba761a2.jpg",
+      "https://i.pinimg.com/736x/54/12/90/5412903abfde76110034a78129e31a19.jpg"
+    ]
+  },
+  {
+    "id": "card-013",
+    "category": "gaming",
+    "badge": "featured · upcoming release",
+    "title": "GTA VI Drops Final Gameplay Deep-Dive Ahead of Fall 2026 Launch",
+    "summary": "Rockstar Games reveals dynamic weather mechanics, updated DualSense haptics, and new Vice City story missions in its final pre-launch breakdown.",
+    "ctaText": "Read Analysis",
+    "ctaUrl": "/articles/gta-vi-gameplay-breakdown",
+    "imageUrl": [
+      "https://i.pinimg.com/736x/18/07/6d/18076d5bd8d412e6a65d9e7df7020d3a.jpg",
+      "https://i.pinimg.com/736x/b9/a9/72/b9a972e7cb25581da141ed7d89edb958.jpg",
+      "https://i.pinimg.com/736x/a0/07/9b/a0079befbfcf76ff8a1fffbd00e903db.jpg"
+    ]
+  },
+  {
+    "id": "card-014",
+    "category": "anime",
+    "badge": "featured · autumn simulcast",
+    "title": "The Apothecary Diaries Season 3 Leads Crunchyroll's Fall Lineup",
+    "summary": "Maomao returns as OLM expands the palace mystery, headlining a stacked autumn season alongside Black Clover's major return.",
+    "ctaText": "View Schedule",
+    "ctaUrl": "/articles/fall-2026-anime-lineup",
+    "imageUrl": [
+      "https://i.pinimg.com/736x/f0/df/e2/f0dfe2b648a58f4537fa2eba61f6af14.jpg",
+      "https://i.pinimg.com/736x/f3/02/21/f3022148dd7e16b76781c641dc07b693.jpg",
+      "https://i.pinimg.com/736x/5e/a9/01/5ea901e99a1b737006100b9f0b928aa0.jpg"
+    ]
+  },
+  {
+    "id": "card-015",
+    "category": "tvshows",
+    "badge": "featured · sci-fi series",
+    "title": "Blade Runner 2099 Wraps Production for Prime Video Premiere",
+    "summary": "Michelle Yeoh and Hunter Schafer star in the cyberpunk sequel series set fifty years after 2049, featuring brand-new replicant lore.",
+    "ctaText": "Read Preview",
+    "ctaUrl": "/articles/blade-runner-2099-preview",
+    "imageUrl": [
+      "https://i.pinimg.com/736x/4b/bd/bb/4bbdbbdb586b062474a8c49ee8d9701a.jpg",
+      "https://i.pinimg.com/1200x/bc/af/4e/bcaf4e64472cd35e9916607d82b81235.jpg",
+      "https://i.pinimg.com/736x/45/31/16/45311610e9ec8176afc4ff77327b7d47.jpg",
+      "https://i.pinimg.com/1200x/90/ab/13/90ab13022c74093cd3c24ad0dddcf980.jpg"
+    ]
+  },
+  {
+    "id": "card-016",
+    "category": "movies",
+    "badge": "featured · marvel studios",
+    "title": "Avengers: Doomsday Enters Post-Production for 2027 Global Release",
+    "summary": "The Russo Brothers share behind-the-scenes set updates as Robert Downey Jr. prepares his debut as Doctor Doom.",
+    "ctaText": "Read Production News",
+    "ctaUrl": "/articles/avengers-doomsday-updates",
+    "imageUrl": [
+      "https://i.pinimg.com/736x/bd/f5/77/bdf577408280fd172a5a013c6e737aa5.jpg",
+      "https://i.pinimg.com/736x/7f/39/77/7f39777e7d7ce23e5e4f408c49c4de4e.jpg"
+    ]
+  },
+  {
+    "id": "card-017",
+    "category": "kpop",
+    "badge": "featured · 10th anniversary",
+    "title": "BlackPink Confirms 10th Anniversary World Tour & Album Details",
+    "summary": "YG Entertainment confirms stadium dates and teaser drops following the massive success of their latest comeback single.",
+    "ctaText": "View Tour Dates",
+    "ctaUrl": "/articles/blackpink-10th-anniversary-tour",
+    "imageUrl": [
+      "https://i.pinimg.com/736x/ab/df/63/abdf63b14bfa00f7cad65872868f3d63.jpg",
+      "https://i.pinimg.com/736x/a6/cb/b3/a6cbb3678358a8901ce18d01d59239ea.jpg",
+      "https://i.pinimg.com/1200x/66/60/3b/66603b36c4c54619ae3b78fe9629b0f7.jpg"
+    ]
+  },
+  {
+    "id": "card-018",
+    "category": "comics",
+    "badge": "featured · marvel comics",
+    "title": "Marvel Announces Next Major X-Men Crossover Event",
+    "summary": "Following the From the Ashes era, a brand-new mutant storyline promises to reshape Krakoan legacy characters across all flagship titles.",
+    "ctaText": "Explore Solicitations",
+    "ctaUrl": "/articles/x-men-crossover-announcement",
+    "imageUrl": [
+      "https://i.pinimg.com/1200x/04/c3/d2/04c3d2cdd1c528fd39a70180b991eada.jpg",
+      "https://i.pinimg.com/1200x/a8/c5/30/a8c530dc4e294be81a2b2fb1b6f1a238.jpg",
+      "https://i.pinimg.com/736x/b4/86/85/b486856f0238037771120f3c183b671f.jpg",
+      "https://i.pinimg.com/1200x/05/a7/96/05a79687f71443ba4eba03a5a3a16b2d.jpg"
+    ]
+  },
+  {
+    "id": "card-019",
+    "category": "manga",
+    "badge": "featured · shonen jump",
+    "title": "Kagurabachi Hits Major Milestone with New Arc & Anime Rumors",
+    "summary": "Takeru Hokazono's hit manga surges past sales records as industry insiders hint at a high-profile studio adaptation announcement.",
+    "ctaText": "Read Breakdown",
+    "ctaUrl": "/articles/kagurabachi-new-arc-recap",
+    "imageUrl": [
+      "https://i.pinimg.com/1200x/75/eb/e9/75ebe92b4ee7d45e3be0e4fee175cd72.jpg",
+      "https://i.pinimg.com/736x/60/9a/32/609a32ebc9e9a996d745464cf378dfb9.jpg",
+      "https://i.pinimg.com/736x/ef/ad/99/efad99ae1fd51323cabb989b708ededc.jpg"
+    ]
+  }
+]
+}
